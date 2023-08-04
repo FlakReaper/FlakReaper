@@ -1,0 +1,1767 @@
+android.nfc.NfcAdapter setOnNdefPushCompleteCallback void android.nfc.NfcAdapter$OnNdefPushCompleteCallback android.app.Activity android.app.Activity[] 
+android.nfc.NfcAdapter setNdefPushMessageCallback void android.nfc.NfcAdapter$CreateNdefMessageCallback android.app.Activity android.app.Activity[] 
+android.nfc.NfcAdapter setBeamPushUris void android.net.Uri[] android.app.Activity 
+android.nfc.NfcAdapter setNdefPushMessage void android.nfc.NdefMessage android.app.Activity android.app.Activity[] 
+android.nfc.NfcAdapter setBeamPushUrisCallback void android.nfc.NfcAdapter$CreateBeamUrisCallback android.app.Activity 
+android.nfc.tech.MifareClassic setTimeout void int 
+android.nfc.tech.NfcA setTimeout void int 
+android.nfc.tech.MifareUltralight setTimeout void int 
+android.nfc.tech.NfcF setTimeout void int 
+android.nfc.tech.IsoDep setTimeout void int 
+android.renderscript.Matrix3f set void int int float 
+android.renderscript.Matrix2f set void int int float 
+android.renderscript.BaseObj setName void java.lang.String 
+android.renderscript.Sampler$Builder setWrapT void android.renderscript.Sampler$Value 
+android.renderscript.Sampler$Builder setWrapS void android.renderscript.Sampler$Value 
+android.renderscript.Sampler$Builder setAnisotropy void float 
+android.renderscript.Sampler$Builder setMagnification void android.renderscript.Sampler$Value 
+android.renderscript.Sampler$Builder setMinification void android.renderscript.Sampler$Value 
+android.renderscript.Allocation setFromFieldPacker void int int android.renderscript.FieldPacker 
+android.renderscript.Allocation setFromFieldPacker void int android.renderscript.FieldPacker 
+android.renderscript.Allocation setSurface void android.view.Surface 
+android.renderscript.Matrix4f set void int int float 
+android.renderscript.AllocationAdapter setLOD void int 
+android.renderscript.AllocationAdapter setFace void android.renderscript.Type$CubemapFace 
+android.renderscript.AllocationAdapter setY void int 
+android.renderscript.AllocationAdapter setZ void int 
+android.renderscript.RenderScript setMessageHandler void android.renderscript.RenderScript$RSMessageHandler 
+android.renderscript.RenderScript setErrorHandler void android.renderscript.RenderScript$RSErrorHandler 
+android.renderscript.RenderScript setPriority void android.renderscript.RenderScript$Priority 
+android.renderscript.Type$Builder setY android.renderscript.Type$Builder int 
+android.renderscript.Type$Builder setX android.renderscript.Type$Builder int 
+android.renderscript.Type$Builder setFaces android.renderscript.Type$Builder boolean 
+android.renderscript.Type$Builder setMipmaps android.renderscript.Type$Builder boolean 
+android.renderscript.Script setVar void int float 
+android.renderscript.Script setVar void int double 
+android.renderscript.Script setVar void int android.renderscript.FieldPacker 
+android.renderscript.Script setVar void int long 
+android.renderscript.Script setVar void int boolean 
+android.renderscript.Script setVar void int android.renderscript.BaseObj 
+android.renderscript.Script setVar void int int 
+android.renderscript.Script setVar void int android.renderscript.FieldPacker android.renderscript.Element int[] 
+android.renderscript.Script setTimeZone void java.lang.String 
+android.renderscript.Script$FieldBase updateAllocation void 
+android.database.CursorWindow setStartPosition void int 
+android.database.CursorWindow setNumColumns boolean int 
+android.database.sqlite.SQLiteQueryBuilder setTables void java.lang.String 
+android.database.sqlite.SQLiteQueryBuilder setCursorFactory void android.database.sqlite.SQLiteDatabase$CursorFactory 
+android.database.sqlite.SQLiteQueryBuilder setDistinct void boolean 
+android.database.sqlite.SQLiteQueryBuilder setStrict void boolean 
+android.database.sqlite.SQLiteQueryBuilder setProjectionMap void java.util.Map 
+android.database.sqlite.SQLiteCursor setWindow void android.database.CursorWindow 
+android.database.sqlite.SQLiteCursor setSelectionArguments void java.lang.String[] 
+android.database.sqlite.SQLiteDatabase setForeignKeyConstraintsEnabled void boolean 
+android.database.sqlite.SQLiteDatabase setLockingEnabled void boolean 
+android.database.sqlite.SQLiteDatabase setTransactionSuccessful void 
+android.database.sqlite.SQLiteDatabase setVersion void int 
+android.database.sqlite.SQLiteDatabase setMaximumSize long long 
+android.database.sqlite.SQLiteDatabase setPageSize void long 
+android.database.sqlite.SQLiteDatabase updateWithOnConflict int java.lang.String android.content.ContentValues java.lang.String java.lang.String[] int 
+android.database.sqlite.SQLiteDatabase setLocale void java.util.Locale 
+android.database.sqlite.SQLiteDatabase setMaxSqlCacheSize void int 
+android.database.sqlite.SQLiteDatabase update int java.lang.String android.content.ContentValues java.lang.String java.lang.String[] 
+android.database.CursorWrapper setNotificationUri void android.content.ContentResolver android.net.Uri 
+android.bluetooth.BluetoothAdapter setName boolean java.lang.String 
+android.speech.SpeechRecognizer setRecognitionListener void android.speech.RecognitionListener 
+android.speech.tts.TextToSpeech setOnUtteranceCompletedListener int android.speech.tts.TextToSpeech$OnUtteranceCompletedListener 
+android.speech.tts.TextToSpeech setOnUtteranceProgressListener int android.speech.tts.UtteranceProgressListener 
+android.speech.tts.TextToSpeech setPitch int float 
+android.speech.tts.TextToSpeech setSpeechRate int float 
+android.speech.tts.TextToSpeech setLanguage int java.util.Locale 
+android.speech.tts.TextToSpeech setEngineByPackageName int java.lang.String 
+android.text.format.Time setToNow void 
+android.text.format.Time setJulianDay long int 
+android.text.format.Time set void int int int 
+android.text.format.Time set void int int int int int int 
+android.text.format.Time set void android.text.format.Time 
+android.text.format.Time set void long 
+android.text.TextPaint set void android.text.TextPaint 
+android.text.TextUtils$SimpleStringSplitter setString void java.lang.String 
+android.text.style.RelativeSizeSpan updateMeasureState void android.text.TextPaint 
+android.text.style.RelativeSizeSpan updateDrawState void android.text.TextPaint 
+android.text.style.UnderlineSpan updateDrawState void android.text.TextPaint 
+android.text.style.ScaleXSpan updateMeasureState void android.text.TextPaint 
+android.text.style.ScaleXSpan updateDrawState void android.text.TextPaint 
+android.text.style.TypefaceSpan updateMeasureState void android.text.TextPaint 
+android.text.style.TypefaceSpan updateDrawState void android.text.TextPaint 
+android.text.style.SuggestionSpan setFlags void int 
+android.text.style.SuggestionSpan updateDrawState void android.text.TextPaint 
+android.text.style.TextAppearanceSpan updateMeasureState void android.text.TextPaint 
+android.text.style.TextAppearanceSpan updateDrawState void android.text.TextPaint 
+android.text.style.BackgroundColorSpan updateDrawState void android.text.TextPaint 
+android.text.style.SuperscriptSpan updateMeasureState void android.text.TextPaint 
+android.text.style.SuperscriptSpan updateDrawState void android.text.TextPaint 
+android.text.style.ForegroundColorSpan updateDrawState void android.text.TextPaint 
+android.text.style.AbsoluteSizeSpan updateMeasureState void android.text.TextPaint 
+android.text.style.AbsoluteSizeSpan updateDrawState void android.text.TextPaint 
+android.text.style.StrikethroughSpan updateDrawState void android.text.TextPaint 
+android.text.style.StyleSpan updateMeasureState void android.text.TextPaint 
+android.text.style.StyleSpan updateDrawState void android.text.TextPaint 
+android.text.style.MaskFilterSpan updateDrawState void android.text.TextPaint 
+android.text.style.SubscriptSpan updateMeasureState void android.text.TextPaint 
+android.text.style.SubscriptSpan updateDrawState void android.text.TextPaint 
+android.text.util.Rfc822Token setAddress void java.lang.String 
+android.text.util.Rfc822Token setName void java.lang.String 
+android.text.util.Rfc822Token setComment void java.lang.String 
+android.text.Selection setSelection void android.text.Spannable int int 
+android.text.Selection setSelection void android.text.Spannable int 
+android.text.SpannableStringBuilder setSpan void java.lang.Object int int int 
+android.text.SpannableStringBuilder setFilters void android.text.InputFilter[] 
+android.text.SpannableString setSpan void java.lang.Object int int int 
+android.hardware.Camera$Parameters setZoom void int 
+android.hardware.Camera$Parameters setRotation void int 
+android.hardware.Camera$Parameters setPreviewSize void int int 
+android.hardware.Camera$Parameters setJpegThumbnailSize void int int 
+android.hardware.Camera$Parameters setJpegThumbnailQuality void int 
+android.hardware.Camera$Parameters setJpegQuality void int 
+android.hardware.Camera$Parameters setPreviewFrameRate void int 
+android.hardware.Camera$Parameters setPreviewFpsRange void int int 
+android.hardware.Camera$Parameters setPreviewFormat void int 
+android.hardware.Camera$Parameters setPictureSize void int int 
+android.hardware.Camera$Parameters setPictureFormat void int 
+android.hardware.Camera$Parameters setGpsLatitude void double 
+android.hardware.Camera$Parameters setGpsLongitude void double 
+android.hardware.Camera$Parameters setGpsAltitude void double 
+android.hardware.Camera$Parameters setGpsTimestamp void long 
+android.hardware.Camera$Parameters setGpsProcessingMethod void java.lang.String 
+android.hardware.Camera$Parameters setWhiteBalance void java.lang.String 
+android.hardware.Camera$Parameters setColorEffect void java.lang.String 
+android.hardware.Camera$Parameters setAntibanding void java.lang.String 
+android.hardware.Camera$Parameters setSceneMode void java.lang.String 
+android.hardware.Camera$Parameters setFlashMode void java.lang.String 
+android.hardware.Camera$Parameters setFocusMode void java.lang.String 
+android.hardware.Camera$Parameters setExposureCompensation void int 
+android.hardware.Camera$Parameters setAutoExposureLock void boolean 
+android.hardware.Camera$Parameters setAutoWhiteBalanceLock void boolean 
+android.hardware.Camera$Parameters setFocusAreas void java.util.List 
+android.hardware.Camera$Parameters setMeteringAreas void java.util.List 
+android.hardware.Camera$Parameters setRecordingHint void boolean 
+android.hardware.Camera$Parameters setVideoStabilization void boolean 
+android.hardware.Camera$Parameters set void java.lang.String java.lang.String 
+android.hardware.Camera$Parameters set void java.lang.String int 
+android.hardware.usb.UsbRequest setClientData void java.lang.Object 
+android.hardware.Camera setOneShotPreviewCallback void android.hardware.Camera$PreviewCallback 
+android.hardware.Camera setPreviewCallbackWithBuffer void android.hardware.Camera$PreviewCallback 
+android.hardware.Camera setPreviewDisplay void android.view.SurfaceHolder 
+android.hardware.Camera setPreviewTexture void android.graphics.SurfaceTexture 
+android.hardware.Camera setPreviewCallback void android.hardware.Camera$PreviewCallback 
+android.hardware.Camera setAutoFocusMoveCallback void android.hardware.Camera$AutoFocusMoveCallback 
+android.hardware.Camera setDisplayOrientation void int 
+android.hardware.Camera setZoomChangeListener void android.hardware.Camera$OnZoomChangeListener 
+android.hardware.Camera setFaceDetectionListener void android.hardware.Camera$FaceDetectionListener 
+android.hardware.Camera setErrorCallback void android.hardware.Camera$ErrorCallback 
+android.hardware.Camera setParameters void android.hardware.Camera$Parameters 
+android.service.wallpaper.WallpaperService$Engine setOffsetNotificationsEnabled void boolean 
+android.service.wallpaper.WallpaperService$Engine setTouchEventsEnabled void boolean 
+android.webkit.WebStorage setQuotaForOrigin void java.lang.String long 
+android.webkit.CookieManager setAcceptFileSchemeCookies void boolean 
+android.webkit.CookieManager setCookie void java.lang.String java.lang.String 
+android.webkit.CookieManager setAcceptCookie void boolean 
+android.webkit.WebResourceResponse setData void java.io.InputStream 
+android.webkit.WebResourceResponse setMimeType void java.lang.String 
+android.webkit.WebResourceResponse setEncoding void java.lang.String 
+android.webkit.WebView$WebViewTransport setWebView void android.webkit.WebView 
+android.webkit.WebView setHorizontalScrollbarOverlay void boolean 
+android.webkit.WebView setVerticalScrollbarOverlay void boolean 
+android.webkit.WebView setHttpAuthUsernamePassword void java.lang.String java.lang.String java.lang.String java.lang.String 
+android.webkit.WebView setMapTrackballToArrowKeys void boolean 
+android.webkit.WebView setLayoutParams void android.view.ViewGroup$LayoutParams 
+android.webkit.WebView setScrollBarStyle void int 
+android.webkit.WebView setLayerType void int android.graphics.Paint 
+android.webkit.WebView setBackgroundColor void int 
+android.webkit.WebView setOverScrollMode void int 
+android.webkit.WebView setCertificate void android.net.http.SslCertificate 
+android.webkit.WebView setNetworkAvailable void boolean 
+android.webkit.WebView setInitialScale void int 
+android.webkit.WebView setFindListener void android.webkit.WebView$FindListener 
+android.webkit.WebView setWebViewClient void android.webkit.WebViewClient 
+android.webkit.WebView setDownloadListener void android.webkit.DownloadListener 
+android.webkit.WebView setWebChromeClient void android.webkit.WebChromeClient 
+android.webkit.WebView setPictureListener void android.webkit.WebView$PictureListener 
+android.app.Activity setFeatureDrawableResource void int int 
+android.app.Activity setProgressBarIndeterminateVisibility void boolean 
+android.app.Activity setProgressBarIndeterminate void boolean 
+android.app.Activity setTitle void java.lang.CharSequence 
+android.app.Activity setTitle void int 
+android.app.Activity setIntent void android.content.Intent 
+android.app.Activity setContentView void android.view.View android.view.ViewGroup$LayoutParams 
+android.app.Activity setContentView void android.view.View 
+android.app.Activity setContentView void int 
+android.app.Activity setFinishOnTouchOutside void boolean 
+android.app.Activity setDefaultKeyMode void int 
+android.app.Activity setFeatureDrawableUri void int android.net.Uri 
+android.app.Activity setFeatureDrawable void int android.graphics.drawable.Drawable 
+android.app.Activity setFeatureDrawableAlpha void int int 
+android.app.Activity setResult void int 
+android.app.Activity setResult void int android.content.Intent 
+android.app.Activity setVisible void boolean 
+android.app.Activity setRequestedOrientation void int 
+android.app.Activity setTitleColor void int 
+android.app.Activity setProgressBarVisibility void boolean 
+android.app.Activity setProgress void int 
+android.app.Activity setSecondaryProgress void int 
+android.app.Activity setVolumeControlStream void int 
+android.app.ExpandableListActivity setListAdapter void android.widget.ExpandableListAdapter 
+android.app.ExpandableListActivity setSelectedChild boolean int int boolean 
+android.app.ExpandableListActivity setSelectedGroup void int 
+android.app.WallpaperManager setBitmap void android.graphics.Bitmap 
+android.app.WallpaperManager setResource void int 
+android.app.WallpaperManager setStream void java.io.InputStream 
+android.app.WallpaperManager setWallpaperOffsets void android.os.IBinder float float 
+android.app.WallpaperManager setWallpaperOffsetSteps void float float 
+android.app.TabActivity setDefaultTab void java.lang.String 
+android.app.TabActivity setDefaultTab void int 
+android.app.TimePickerDialog updateTime void int int 
+android.app.SearchManager setOnDismissListener void android.app.SearchManager$OnDismissListener 
+android.app.SearchManager setOnCancelListener void android.app.SearchManager$OnCancelListener 
+android.app.DownloadManager$Query setFilterByStatus android.app.DownloadManager$Query int 
+android.app.DownloadManager$Query setFilterById android.app.DownloadManager$Query long[] 
+android.app.Fragment setArguments void android.os.Bundle 
+android.app.Fragment setInitialSavedState void android.app.Fragment$SavedState 
+android.app.Fragment setTargetFragment void android.app.Fragment int 
+android.app.Fragment setRetainInstance void boolean 
+android.app.Fragment setHasOptionsMenu void boolean 
+android.app.Fragment setMenuVisibility void boolean 
+android.app.Fragment setUserVisibleHint void boolean 
+android.app.MediaRouteActionProvider setExtendedSettingsClickListener void android.view.View$OnClickListener 
+android.app.MediaRouteActionProvider setRouteTypes void int 
+android.app.ActivityOptions update void android.app.ActivityOptions 
+android.app.Dialog setCanceledOnTouchOutside void boolean 
+android.app.Dialog setFeatureDrawableResource void int int 
+android.app.Dialog setTitle void java.lang.CharSequence 
+android.app.Dialog setTitle void int 
+android.app.Dialog setOwnerActivity void android.app.Activity 
+android.app.Dialog setCancelable void boolean 
+android.app.Dialog setCancelMessage void android.os.Message 
+android.app.Dialog setOnDismissListener void android.content.DialogInterface$OnDismissListener 
+android.app.Dialog setOnShowListener void android.content.DialogInterface$OnShowListener 
+android.app.Dialog setDismissMessage void android.os.Message 
+android.app.Dialog setContentView void android.view.View android.view.ViewGroup$LayoutParams 
+android.app.Dialog setContentView void android.view.View 
+android.app.Dialog setContentView void int 
+android.app.Dialog setFeatureDrawableUri void int android.net.Uri 
+android.app.Dialog setFeatureDrawable void int android.graphics.drawable.Drawable 
+android.app.Dialog setFeatureDrawableAlpha void int int 
+android.app.Dialog setVolumeControlStream void int 
+android.app.Dialog setOnKeyListener void android.content.DialogInterface$OnKeyListener 
+android.app.Dialog setOnCancelListener void android.content.DialogInterface$OnCancelListener 
+android.app.Notification$BigPictureStyle setSummaryText android.app.Notification$BigPictureStyle java.lang.CharSequence 
+android.app.Notification$BigPictureStyle setBigContentTitle android.app.Notification$BigPictureStyle java.lang.CharSequence 
+android.app.AlertDialog$Builder setOnItemSelectedListener android.app.AlertDialog$Builder android.widget.AdapterView$OnItemSelectedListener 
+android.app.AlertDialog$Builder setInverseBackgroundForced android.app.AlertDialog$Builder boolean 
+android.app.AlertDialog$Builder setIcon android.app.AlertDialog$Builder int 
+android.app.AlertDialog$Builder setIcon android.app.AlertDialog$Builder android.graphics.drawable.Drawable 
+android.app.AlertDialog$Builder setTitle android.app.AlertDialog$Builder java.lang.CharSequence 
+android.app.AlertDialog$Builder setTitle android.app.AlertDialog$Builder int 
+android.app.AlertDialog$Builder setView android.app.AlertDialog$Builder android.view.View 
+android.app.AlertDialog$Builder setItems android.app.AlertDialog$Builder int android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setItems android.app.AlertDialog$Builder java.lang.CharSequence[] android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setCancelable android.app.AlertDialog$Builder boolean 
+android.app.AlertDialog$Builder setAdapter android.app.AlertDialog$Builder android.widget.ListAdapter android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setOnKeyListener android.app.AlertDialog$Builder android.content.DialogInterface$OnKeyListener 
+android.app.AlertDialog$Builder setOnCancelListener android.app.AlertDialog$Builder android.content.DialogInterface$OnCancelListener 
+android.app.AlertDialog$Builder setCustomTitle android.app.AlertDialog$Builder android.view.View 
+android.app.AlertDialog$Builder setMessage android.app.AlertDialog$Builder java.lang.CharSequence 
+android.app.AlertDialog$Builder setMessage android.app.AlertDialog$Builder int 
+android.app.AlertDialog$Builder setIconAttribute android.app.AlertDialog$Builder int 
+android.app.AlertDialog$Builder setMultiChoiceItems android.app.AlertDialog$Builder int boolean[] android.content.DialogInterface$OnMultiChoiceClickListener 
+android.app.AlertDialog$Builder setMultiChoiceItems android.app.AlertDialog$Builder java.lang.CharSequence[] boolean[] android.content.DialogInterface$OnMultiChoiceClickListener 
+android.app.AlertDialog$Builder setMultiChoiceItems android.app.AlertDialog$Builder android.database.Cursor java.lang.String java.lang.String android.content.DialogInterface$OnMultiChoiceClickListener 
+android.app.AlertDialog$Builder setCursor android.app.AlertDialog$Builder android.database.Cursor android.content.DialogInterface$OnClickListener java.lang.String 
+android.app.AlertDialog$Builder setNeutralButton android.app.AlertDialog$Builder java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setNeutralButton android.app.AlertDialog$Builder int android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setNegativeButton android.app.AlertDialog$Builder java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setNegativeButton android.app.AlertDialog$Builder int android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setPositiveButton android.app.AlertDialog$Builder int android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setPositiveButton android.app.AlertDialog$Builder java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setSingleChoiceItems android.app.AlertDialog$Builder android.widget.ListAdapter int android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setSingleChoiceItems android.app.AlertDialog$Builder java.lang.CharSequence[] int android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setSingleChoiceItems android.app.AlertDialog$Builder android.database.Cursor int java.lang.String android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog$Builder setSingleChoiceItems android.app.AlertDialog$Builder int int android.content.DialogInterface$OnClickListener 
+android.app.Notification$Builder setStyle android.app.Notification$Builder android.app.Notification$Style 
+android.app.Notification$Builder setWhen android.app.Notification$Builder long 
+android.app.Notification$Builder setSound android.app.Notification$Builder android.net.Uri int 
+android.app.Notification$Builder setSound android.app.Notification$Builder android.net.Uri 
+android.app.Notification$Builder setProgress android.app.Notification$Builder int int boolean 
+android.app.Notification$Builder setFullScreenIntent android.app.Notification$Builder android.app.PendingIntent boolean 
+android.app.Notification$Builder setDeleteIntent android.app.Notification$Builder android.app.PendingIntent 
+android.app.Notification$Builder setContentIntent android.app.Notification$Builder android.app.PendingIntent 
+android.app.Notification$Builder setUsesChronometer android.app.Notification$Builder boolean 
+android.app.Notification$Builder setSmallIcon android.app.Notification$Builder int int 
+android.app.Notification$Builder setSmallIcon android.app.Notification$Builder int 
+android.app.Notification$Builder setTicker android.app.Notification$Builder java.lang.CharSequence android.widget.RemoteViews 
+android.app.Notification$Builder setTicker android.app.Notification$Builder java.lang.CharSequence 
+android.app.Notification$Builder setLargeIcon android.app.Notification$Builder android.graphics.Bitmap 
+android.app.Notification$Builder setVibrate android.app.Notification$Builder long[] 
+android.app.Notification$Builder setLights android.app.Notification$Builder int int int 
+android.app.Notification$Builder setOngoing android.app.Notification$Builder boolean 
+android.app.Notification$Builder setOnlyAlertOnce android.app.Notification$Builder boolean 
+android.app.Notification$Builder setAutoCancel android.app.Notification$Builder boolean 
+android.app.Notification$Builder setDefaults android.app.Notification$Builder int 
+android.app.Notification$Builder setContent android.app.Notification$Builder android.widget.RemoteViews 
+android.app.Notification$Builder setContentTitle android.app.Notification$Builder java.lang.CharSequence 
+android.app.Notification$Builder setContentText android.app.Notification$Builder java.lang.CharSequence 
+android.app.Notification$Builder setSubText android.app.Notification$Builder java.lang.CharSequence 
+android.app.Notification$Builder setNumber android.app.Notification$Builder int 
+android.app.Notification$Builder setContentInfo android.app.Notification$Builder java.lang.CharSequence 
+android.app.Notification$Builder setPriority android.app.Notification$Builder int 
+android.app.Notification setLatestEventInfo void android.content.Context java.lang.CharSequence java.lang.CharSequence android.app.PendingIntent 
+android.app.ProgressDialog setMax void int 
+android.app.ProgressDialog setProgress void int 
+android.app.ProgressDialog setSecondaryProgress void int 
+android.app.ProgressDialog setMessage void java.lang.CharSequence 
+android.app.ProgressDialog setProgressNumberFormat void java.lang.String 
+android.app.ProgressDialog setProgressStyle void int 
+android.app.ProgressDialog setIndeterminate void boolean 
+android.app.ProgressDialog setIndeterminateDrawable void android.graphics.drawable.Drawable 
+android.app.ProgressDialog setProgressDrawable void android.graphics.drawable.Drawable 
+android.app.ProgressDialog setProgressPercentFormat void java.text.NumberFormat 
+android.app.DialogFragment setStyle void int int 
+android.app.DialogFragment setCancelable void boolean 
+android.app.DialogFragment setShowsDialog void boolean 
+android.app.AlarmManager setRepeating void int long long android.app.PendingIntent 
+android.app.AlarmManager setInexactRepeating void int long long android.app.PendingIntent 
+android.app.AlarmManager set void int long android.app.PendingIntent 
+android.app.AlarmManager setTime void long 
+android.app.AlarmManager setTimeZone void java.lang.String 
+android.app.AlertDialog setInverseBackgroundForced void boolean 
+android.app.AlertDialog setIcon void android.graphics.drawable.Drawable 
+android.app.AlertDialog setIcon void int 
+android.app.AlertDialog setTitle void java.lang.CharSequence 
+android.app.AlertDialog setView void android.view.View int int int int 
+android.app.AlertDialog setView void android.view.View 
+android.app.AlertDialog setCustomTitle void android.view.View 
+android.app.AlertDialog setMessage void java.lang.CharSequence 
+android.app.AlertDialog setButton void java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog setButton void java.lang.CharSequence android.os.Message 
+android.app.AlertDialog setButton void int java.lang.CharSequence android.os.Message 
+android.app.AlertDialog setButton void int java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog setButton2 void java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog setButton2 void java.lang.CharSequence android.os.Message 
+android.app.AlertDialog setButton3 void java.lang.CharSequence android.os.Message 
+android.app.AlertDialog setButton3 void java.lang.CharSequence android.content.DialogInterface$OnClickListener 
+android.app.AlertDialog setIconAttribute void int 
+android.app.MediaRouteButton setExtendedSettingsClickListener void android.view.View$OnClickListener 
+android.app.MediaRouteButton setVisibility void int 
+android.app.MediaRouteButton setRouteTypes void int 
+android.app.FragmentBreadCrumbs setOnBreadCrumbClickListener void android.app.FragmentBreadCrumbs$OnBreadCrumbClickListener 
+android.app.FragmentBreadCrumbs setTitle void java.lang.CharSequence java.lang.CharSequence 
+android.app.FragmentBreadCrumbs setParentTitle void java.lang.CharSequence java.lang.CharSequence android.view.View$OnClickListener 
+android.app.FragmentBreadCrumbs setMaxVisible void int 
+android.app.FragmentBreadCrumbs setActivity void android.app.Activity 
+android.app.DownloadManager$Request setDestinationInExternalPublicDir android.app.DownloadManager$Request java.lang.String java.lang.String 
+android.app.DownloadManager$Request setDestinationInExternalFilesDir android.app.DownloadManager$Request android.content.Context java.lang.String java.lang.String 
+android.app.DownloadManager$Request setShowRunningNotification android.app.DownloadManager$Request boolean 
+android.app.DownloadManager$Request setNotificationVisibility android.app.DownloadManager$Request int 
+android.app.DownloadManager$Request setTitle android.app.DownloadManager$Request java.lang.CharSequence 
+android.app.DownloadManager$Request setMimeType android.app.DownloadManager$Request java.lang.String 
+android.app.DownloadManager$Request setDestinationUri android.app.DownloadManager$Request android.net.Uri 
+android.app.DownloadManager$Request setAllowedNetworkTypes android.app.DownloadManager$Request int 
+android.app.DownloadManager$Request setDescription android.app.DownloadManager$Request java.lang.CharSequence 
+android.app.DownloadManager$Request setAllowedOverRoaming android.app.DownloadManager$Request boolean 
+android.app.DownloadManager$Request setAllowedOverMetered android.app.DownloadManager$Request boolean 
+android.app.DownloadManager$Request setVisibleInDownloadsUi android.app.DownloadManager$Request boolean 
+android.app.UiModeManager setNightMode void int 
+android.app.admin.DevicePolicyManager setPasswordMinimumUpperCase void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordMinimumLowerCase void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordMinimumLetters void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordMinimumNumeric void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordMinimumSymbols void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordMinimumNonLetter void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordExpirationTimeout void android.content.ComponentName long 
+android.app.admin.DevicePolicyManager setMaximumFailedPasswordsForWipe void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordQuality void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordMinimumLength void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setPasswordHistoryLength void android.content.ComponentName int 
+android.app.admin.DevicePolicyManager setMaximumTimeToLock void android.content.ComponentName long 
+android.app.admin.DevicePolicyManager setStorageEncryption int android.content.ComponentName boolean 
+android.app.admin.DevicePolicyManager setCameraDisabled void android.content.ComponentName boolean 
+android.app.Notification$BigTextStyle setSummaryText android.app.Notification$BigTextStyle java.lang.CharSequence 
+android.app.Notification$BigTextStyle setBigContentTitle android.app.Notification$BigTextStyle java.lang.CharSequence 
+android.app.ListFragment setSelection void int 
+android.app.ListFragment setListShown void boolean 
+android.app.ListFragment setEmptyText void java.lang.CharSequence 
+android.app.ListFragment setListShownNoAnimation void boolean 
+android.app.ListFragment setListAdapter void android.widget.ListAdapter 
+android.app.ListActivity setSelection void int 
+android.app.ListActivity setListAdapter void android.widget.ListAdapter 
+android.app.Instrumentation setAutomaticPerformanceSnapshots void 
+android.app.Instrumentation setInTouchMode void boolean 
+android.app.DatePickerDialog updateDate void int int int 
+android.app.Notification$InboxStyle setSummaryText android.app.Notification$InboxStyle java.lang.CharSequence 
+android.app.Notification$InboxStyle setBigContentTitle android.app.Notification$InboxStyle java.lang.CharSequence 
+android.preference.RingtonePreference setRingtoneType void int 
+android.preference.RingtonePreference setShowDefault void boolean 
+android.preference.RingtonePreference setShowSilent void boolean 
+android.preference.EditTextPreference setText void java.lang.String 
+android.preference.SwitchPreference setSwitchTextOff void java.lang.CharSequence 
+android.preference.SwitchPreference setSwitchTextOff void int 
+android.preference.SwitchPreference setSwitchTextOn void java.lang.CharSequence 
+android.preference.SwitchPreference setSwitchTextOn void int 
+android.preference.ListPreference setSummary void java.lang.CharSequence 
+android.preference.ListPreference setValueIndex void int 
+android.preference.ListPreference setEntryValues void int 
+android.preference.ListPreference setEntryValues void java.lang.CharSequence[] 
+android.preference.ListPreference setEntries void java.lang.CharSequence[] 
+android.preference.ListPreference setEntries void int 
+android.preference.ListPreference setValue void java.lang.String 
+android.preference.Preference setOnPreferenceChangeListener void android.preference.Preference$OnPreferenceChangeListener 
+android.preference.Preference setOnPreferenceClickListener void android.preference.Preference$OnPreferenceClickListener 
+android.preference.Preference setKey void java.lang.String 
+android.preference.Preference setOrder void int 
+android.preference.Preference setIcon void int 
+android.preference.Preference setIcon void android.graphics.drawable.Drawable 
+android.preference.Preference setTitle void java.lang.CharSequence 
+android.preference.Preference setTitle void int 
+android.preference.Preference setIntent void android.content.Intent 
+android.preference.Preference setEnabled void boolean 
+android.preference.Preference setFragment void java.lang.String 
+android.preference.Preference setLayoutResource void int 
+android.preference.Preference setWidgetLayoutResource void int 
+android.preference.Preference setSummary void java.lang.CharSequence 
+android.preference.Preference setSummary void int 
+android.preference.Preference setSelectable void boolean 
+android.preference.Preference setShouldDisableView void boolean 
+android.preference.Preference setPersistent void boolean 
+android.preference.Preference setDependency void java.lang.String 
+android.preference.Preference setDefaultValue void java.lang.Object 
+android.preference.MultiSelectListPreference setEntryValues void java.lang.CharSequence[] 
+android.preference.MultiSelectListPreference setEntryValues void int 
+android.preference.MultiSelectListPreference setEntries void java.lang.CharSequence[] 
+android.preference.MultiSelectListPreference setEntries void int 
+android.preference.MultiSelectListPreference setValues void java.util.Set 
+android.preference.PreferenceManager setSharedPreferencesName void java.lang.String 
+android.preference.PreferenceManager setSharedPreferencesMode void int 
+android.preference.PreferenceManager setDefaultValues void android.content.Context int boolean 
+android.preference.PreferenceManager setDefaultValues void android.content.Context java.lang.String int int boolean 
+android.accounts.AccountManager setPassword void android.accounts.Account java.lang.String 
+android.accounts.AccountManager setUserData void android.accounts.Account java.lang.String java.lang.String 
+android.accounts.AccountManager setAuthToken void android.accounts.Account java.lang.String java.lang.String 
+android.accounts.AccountManager updateCredentials android.accounts.AccountManagerFuture android.accounts.Account java.lang.String android.os.Bundle android.app.Activity android.accounts.AccountManagerCallback android.os.Handler 
+android.accounts.AccountAuthenticatorActivity setAccountAuthenticatorResult void android.os.Bundle 
+android.provider.SyncStateContract$Helpers update void android.content.ContentProviderClient android.net.Uri byte[] 
+android.provider.SyncStateContract$Helpers set void android.content.ContentProviderClient android.net.Uri android.accounts.Account byte[] 
+android.provider.Contacts$Settings setSetting void android.content.ContentResolver java.lang.String java.lang.String java.lang.String 
+android.provider.Settings$System setShowGTalkServiceStatus void android.content.ContentResolver boolean 
+android.provider.ContactsContract$ProfileSyncState set void android.content.ContentProviderClient android.accounts.Account byte[] 
+android.provider.Settings$Secure setLocationProviderEnabled void android.content.ContentResolver java.lang.String boolean 
+android.provider.ContactsContract$SyncState set void android.content.ContentProviderClient android.accounts.Account byte[] 
+android.provider.Browser updateVisitedHistory void android.content.ContentResolver java.lang.String boolean 
+android.provider.Contacts$People setPhotoData void android.content.ContentResolver android.net.Uri byte[] 
+android.os.StrictMode setThreadPolicy void android.os.StrictMode$ThreadPolicy 
+android.os.StrictMode setVmPolicy void android.os.StrictMode$VmPolicy 
+android.os.Bundle setClassLoader void java.lang.ClassLoader 
+android.os.PowerManager$WakeLock setReferenceCounted void boolean 
+android.os.PowerManager$WakeLock setWorkSource void android.os.WorkSource 
+android.os.StrictMode$VmPolicy$Builder setClassInstanceLimit android.os.StrictMode$VmPolicy$Builder java.lang.Class int 
+android.os.Debug setAllocationLimit int int 
+android.os.Debug setGlobalAllocationLimit int int 
+android.os.Message setData void android.os.Bundle 
+android.os.Message setTarget void android.os.Handler 
+android.os.WorkSource set void android.os.WorkSource 
+android.os.Process setThreadPriority void int 
+android.os.Process setThreadPriority void int int 
+android.os.Looper setMessageLogging void android.util.Printer 
+android.os.Parcel setDataSize void int 
+android.os.Parcel setDataPosition void int 
+android.os.Parcel setDataCapacity void int 
+android.os.CancellationSignal setOnCancelListener void android.os.CancellationSignal$OnCancelListener 
+android.os.SystemClock setCurrentTimeMillis boolean long 
+android.content.ContextWrapper setTheme void int 
+android.content.ContextWrapper setWallpaper void android.graphics.Bitmap 
+android.content.ContextWrapper setWallpaper void java.io.InputStream 
+android.content.BroadcastReceiver$PendingResult setResult void int java.lang.String android.os.Bundle 
+android.content.BroadcastReceiver$PendingResult setResultCode void int 
+android.content.BroadcastReceiver$PendingResult setResultData void java.lang.String 
+android.content.BroadcastReceiver$PendingResult setResultExtras void android.os.Bundle 
+android.content.CursorLoader setUri void android.net.Uri 
+android.content.CursorLoader setSelection void java.lang.String 
+android.content.CursorLoader setSortOrder void java.lang.String 
+android.content.CursorLoader setSelectionArgs void java.lang.String[] 
+android.content.CursorLoader setProjection void java.lang.String[] 
+android.content.ContentProviderClient update int android.net.Uri android.content.ContentValues java.lang.String java.lang.String[] 
+android.content.ContentQueryMap setKeepUpdated void boolean 
+android.content.ClipboardManager setText void java.lang.CharSequence 
+android.content.ClipboardManager setPrimaryClip void android.content.ClipData 
+android.content.MutableContextWrapper setBaseContext void android.content.Context 
+android.content.IntentFilter setPriority void int 
+android.content.SearchRecentSuggestionsProvider setupSuggestions void java.lang.String int 
+android.content.SearchRecentSuggestionsProvider update int android.net.Uri android.content.ContentValues java.lang.String java.lang.String[] 
+android.content.Intent setDataAndTypeAndNormalize android.content.Intent android.net.Uri java.lang.String 
+android.content.Intent setData android.content.Intent android.net.Uri 
+android.content.Intent setType android.content.Intent java.lang.String 
+android.content.Intent setFlags android.content.Intent int 
+android.content.Intent setClass android.content.Intent android.content.Context java.lang.Class 
+android.content.Intent setExtrasClassLoader void java.lang.ClassLoader 
+android.content.Intent setAction android.content.Intent java.lang.String 
+android.content.Intent setDataAndNormalize android.content.Intent android.net.Uri 
+android.content.Intent setTypeAndNormalize android.content.Intent java.lang.String 
+android.content.Intent setDataAndType android.content.Intent android.net.Uri java.lang.String 
+android.content.Intent setSelector void android.content.Intent 
+android.content.Intent setClipData void android.content.ClipData 
+android.content.Intent setPackage android.content.Intent java.lang.String 
+android.content.Intent setComponent android.content.Intent android.content.ComponentName 
+android.content.Intent setClassName android.content.Intent java.lang.String java.lang.String 
+android.content.Intent setClassName android.content.Intent android.content.Context java.lang.String 
+android.content.Intent setSourceBounds void android.graphics.Rect 
+android.content.res.Configuration setTo void android.content.res.Configuration 
+android.content.res.Configuration setToDefaults void 
+android.content.res.Configuration updateFrom int android.content.res.Configuration 
+android.content.res.Resources$Theme setTo void android.content.res.Resources$Theme 
+android.content.res.Resources updateConfiguration void android.content.res.Configuration android.util.DisplayMetrics 
+android.drm.DrmManagerClient setOnErrorListener void android.drm.DrmManagerClient$OnErrorListener 
+android.drm.DrmManagerClient setOnEventListener void android.drm.DrmManagerClient$OnEventListener 
+android.drm.DrmManagerClient setOnInfoListener void android.drm.DrmManagerClient$OnInfoListener 
+android.drm.DrmSupportInfo setDescription void java.lang.String 
+android.util.JsonWriter setIndent void java.lang.String 
+android.util.JsonWriter setLenient void boolean 
+android.util.LongSparseArray setValueAt void int java.lang.Object 
+android.util.JsonReader setLenient void boolean 
+android.util.DisplayMetrics setTo void android.util.DisplayMetrics 
+android.util.DisplayMetrics setToDefaults void 
+android.util.SparseArray setValueAt void int java.lang.Object 
+android.util.TypedValue setTo void android.util.TypedValue 
+android.media.AudioManager setMode void int 
+android.media.AudioManager setParameters void java.lang.String 
+android.media.AudioManager setRingerMode void int 
+android.media.AudioManager setStreamVolume void int int int 
+android.media.AudioManager setStreamSolo void int boolean 
+android.media.AudioManager setStreamMute void int boolean 
+android.media.AudioManager setVibrateSetting void int int 
+android.media.AudioManager setSpeakerphoneOn void boolean 
+android.media.AudioManager setBluetoothScoOn void boolean 
+android.media.AudioManager setBluetoothA2dpOn void boolean 
+android.media.AudioManager setWiredHeadsetOn void boolean 
+android.media.AudioManager setMicrophoneMute void boolean 
+android.media.AudioManager setRouting void int int int 
+android.media.Ringtone setStreamType void int 
+android.media.MediaSyncEvent setAudioSessionId android.media.MediaSyncEvent int 
+android.media.MediaFormat setString void java.lang.String java.lang.String 
+android.media.MediaFormat setInteger void java.lang.String int 
+android.media.MediaFormat setByteBuffer void java.lang.String java.nio.ByteBuffer 
+android.media.MediaFormat setLong void java.lang.String long 
+android.media.MediaFormat setFloat void java.lang.String float 
+android.media.RemoteControlClient setPlaybackState void int 
+android.media.RemoteControlClient setTransportControlFlags void int 
+android.media.AudioRecord setRecordPositionUpdateListener void android.media.AudioRecord$OnRecordPositionUpdateListener 
+android.media.AudioRecord setRecordPositionUpdateListener void android.media.AudioRecord$OnRecordPositionUpdateListener android.os.Handler 
+android.media.AudioRecord setNotificationMarkerPosition int int 
+android.media.AudioRecord setPositionNotificationPeriod int int 
+android.media.AudioTrack setPlaybackPositionUpdateListener void android.media.AudioTrack$OnPlaybackPositionUpdateListener 
+android.media.AudioTrack setPlaybackPositionUpdateListener void android.media.AudioTrack$OnPlaybackPositionUpdateListener android.os.Handler 
+android.media.AudioTrack setNotificationMarkerPosition int int 
+android.media.AudioTrack setPositionNotificationPeriod int int 
+android.media.AudioTrack setState void int 
+android.media.AudioTrack setStereoVolume int float float 
+android.media.AudioTrack setPlaybackRate int int 
+android.media.AudioTrack setPlaybackHeadPosition int int 
+android.media.AudioTrack setLoopPoints int int int int 
+android.media.AudioTrack setAuxEffectSendLevel int float 
+android.media.MediaExtractor setDataSource void java.io.FileDescriptor 
+android.media.MediaExtractor setDataSource void java.io.FileDescriptor long long 
+android.media.MediaExtractor setDataSource void android.content.Context android.net.Uri java.util.Map 
+android.media.MediaExtractor setDataSource void java.lang.String java.util.Map 
+android.media.MediaExtractor setDataSource void java.lang.String 
+android.media.MediaPlayer setOnBufferingUpdateListener void android.media.MediaPlayer$OnBufferingUpdateListener 
+android.media.MediaPlayer setOnSeekCompleteListener void android.media.MediaPlayer$OnSeekCompleteListener 
+android.media.MediaPlayer setOnVideoSizeChangedListener void android.media.MediaPlayer$OnVideoSizeChangedListener 
+android.media.MediaPlayer setAuxEffectSendLevel void float 
+android.media.MediaPlayer setSurface void android.view.Surface 
+android.media.MediaPlayer setOnErrorListener void android.media.MediaPlayer$OnErrorListener 
+android.media.MediaPlayer setOnInfoListener void android.media.MediaPlayer$OnInfoListener 
+android.media.MediaPlayer setAudioSessionId void int 
+android.media.MediaPlayer setDataSource void java.io.FileDescriptor 
+android.media.MediaPlayer setDataSource void android.content.Context android.net.Uri java.util.Map 
+android.media.MediaPlayer setDataSource void java.lang.String 
+android.media.MediaPlayer setDataSource void android.content.Context android.net.Uri 
+android.media.MediaPlayer setDataSource void java.io.FileDescriptor long long 
+android.media.MediaPlayer setDisplay void android.view.SurfaceHolder 
+android.media.MediaPlayer setVideoScalingMode void int 
+android.media.MediaPlayer setWakeMode void android.content.Context int 
+android.media.MediaPlayer setScreenOnWhilePlaying void boolean 
+android.media.MediaPlayer setNextMediaPlayer void android.media.MediaPlayer 
+android.media.MediaPlayer setAudioStreamType void int 
+android.media.MediaPlayer setLooping void boolean 
+android.media.MediaPlayer setVolume void float float 
+android.media.MediaPlayer setOnPreparedListener void android.media.MediaPlayer$OnPreparedListener 
+android.media.MediaPlayer setOnCompletionListener void android.media.MediaPlayer$OnCompletionListener 
+android.media.MediaPlayer setOnTimedTextListener void android.media.MediaPlayer$OnTimedTextListener 
+android.media.MediaRecorder setPreviewDisplay void android.view.Surface 
+android.media.MediaRecorder setLocation void float float 
+android.media.MediaRecorder setOnErrorListener void android.media.MediaRecorder$OnErrorListener 
+android.media.MediaRecorder setOnInfoListener void android.media.MediaRecorder$OnInfoListener 
+android.media.MediaRecorder setCamera void android.hardware.Camera 
+android.media.MediaRecorder setAudioSource void int 
+android.media.MediaRecorder setVideoSource void int 
+android.media.MediaRecorder setProfile void android.media.CamcorderProfile 
+android.media.MediaRecorder setCaptureRate void double 
+android.media.MediaRecorder setOrientationHint void int 
+android.media.MediaRecorder setOutputFormat void int 
+android.media.MediaRecorder setVideoSize void int int 
+android.media.MediaRecorder setVideoFrameRate void int 
+android.media.MediaRecorder setMaxDuration void int 
+android.media.MediaRecorder setMaxFileSize void long 
+android.media.MediaRecorder setAudioEncoder void int 
+android.media.MediaRecorder setVideoEncoder void int 
+android.media.MediaRecorder setAudioSamplingRate void int 
+android.media.MediaRecorder setAudioChannels void int 
+android.media.MediaRecorder setAudioEncodingBitRate void int 
+android.media.MediaRecorder setVideoEncodingBitRate void int 
+android.media.MediaRecorder setOutputFile void java.lang.String 
+android.media.MediaRecorder setOutputFile void java.io.FileDescriptor 
+android.media.MediaRouter$RouteInfo setTag void java.lang.Object 
+android.media.SoundPool setOnLoadCompleteListener void android.media.SoundPool$OnLoadCompleteListener 
+android.media.SoundPool setLoop void int int 
+android.media.SoundPool setRate void int float 
+android.media.SoundPool setVolume void int float float 
+android.media.SoundPool setPriority void int int 
+android.media.MediaCodec$BufferInfo set void int int long int 
+android.media.MediaCodec setVideoScalingMode void int 
+android.media.ExifInterface setAttribute void java.lang.String java.lang.String 
+android.media.MediaMetadataRetriever setDataSource void java.io.FileDescriptor 
+android.media.MediaMetadataRetriever setDataSource void java.io.FileDescriptor long long 
+android.media.MediaMetadataRetriever setDataSource void java.lang.String java.util.Map 
+android.media.MediaMetadataRetriever setDataSource void java.lang.String 
+android.media.MediaMetadataRetriever setDataSource void android.content.Context android.net.Uri 
+android.media.MediaCodec$CryptoInfo set void int int[] int[] byte[] byte[] int 
+android.media.MediaRouter$RouteGroup setIconResource void int 
+android.media.MediaRouter$RouteGroup setIconDrawable void android.graphics.drawable.Drawable 
+android.media.RingtoneManager setActualDefaultRingtoneUri void android.content.Context int android.net.Uri 
+android.media.RingtoneManager setType void int 
+android.media.RingtoneManager setStopPreviousRingtone void boolean 
+android.media.RingtoneManager setIncludeDrm void boolean 
+android.media.JetPlayer setMuteFlags boolean int boolean 
+android.media.JetPlayer setMuteArray boolean boolean[] boolean 
+android.media.JetPlayer setMuteFlag boolean int boolean boolean 
+android.media.JetPlayer setEventListener void android.media.JetPlayer$OnJetEventListener 
+android.media.JetPlayer setEventListener void android.media.JetPlayer$OnJetEventListener android.os.Handler 
+android.media.MediaRouter$UserRouteInfo setStatus void java.lang.CharSequence 
+android.media.MediaRouter$UserRouteInfo setRemoteControlClient void android.media.RemoteControlClient 
+android.media.MediaRouter$UserRouteInfo setVolumeCallback void android.media.MediaRouter$VolumeCallback 
+android.media.MediaRouter$UserRouteInfo setVolumeHandling void int 
+android.media.MediaRouter$UserRouteInfo setPlaybackType void int 
+android.media.MediaRouter$UserRouteInfo setVolumeMax void int 
+android.media.MediaRouter$UserRouteInfo setPlaybackStream void int 
+android.media.MediaRouter$UserRouteInfo setVolume void int 
+android.media.MediaRouter$UserRouteInfo setIconResource void int 
+android.media.MediaRouter$UserRouteInfo setIconDrawable void android.graphics.drawable.Drawable 
+android.media.MediaRouter$UserRouteInfo setName void int 
+android.media.MediaRouter$UserRouteInfo setName void java.lang.CharSequence 
+android.media.audiofx.BassBoost setStrength void short 
+android.media.audiofx.BassBoost setParameterListener void android.media.audiofx.BassBoost$OnParameterChangeListener 
+android.media.audiofx.BassBoost setProperties void android.media.audiofx.BassBoost$Settings 
+android.media.audiofx.PresetReverb setPreset void short 
+android.media.audiofx.PresetReverb setParameterListener void android.media.audiofx.PresetReverb$OnParameterChangeListener 
+android.media.audiofx.PresetReverb setProperties void android.media.audiofx.PresetReverb$Settings 
+android.media.audiofx.Virtualizer setStrength void short 
+android.media.audiofx.Virtualizer setParameterListener void android.media.audiofx.Virtualizer$OnParameterChangeListener 
+android.media.audiofx.Virtualizer setProperties void android.media.audiofx.Virtualizer$Settings 
+android.media.audiofx.Visualizer setEnabled int boolean 
+android.media.audiofx.Visualizer setCaptureSize int int 
+android.media.audiofx.Visualizer setScalingMode int int 
+android.media.audiofx.Visualizer setDataCaptureListener int android.media.audiofx.Visualizer$OnDataCaptureListener int boolean boolean 
+android.media.audiofx.AudioEffect setEnabled int boolean 
+android.media.audiofx.AudioEffect setEnableStatusListener void android.media.audiofx.AudioEffect$OnEnableStatusChangeListener 
+android.media.audiofx.AudioEffect setControlStatusListener void android.media.audiofx.AudioEffect$OnControlStatusChangeListener 
+android.media.audiofx.Equalizer setParameterListener void android.media.audiofx.Equalizer$OnParameterChangeListener 
+android.media.audiofx.Equalizer setBandLevel void short short 
+android.media.audiofx.Equalizer setProperties void android.media.audiofx.Equalizer$Settings 
+android.media.audiofx.EnvironmentalReverb setDensity void short 
+android.media.audiofx.EnvironmentalReverb setParameterListener void android.media.audiofx.EnvironmentalReverb$OnParameterChangeListener 
+android.media.audiofx.EnvironmentalReverb setRoomLevel void short 
+android.media.audiofx.EnvironmentalReverb setRoomHFLevel void short 
+android.media.audiofx.EnvironmentalReverb setDecayTime void int 
+android.media.audiofx.EnvironmentalReverb setDecayHFRatio void short 
+android.media.audiofx.EnvironmentalReverb setReflectionsLevel void short 
+android.media.audiofx.EnvironmentalReverb setReflectionsDelay void int 
+android.media.audiofx.EnvironmentalReverb setReverbLevel void short 
+android.media.audiofx.EnvironmentalReverb setReverbDelay void int 
+android.media.audiofx.EnvironmentalReverb setDiffusion void short 
+android.media.audiofx.EnvironmentalReverb setProperties void android.media.audiofx.EnvironmentalReverb$Settings 
+android.graphics.Bitmap setPixel void int int int 
+android.graphics.Bitmap setDensity void int 
+android.graphics.Bitmap setHasAlpha void boolean 
+android.graphics.Bitmap setPixels void int[] int int int int int int 
+android.graphics.Rect setEmpty void 
+android.graphics.Rect setIntersect boolean android.graphics.Rect android.graphics.Rect 
+android.graphics.Rect set void int int int int 
+android.graphics.Rect set void android.graphics.Rect 
+android.graphics.Region setEmpty void 
+android.graphics.Region setPath boolean android.graphics.Path android.graphics.Region 
+android.graphics.Region set boolean android.graphics.Rect 
+android.graphics.Region set boolean int int int int 
+android.graphics.Region set boolean android.graphics.Region 
+android.graphics.Interpolator setKeyFrame void int int float[] float[] 
+android.graphics.Interpolator setKeyFrame void int int float[] 
+android.graphics.Interpolator setRepeatMirror void float boolean 
+android.graphics.Canvas setDensity void int 
+android.graphics.Canvas setMatrix void android.graphics.Matrix 
+android.graphics.Canvas setDrawFilter void android.graphics.DrawFilter 
+android.graphics.Canvas setBitmap void android.graphics.Bitmap 
+android.graphics.PointF set void float float 
+android.graphics.PointF set void android.graphics.PointF 
+android.graphics.drawable.DrawableContainer setAlpha void int 
+android.graphics.drawable.DrawableContainer setDither void boolean 
+android.graphics.drawable.DrawableContainer setVisible boolean boolean boolean 
+android.graphics.drawable.DrawableContainer setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.DrawableContainer setEnterFadeDuration void int 
+android.graphics.drawable.DrawableContainer setExitFadeDuration void int 
+android.graphics.drawable.DrawableContainer setConstantState void android.graphics.drawable.DrawableContainer$DrawableContainerState 
+android.graphics.drawable.LayerDrawable setAlpha void int 
+android.graphics.drawable.LayerDrawable setId void int int 
+android.graphics.drawable.LayerDrawable setDither void boolean 
+android.graphics.drawable.LayerDrawable setVisible boolean boolean boolean 
+android.graphics.drawable.LayerDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.LayerDrawable setDrawableByLayerId boolean int android.graphics.drawable.Drawable 
+android.graphics.drawable.LayerDrawable setLayerInset void int int int int int 
+android.graphics.drawable.LayerDrawable setOpacity void int 
+android.graphics.drawable.RotateDrawable setAlpha void int 
+android.graphics.drawable.RotateDrawable setVisible boolean boolean boolean 
+android.graphics.drawable.RotateDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.PaintDrawable setCornerRadius void float 
+android.graphics.drawable.PaintDrawable setCornerRadii void float[] 
+android.graphics.drawable.AnimationDrawable setVisible boolean boolean boolean 
+android.graphics.drawable.AnimationDrawable setOneShot void boolean 
+android.graphics.drawable.GradientDrawable setColor void int 
+android.graphics.drawable.GradientDrawable setAlpha void int 
+android.graphics.drawable.GradientDrawable setShape void int 
+android.graphics.drawable.GradientDrawable setDither void boolean 
+android.graphics.drawable.GradientDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.GradientDrawable setOrientation void android.graphics.drawable.GradientDrawable$Orientation 
+android.graphics.drawable.GradientDrawable setColors void int[] 
+android.graphics.drawable.GradientDrawable setGradientRadius void float 
+android.graphics.drawable.GradientDrawable setUseLevel void boolean 
+android.graphics.drawable.GradientDrawable setCornerRadius void float 
+android.graphics.drawable.GradientDrawable setCornerRadii void float[] 
+android.graphics.drawable.GradientDrawable setGradientCenter void float float 
+android.graphics.drawable.GradientDrawable setGradientType void int 
+android.graphics.drawable.GradientDrawable setStroke void int int 
+android.graphics.drawable.GradientDrawable setStroke void int int float float 
+android.graphics.drawable.GradientDrawable setSize void int int 
+android.graphics.drawable.ColorDrawable setColor void int 
+android.graphics.drawable.ColorDrawable setAlpha void int 
+android.graphics.drawable.ColorDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.PictureDrawable setAlpha void int 
+android.graphics.drawable.PictureDrawable setDither void boolean 
+android.graphics.drawable.PictureDrawable setFilterBitmap void boolean 
+android.graphics.drawable.PictureDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.PictureDrawable setPicture void android.graphics.Picture 
+android.graphics.drawable.ShapeDrawable setAlpha void int 
+android.graphics.drawable.ShapeDrawable setShape void android.graphics.drawable.shapes.Shape 
+android.graphics.drawable.ShapeDrawable setDither void boolean 
+android.graphics.drawable.ShapeDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.ShapeDrawable setPadding void android.graphics.Rect 
+android.graphics.drawable.ShapeDrawable setPadding void int int int int 
+android.graphics.drawable.ShapeDrawable setIntrinsicHeight void int 
+android.graphics.drawable.ShapeDrawable setIntrinsicWidth void int 
+android.graphics.drawable.ShapeDrawable setShaderFactory void android.graphics.drawable.ShapeDrawable$ShaderFactory 
+android.graphics.drawable.BitmapDrawable setAlpha void int 
+android.graphics.drawable.BitmapDrawable setDither void boolean 
+android.graphics.drawable.BitmapDrawable setAntiAlias void boolean 
+android.graphics.drawable.BitmapDrawable setFilterBitmap void boolean 
+android.graphics.drawable.BitmapDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.BitmapDrawable setGravity void int 
+android.graphics.drawable.BitmapDrawable setTileModeXY void android.graphics.Shader$TileMode android.graphics.Shader$TileMode 
+android.graphics.drawable.BitmapDrawable setTileModeX void android.graphics.Shader$TileMode 
+android.graphics.drawable.BitmapDrawable setTileModeY void android.graphics.Shader$TileMode 
+android.graphics.drawable.BitmapDrawable setTargetDensity void android.graphics.Canvas 
+android.graphics.drawable.BitmapDrawable setTargetDensity void int 
+android.graphics.drawable.BitmapDrawable setTargetDensity void android.util.DisplayMetrics 
+android.graphics.drawable.InsetDrawable setAlpha void int 
+android.graphics.drawable.InsetDrawable setVisible boolean boolean boolean 
+android.graphics.drawable.InsetDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.NinePatchDrawable setAlpha void int 
+android.graphics.drawable.NinePatchDrawable setDither void boolean 
+android.graphics.drawable.NinePatchDrawable setFilterBitmap void boolean 
+android.graphics.drawable.NinePatchDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.NinePatchDrawable setTargetDensity void int 
+android.graphics.drawable.NinePatchDrawable setTargetDensity void android.graphics.Canvas 
+android.graphics.drawable.NinePatchDrawable setTargetDensity void android.util.DisplayMetrics 
+android.graphics.drawable.TransitionDrawable setCrossFadeEnabled void boolean 
+android.graphics.drawable.ClipDrawable setAlpha void int 
+android.graphics.drawable.ClipDrawable setVisible boolean boolean boolean 
+android.graphics.drawable.ClipDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.drawable.ScaleDrawable setAlpha void int 
+android.graphics.drawable.ScaleDrawable setVisible boolean boolean boolean 
+android.graphics.drawable.ScaleDrawable setColorFilter void android.graphics.ColorFilter 
+android.graphics.Matrix setScale void float float float float 
+android.graphics.Matrix setScale void float float 
+android.graphics.Matrix setSkew void float float 
+android.graphics.Matrix setSkew void float float float float 
+android.graphics.Matrix setValues void float[] 
+android.graphics.Matrix setConcat boolean android.graphics.Matrix android.graphics.Matrix 
+android.graphics.Matrix setRectToRect boolean android.graphics.RectF android.graphics.RectF android.graphics.Matrix$ScaleToFit 
+android.graphics.Matrix setPolyToPoly boolean float[] int float[] int int 
+android.graphics.Matrix setSinCos void float float float float 
+android.graphics.Matrix setSinCos void float float 
+android.graphics.Matrix setRotate void float 
+android.graphics.Matrix setRotate void float float float 
+android.graphics.Matrix setTranslate void float float 
+android.graphics.Matrix set void android.graphics.Matrix 
+android.graphics.Shader setLocalMatrix void android.graphics.Matrix 
+android.graphics.Point set void int int 
+android.graphics.ColorMatrix setScale void float float float float 
+android.graphics.ColorMatrix setConcat void android.graphics.ColorMatrix android.graphics.ColorMatrix 
+android.graphics.ColorMatrix setRotate void int float 
+android.graphics.ColorMatrix setYUV2RGB void 
+android.graphics.ColorMatrix setRGB2YUV void 
+android.graphics.ColorMatrix setSaturation void float 
+android.graphics.ColorMatrix set void float[] 
+android.graphics.ColorMatrix set void android.graphics.ColorMatrix 
+android.graphics.Camera setLocation void float float float 
+android.graphics.SurfaceTexture setOnFrameAvailableListener void android.graphics.SurfaceTexture$OnFrameAvailableListener 
+android.graphics.SurfaceTexture updateTexImage void 
+android.graphics.SurfaceTexture setDefaultBufferSize void int int 
+android.graphics.RectF setEmpty void 
+android.graphics.RectF setIntersect boolean android.graphics.RectF android.graphics.RectF 
+android.graphics.RectF set void android.graphics.RectF 
+android.graphics.RectF set void android.graphics.Rect 
+android.graphics.RectF set void float float float float 
+android.graphics.Paint setStyle void android.graphics.Paint$Style 
+android.graphics.Paint setColor void int 
+android.graphics.Paint setAlpha void int 
+android.graphics.Paint setARGB void int int int int 
+android.graphics.Paint setFlags void int 
+android.graphics.Paint setDither void boolean 
+android.graphics.Paint setHinting void int 
+android.graphics.Paint setAntiAlias void boolean 
+android.graphics.Paint setLinearText void boolean 
+android.graphics.Paint setSubpixelText void boolean 
+android.graphics.Paint setUnderlineText void boolean 
+android.graphics.Paint setStrikeThruText void boolean 
+android.graphics.Paint setFakeBoldText void boolean 
+android.graphics.Paint setFilterBitmap void boolean 
+android.graphics.Paint setStrokeWidth void float 
+android.graphics.Paint setStrokeMiter void float 
+android.graphics.Paint setStrokeCap void android.graphics.Paint$Cap 
+android.graphics.Paint setStrokeJoin void android.graphics.Paint$Join 
+android.graphics.Paint setShader android.graphics.Shader android.graphics.Shader 
+android.graphics.Paint setColorFilter android.graphics.ColorFilter android.graphics.ColorFilter 
+android.graphics.Paint setXfermode android.graphics.Xfermode android.graphics.Xfermode 
+android.graphics.Paint setPathEffect android.graphics.PathEffect android.graphics.PathEffect 
+android.graphics.Paint setMaskFilter android.graphics.MaskFilter android.graphics.MaskFilter 
+android.graphics.Paint setTypeface android.graphics.Typeface android.graphics.Typeface 
+android.graphics.Paint setRasterizer android.graphics.Rasterizer android.graphics.Rasterizer 
+android.graphics.Paint setShadowLayer void float float float int 
+android.graphics.Paint setTextAlign void android.graphics.Paint$Align 
+android.graphics.Paint setTextSize void float 
+android.graphics.Paint setTextScaleX void float 
+android.graphics.Paint setTextSkewX void float 
+android.graphics.Paint set void android.graphics.Paint 
+android.graphics.Path setFillType void android.graphics.Path$FillType 
+android.graphics.Path setLastPoint void float float 
+android.graphics.Path set void android.graphics.Path 
+android.graphics.Movie setTime boolean int 
+android.graphics.PathMeasure setPath void android.graphics.Path boolean 
+android.graphics.NinePatch setPaint void android.graphics.Paint 
+android.gesture.GestureOverlayView setGestureStrokeLengthThreshold void float 
+android.gesture.GestureOverlayView setGestureStrokeSquarenessTreshold void float 
+android.gesture.GestureOverlayView setGestureStrokeAngleThreshold void float 
+android.gesture.GestureOverlayView setEventsInterceptionEnabled void boolean 
+android.gesture.GestureOverlayView setOrientation void int 
+android.gesture.GestureOverlayView setGestureColor void int 
+android.gesture.GestureOverlayView setUncertainGestureColor void int 
+android.gesture.GestureOverlayView setGestureStrokeWidth void float 
+android.gesture.GestureOverlayView setGestureStrokeType void int 
+android.gesture.GestureOverlayView setFadeEnabled void boolean 
+android.gesture.GestureOverlayView setGesture void android.gesture.Gesture 
+android.gesture.GestureOverlayView setGestureVisible void boolean 
+android.gesture.GestureOverlayView setFadeOffset void long 
+android.gesture.GestureStore setSequenceType void int 
+android.gesture.GestureStore setOrientationStyle void int 
+android.location.Address setPhone void java.lang.String 
+android.location.Address setUrl void java.lang.String 
+android.location.Address setSubAdminArea void java.lang.String 
+android.location.Address setFeatureName void java.lang.String 
+android.location.Address setAdminArea void java.lang.String 
+android.location.Address setLocality void java.lang.String 
+android.location.Address setSubLocality void java.lang.String 
+android.location.Address setThoroughfare void java.lang.String 
+android.location.Address setSubThoroughfare void java.lang.String 
+android.location.Address setPremises void java.lang.String 
+android.location.Address setPostalCode void java.lang.String 
+android.location.Address setCountryCode void java.lang.String 
+android.location.Address setCountryName void java.lang.String 
+android.location.Address setLatitude void double 
+android.location.Address setLongitude void double 
+android.location.Address setExtras void android.os.Bundle 
+android.location.Address setAddressLine void int java.lang.String 
+android.location.Location setSpeed void float 
+android.location.Location setLatitude void double 
+android.location.Location setLongitude void double 
+android.location.Location setExtras void android.os.Bundle 
+android.location.Location setProvider void java.lang.String 
+android.location.Location setAltitude void double 
+android.location.Location setBearing void float 
+android.location.Location setAccuracy void float 
+android.location.Location set void android.location.Location 
+android.location.Location setTime void long 
+android.location.Criteria setAccuracy void int 
+android.location.Criteria setHorizontalAccuracy void int 
+android.location.Criteria setVerticalAccuracy void int 
+android.location.Criteria setSpeedAccuracy void int 
+android.location.Criteria setBearingAccuracy void int 
+android.location.Criteria setPowerRequirement void int 
+android.location.Criteria setCostAllowed void boolean 
+android.location.Criteria setAltitudeRequired void boolean 
+android.location.Criteria setSpeedRequired void boolean 
+android.location.Criteria setBearingRequired void boolean 
+android.location.LocationManager setTestProviderLocation void java.lang.String android.location.Location 
+android.location.LocationManager setTestProviderEnabled void java.lang.String boolean 
+android.location.LocationManager setTestProviderStatus void java.lang.String int android.os.Bundle long 
+android.net.UrlQuerySanitizer setUnregisteredParameterValueSanitizer void android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer setAllowUnregisteredParamaters void boolean 
+android.net.UrlQuerySanitizer setPreferFirstRepeatedParameter void boolean 
+android.net.wifi.WifiManager$WifiLock setReferenceCounted void boolean 
+android.net.wifi.WifiManager$WifiLock setWorkSource void android.os.WorkSource 
+android.net.wifi.WifiManager$MulticastLock setReferenceCounted void boolean 
+android.net.wifi.WifiManager updateNetwork int android.net.wifi.WifiConfiguration 
+android.net.wifi.WifiManager setWifiEnabled boolean boolean 
+android.net.wifi.p2p.WifiP2pManager setServiceResponseListener void android.net.wifi.p2p.WifiP2pManager$Channel android.net.wifi.p2p.WifiP2pManager$ServiceResponseListener 
+android.net.wifi.p2p.WifiP2pManager setDnsSdResponseListeners void android.net.wifi.p2p.WifiP2pManager$Channel android.net.wifi.p2p.WifiP2pManager$DnsSdServiceResponseListener android.net.wifi.p2p.WifiP2pManager$DnsSdTxtRecordListener 
+android.net.wifi.p2p.WifiP2pManager setUpnpServiceResponseListener void android.net.wifi.p2p.WifiP2pManager$Channel android.net.wifi.p2p.WifiP2pManager$UpnpServiceResponseListener 
+android.net.ConnectivityManager setNetworkPreference void int 
+android.net.sip.SipSession setListener void android.net.sip.SipSession$Listener 
+android.net.sip.SipProfile$Builder setPassword android.net.sip.SipProfile$Builder java.lang.String 
+android.net.sip.SipProfile$Builder setProfileName android.net.sip.SipProfile$Builder java.lang.String 
+android.net.sip.SipProfile$Builder setProtocol android.net.sip.SipProfile$Builder java.lang.String 
+android.net.sip.SipProfile$Builder setAuthUserName android.net.sip.SipProfile$Builder java.lang.String 
+android.net.sip.SipProfile$Builder setOutboundProxy android.net.sip.SipProfile$Builder java.lang.String 
+android.net.sip.SipProfile$Builder setDisplayName android.net.sip.SipProfile$Builder java.lang.String 
+android.net.sip.SipProfile$Builder setSendKeepAlive android.net.sip.SipProfile$Builder boolean 
+android.net.sip.SipProfile$Builder setAutoRegistration android.net.sip.SipProfile$Builder boolean 
+android.net.sip.SipProfile$Builder setPort android.net.sip.SipProfile$Builder int 
+android.net.sip.SipManager setRegistrationListener void java.lang.String android.net.sip.SipRegistrationListener 
+android.net.sip.SipAudioCall setListener void android.net.sip.SipAudioCall$Listener 
+android.net.sip.SipAudioCall setListener void android.net.sip.SipAudioCall$Listener boolean 
+android.net.sip.SipAudioCall setSpeakerMode void boolean 
+android.net.VpnService$Builder setMtu android.net.VpnService$Builder int 
+android.net.VpnService$Builder setConfigureIntent android.net.VpnService$Builder android.app.PendingIntent 
+android.net.VpnService$Builder setSession android.net.VpnService$Builder java.lang.String 
+android.net.rtp.RtpStream setMode void int 
+android.net.rtp.AudioStream setCodec void android.net.rtp.AudioCodec 
+android.net.rtp.AudioStream setDtmfType void int 
+android.net.rtp.AudioGroup setMode void int 
+android.net.SSLCertificateSocketFactory setNpnProtocols void byte[][] 
+android.net.SSLCertificateSocketFactory setKeyManagers void javax.net.ssl.KeyManager[] 
+android.net.SSLCertificateSocketFactory setTrustManagers void javax.net.ssl.TrustManager[] 
+android.net.TrafficStats setThreadStatsTag void int 
+android.net.LocalSocket setFileDescriptorsForSend void java.io.FileDescriptor[] 
+android.net.LocalSocket setSoTimeout void int 
+android.net.LocalSocket setSendBufferSize void int 
+android.net.LocalSocket setReceiveBufferSize void int 
+android.net.nsd.NsdServiceInfo setHost void java.net.InetAddress 
+android.net.nsd.NsdServiceInfo setServiceType void java.lang.String 
+android.net.nsd.NsdServiceInfo setServiceName void java.lang.String 
+android.net.nsd.NsdServiceInfo setPort void int 
+android.telephony.gsm.GsmCellLocation setLacAndCid void int int 
+android.telephony.gsm.GsmCellLocation setStateInvalid void 
+android.telephony.cdma.CdmaCellLocation setStateInvalid void 
+android.telephony.cdma.CdmaCellLocation setCellLocationData void int int int int int 
+android.telephony.cdma.CdmaCellLocation setCellLocationData void int int int 
+android.telephony.ServiceState setState void int 
+android.telephony.ServiceState setStateOutOfService void 
+android.telephony.ServiceState setStateOff void 
+android.telephony.ServiceState setRoaming void boolean 
+android.telephony.ServiceState setOperatorName void java.lang.String java.lang.String java.lang.String 
+android.telephony.ServiceState setIsManualSelection void boolean 
+android.telephony.NeighboringCellInfo setCid void int 
+android.telephony.NeighboringCellInfo setRssi void int 
+android.view.MotionEvent setAction void int 
+android.view.MotionEvent setSource void int 
+android.view.MotionEvent setEdgeFlags void int 
+android.view.MotionEvent setLocation void float float 
+android.view.ContextThemeWrapper setTheme void int 
+android.view.textservice.SuggestionsInfo setCookieAndSequence void int int 
+android.view.GestureDetector setIsLongpressEnabled void boolean 
+android.view.GestureDetector setOnDoubleTapListener void android.view.GestureDetector$OnDoubleTapListener 
+android.view.View setHorizontalFadingEdgeEnabled void boolean 
+android.view.View setVerticalFadingEdgeEnabled void boolean 
+android.view.View setHorizontalScrollBarEnabled void boolean 
+android.view.View setVerticalScrollBarEnabled void boolean 
+android.view.View setScrollbarFadingEnabled void boolean 
+android.view.View setScrollBarDefaultDelayBeforeFade void int 
+android.view.View setDuplicateParentStateEnabled void boolean 
+android.view.View setDrawingCacheBackgroundColor void int 
+android.view.View setOnSystemUiVisibilityChangeListener void android.view.View$OnSystemUiVisibilityChangeListener 
+android.view.View setVerticalScrollbarPosition void int 
+android.view.View setOnCreateContextMenuListener void android.view.View$OnCreateContextMenuListener 
+android.view.View setOnGenericMotionListener void android.view.View$OnGenericMotionListener 
+android.view.View setFilterTouchesWhenObscured void boolean 
+android.view.View setImportantForAccessibility void int 
+android.view.View setAlpha void float 
+android.view.View setY void float 
+android.view.View setTop void int 
+android.view.View setLeft void int 
+android.view.View setRight void int 
+android.view.View setId void int 
+android.view.View setTag void java.lang.Object 
+android.view.View setTag void int java.lang.Object 
+android.view.View setX void float 
+android.view.View setFadingEdgeLength void int 
+android.view.View setOnFocusChangeListener void android.view.View$OnFocusChangeListener 
+android.view.View setOnClickListener void android.view.View$OnClickListener 
+android.view.View setOnLongClickListener void android.view.View$OnLongClickListener 
+android.view.View setOnKeyListener void android.view.View$OnKeyListener 
+android.view.View setOnTouchListener void android.view.View$OnTouchListener 
+android.view.View setOnHoverListener void android.view.View$OnHoverListener 
+android.view.View setOnDragListener void android.view.View$OnDragListener 
+android.view.View setAccessibilityDelegate void android.view.View$AccessibilityDelegate 
+android.view.View setContentDescription void java.lang.CharSequence 
+android.view.View setScrollContainer void boolean 
+android.view.View setDrawingCacheQuality void int 
+android.view.View setKeepScreenOn void boolean 
+android.view.View setNextFocusLeftId void int 
+android.view.View setNextFocusRightId void int 
+android.view.View setNextFocusUpId void int 
+android.view.View setNextFocusDownId void int 
+android.view.View setNextFocusForwardId void int 
+android.view.View setFitsSystemWindows void boolean 
+android.view.View setVisibility void int 
+android.view.View setFocusable void boolean 
+android.view.View setFocusableInTouchMode void boolean 
+android.view.View setSoundEffectsEnabled void boolean 
+android.view.View setHapticFeedbackEnabled void boolean 
+android.view.View setHasTransientState void boolean 
+android.view.View setWillNotDraw void boolean 
+android.view.View setWillNotCacheDrawing void boolean 
+android.view.View setClickable void boolean 
+android.view.View setLongClickable void boolean 
+android.view.View setPressed void boolean 
+android.view.View setSaveEnabled void boolean 
+android.view.View setSaveFromParentEnabled void boolean 
+android.view.View setEnabled void boolean 
+android.view.View setPadding void int int int int 
+android.view.View setSelected void boolean 
+android.view.View setHovered void boolean 
+android.view.View setTouchDelegate void android.view.TouchDelegate 
+android.view.View setScrollX void int 
+android.view.View setScrollY void int 
+android.view.View setCameraDistance void float 
+android.view.View setRotation void float 
+android.view.View setRotationY void float 
+android.view.View setRotationX void float 
+android.view.View setScaleX void float 
+android.view.View setScaleY void float 
+android.view.View setPivotX void float 
+android.view.View setPivotY void float 
+android.view.View setBottom void int 
+android.view.View setTranslationX void float 
+android.view.View setTranslationY void float 
+android.view.View setLayoutParams void android.view.ViewGroup$LayoutParams 
+android.view.View setScrollBarFadeDuration void int 
+android.view.View setScrollBarSize void int 
+android.view.View setScrollBarStyle void int 
+android.view.View setLayerType void int android.graphics.Paint 
+android.view.View setDrawingCacheEnabled void boolean 
+android.view.View setBackgroundColor void int 
+android.view.View setBackgroundResource void int 
+android.view.View setBackground void android.graphics.drawable.Drawable 
+android.view.View setBackgroundDrawable void android.graphics.drawable.Drawable 
+android.view.View setActivated void boolean 
+android.view.View setMeasuredDimension void int int 
+android.view.View setMinimumHeight void int 
+android.view.View setMinimumWidth void int 
+android.view.View setAnimation void android.view.animation.Animation 
+android.view.View setSystemUiVisibility void int 
+android.view.View setOverScrollMode void int 
+android.view.SurfaceView setVisibility void int 
+android.view.SurfaceView setZOrderMediaOverlay void boolean 
+android.view.SurfaceView setZOrderOnTop void boolean 
+android.view.ViewGroup$LayoutParams setBaseAttributes void android.content.res.TypedArray int int 
+android.view.WindowManager$LayoutParams setTitle void java.lang.CharSequence 
+android.view.MotionEvent$PointerCoords setAxisValue void int float 
+android.view.ViewStub setVisibility void int 
+android.view.ViewStub setLayoutResource void int 
+android.view.ViewStub setOnInflateListener void android.view.ViewStub$OnInflateListener 
+android.view.ViewStub setInflatedId void int 
+android.view.ViewStub setLayoutInflater void android.view.LayoutInflater 
+android.view.accessibility.AccessibilityEvent setAction void int 
+android.view.accessibility.AccessibilityEvent setEventType void int 
+android.view.accessibility.AccessibilityEvent setEventTime void long 
+android.view.accessibility.AccessibilityEvent setPackageName void java.lang.CharSequence 
+android.view.accessibility.AccessibilityEvent setMovementGranularity void int 
+android.view.accessibility.AccessibilityNodeInfo setText void java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo setContentDescription void java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo setFocusable void boolean 
+android.view.accessibility.AccessibilityNodeInfo setClickable void boolean 
+android.view.accessibility.AccessibilityNodeInfo setLongClickable void boolean 
+android.view.accessibility.AccessibilityNodeInfo setEnabled void boolean 
+android.view.accessibility.AccessibilityNodeInfo setClassName void java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo setSource void android.view.View 
+android.view.accessibility.AccessibilityNodeInfo setSource void android.view.View int 
+android.view.accessibility.AccessibilityNodeInfo setSelected void boolean 
+android.view.accessibility.AccessibilityNodeInfo setPackageName void java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo setChecked void boolean 
+android.view.accessibility.AccessibilityNodeInfo setPassword void boolean 
+android.view.accessibility.AccessibilityNodeInfo setScrollable void boolean 
+android.view.accessibility.AccessibilityNodeInfo setMovementGranularities void int 
+android.view.accessibility.AccessibilityNodeInfo setBoundsInParent void android.graphics.Rect 
+android.view.accessibility.AccessibilityNodeInfo setBoundsInScreen void android.graphics.Rect 
+android.view.accessibility.AccessibilityNodeInfo setCheckable void boolean 
+android.view.accessibility.AccessibilityNodeInfo setFocused void boolean 
+android.view.accessibility.AccessibilityNodeInfo setVisibleToUser void boolean 
+android.view.accessibility.AccessibilityNodeInfo setAccessibilityFocused void boolean 
+android.view.accessibility.AccessibilityNodeInfo setParent void android.view.View 
+android.view.accessibility.AccessibilityNodeInfo setParent void android.view.View int 
+android.view.accessibility.AccessibilityRecord setContentDescription void java.lang.CharSequence 
+android.view.accessibility.AccessibilityRecord setEnabled void boolean 
+android.view.accessibility.AccessibilityRecord setClassName void java.lang.CharSequence 
+android.view.accessibility.AccessibilityRecord setSource void android.view.View int 
+android.view.accessibility.AccessibilityRecord setSource void android.view.View 
+android.view.accessibility.AccessibilityRecord setScrollX void int 
+android.view.accessibility.AccessibilityRecord setScrollY void int 
+android.view.accessibility.AccessibilityRecord setChecked void boolean 
+android.view.accessibility.AccessibilityRecord setPassword void boolean 
+android.view.accessibility.AccessibilityRecord setFullScreen void boolean 
+android.view.accessibility.AccessibilityRecord setScrollable void boolean 
+android.view.accessibility.AccessibilityRecord setItemCount void int 
+android.view.accessibility.AccessibilityRecord setCurrentItemIndex void int 
+android.view.accessibility.AccessibilityRecord setFromIndex void int 
+android.view.accessibility.AccessibilityRecord setToIndex void int 
+android.view.accessibility.AccessibilityRecord setMaxScrollX void int 
+android.view.accessibility.AccessibilityRecord setMaxScrollY void int 
+android.view.accessibility.AccessibilityRecord setAddedCount void int 
+android.view.accessibility.AccessibilityRecord setRemovedCount void int 
+android.view.accessibility.AccessibilityRecord setBeforeText void java.lang.CharSequence 
+android.view.accessibility.AccessibilityRecord setParcelableData void android.os.Parcelable 
+android.view.TextureView setSurfaceTextureListener void android.view.TextureView$SurfaceTextureListener 
+android.view.TextureView setLayerType void int android.graphics.Paint 
+android.view.TextureView setSurfaceTexture void android.graphics.SurfaceTexture 
+android.view.TextureView setOpaque void boolean 
+android.view.TextureView setTransform void android.graphics.Matrix 
+android.view.KeyEvent setSource void int 
+android.view.ViewGroup$MarginLayoutParams setMargins void int int int int 
+android.view.animation.Transformation setAlpha void float 
+android.view.animation.Transformation setTransformationType void int 
+android.view.animation.Transformation set void android.view.animation.Transformation 
+android.view.animation.AnimationSet setDuration void long 
+android.view.animation.AnimationSet setStartOffset void long 
+android.view.animation.AnimationSet setStartTime void long 
+android.view.animation.AnimationSet setRepeatMode void int 
+android.view.animation.AnimationSet setFillBefore void boolean 
+android.view.animation.AnimationSet setFillAfter void boolean 
+android.view.animation.LayoutAnimationController setOrder void int 
+android.view.animation.LayoutAnimationController setDelay void float 
+android.view.animation.LayoutAnimationController setAnimation void android.content.Context int 
+android.view.animation.LayoutAnimationController setAnimation void android.view.animation.Animation 
+android.view.animation.LayoutAnimationController setInterpolator void android.content.Context int 
+android.view.animation.LayoutAnimationController setInterpolator void android.view.animation.Interpolator 
+android.view.animation.GridLayoutAnimationController setColumnDelay void float 
+android.view.animation.GridLayoutAnimationController setRowDelay void float 
+android.view.animation.GridLayoutAnimationController setDirection void int 
+android.view.animation.GridLayoutAnimationController setDirectionPriority void int 
+android.view.ViewPropertyAnimator setStartDelay android.view.ViewPropertyAnimator long 
+android.view.ViewPropertyAnimator setInterpolator android.view.ViewPropertyAnimator android.animation.TimeInterpolator 
+android.view.ViewPropertyAnimator setDuration android.view.ViewPropertyAnimator long 
+android.view.ViewPropertyAnimator setListener android.view.ViewPropertyAnimator android.animation.Animator$AnimatorListener 
+android.view.inputmethod.InputMethodManager setCurrentInputMethodSubtype boolean android.view.inputmethod.InputMethodSubtype 
+android.view.inputmethod.InputMethodManager setAdditionalInputMethodSubtypes void java.lang.String android.view.inputmethod.InputMethodSubtype[] 
+android.view.inputmethod.InputMethodManager updateExtractedText void android.view.View int android.view.inputmethod.ExtractedText 
+android.view.inputmethod.InputMethodManager updateSelection void android.view.View int int int int 
+android.view.inputmethod.InputMethodManager updateCursor void android.view.View int int int int 
+android.view.inputmethod.InputMethodManager setInputMethod void android.os.IBinder java.lang.String 
+android.view.inputmethod.InputMethodManager setInputMethodAndSubtype void android.os.IBinder java.lang.String android.view.inputmethod.InputMethodSubtype 
+android.view.inputmethod.InputConnectionWrapper setSelection boolean int int 
+android.view.inputmethod.InputConnectionWrapper setComposingText boolean java.lang.CharSequence int 
+android.view.inputmethod.InputConnectionWrapper setComposingRegion boolean int int 
+android.view.inputmethod.InputConnectionWrapper setTarget void android.view.inputmethod.InputConnection 
+android.view.inputmethod.BaseInputConnection setSelection boolean int int 
+android.view.inputmethod.BaseInputConnection setComposingText boolean java.lang.CharSequence int 
+android.view.inputmethod.BaseInputConnection setComposingRegion boolean int int 
+android.view.inputmethod.BaseInputConnection setComposingSpans void android.text.Spannable 
+android.opengl.Matrix setLookAtM void float[] int float float float float float float float float float 
+android.opengl.Matrix setRotateEulerM void float[] int float float float 
+android.opengl.Matrix setIdentityM void float[] int 
+android.opengl.Matrix setRotateM void float[] int float float float float 
+android.opengl.GLSurfaceView setPreserveEGLContextOnPause void boolean 
+android.opengl.GLSurfaceView setEGLWindowSurfaceFactory void android.opengl.GLSurfaceView$EGLWindowSurfaceFactory 
+android.opengl.GLSurfaceView setEGLContextClientVersion void int 
+android.opengl.GLSurfaceView setGLWrapper void android.opengl.GLSurfaceView$GLWrapper 
+android.opengl.GLSurfaceView setDebugFlags void int 
+android.opengl.GLSurfaceView setRenderer void android.opengl.GLSurfaceView$Renderer 
+android.opengl.GLSurfaceView setEGLContextFactory void android.opengl.GLSurfaceView$EGLContextFactory 
+android.opengl.GLSurfaceView setEGLConfigChooser void int int int int int int 
+android.opengl.GLSurfaceView setEGLConfigChooser void boolean 
+android.opengl.GLSurfaceView setEGLConfigChooser void android.opengl.GLSurfaceView$EGLConfigChooser 
+android.opengl.GLSurfaceView setRenderMode void int 
+android.widget.ListView setSelectionAfterHeaderView void 
+android.widget.ListView setSelection void int 
+android.widget.ListView setAdapter void android.widget.Adapter 
+android.widget.ListView setAdapter void android.widget.ListAdapter 
+android.widget.ListView setRemoteViewsAdapter void android.content.Intent 
+android.widget.ListView setSelectionFromTop void int int 
+android.widget.ListView setItemsCanFocus void boolean 
+android.widget.ListView setCacheColorHint void int 
+android.widget.ListView setDivider void android.graphics.drawable.Drawable 
+android.widget.ListView setDividerHeight void int 
+android.widget.ListView setHeaderDividersEnabled void boolean 
+android.widget.ListView setFooterDividersEnabled void boolean 
+android.widget.ListView setOverscrollHeader void android.graphics.drawable.Drawable 
+android.widget.ListView setOverscrollFooter void android.graphics.drawable.Drawable 
+android.widget.TableRow setOnHierarchyChangeListener void android.view.ViewGroup$OnHierarchyChangeListener 
+android.widget.VideoView setOnErrorListener void android.media.MediaPlayer$OnErrorListener 
+android.widget.VideoView setOnPreparedListener void android.media.MediaPlayer$OnPreparedListener 
+android.widget.VideoView setOnCompletionListener void android.media.MediaPlayer$OnCompletionListener 
+android.widget.VideoView setMediaController void android.widget.MediaController 
+android.widget.VideoView setVideoPath void java.lang.String 
+android.widget.VideoView setVideoURI void android.net.Uri 
+android.widget.AutoCompleteTextView setOnItemSelectedListener void android.widget.AdapterView$OnItemSelectedListener 
+android.widget.AutoCompleteTextView setDropDownBackgroundDrawable void android.graphics.drawable.Drawable 
+android.widget.AutoCompleteTextView setDropDownBackgroundResource void int 
+android.widget.AutoCompleteTextView setDropDownVerticalOffset void int 
+android.widget.AutoCompleteTextView setDropDownHorizontalOffset void int 
+android.widget.AutoCompleteTextView setFrame boolean int int int int 
+android.widget.AutoCompleteTextView setAdapter void android.widget.ListAdapter 
+android.widget.AutoCompleteTextView setOnItemClickListener void android.widget.AdapterView$OnItemClickListener 
+android.widget.AutoCompleteTextView setOnClickListener void android.view.View$OnClickListener 
+android.widget.AutoCompleteTextView setDropDownWidth void int 
+android.widget.AutoCompleteTextView setCompletionHint void java.lang.CharSequence 
+android.widget.AutoCompleteTextView setDropDownHeight void int 
+android.widget.AutoCompleteTextView setDropDownAnchor void int 
+android.widget.AutoCompleteTextView setListSelection void int 
+android.widget.AutoCompleteTextView setValidator void android.widget.AutoCompleteTextView$Validator 
+android.widget.AutoCompleteTextView setThreshold void int 
+android.widget.OverScroller setFriction void float 
+android.widget.Switch setChecked void boolean 
+android.widget.Switch setSwitchTextAppearance void android.content.Context int 
+android.widget.Switch setSwitchTypeface void android.graphics.Typeface 
+android.widget.Switch setSwitchTypeface void android.graphics.Typeface int 
+android.widget.Switch setSwitchPadding void int 
+android.widget.Switch setSwitchMinWidth void int 
+android.widget.Switch setThumbTextPadding void int 
+android.widget.Switch setTrackDrawable void android.graphics.drawable.Drawable 
+android.widget.Switch setTrackResource void int 
+android.widget.Switch setThumbDrawable void android.graphics.drawable.Drawable 
+android.widget.Switch setThumbResource void int 
+android.widget.Switch setTextOn void java.lang.CharSequence 
+android.widget.Switch setTextOff void java.lang.CharSequence 
+android.widget.ToggleButton setBackgroundDrawable void android.graphics.drawable.Drawable 
+android.widget.ToggleButton setChecked void boolean 
+android.widget.ToggleButton setTextOn void java.lang.CharSequence 
+android.widget.ToggleButton setTextOff void java.lang.CharSequence 
+android.widget.SlidingDrawer setOnDrawerScrollListener void android.widget.SlidingDrawer$OnDrawerScrollListener 
+android.widget.SlidingDrawer setOnDrawerCloseListener void android.widget.SlidingDrawer$OnDrawerCloseListener 
+android.widget.SlidingDrawer setOnDrawerOpenListener void android.widget.SlidingDrawer$OnDrawerOpenListener 
+android.widget.HorizontalScrollView setSmoothScrollingEnabled void boolean 
+android.widget.HorizontalScrollView setOverScrollMode void int 
+android.widget.HorizontalScrollView setFillViewport void boolean 
+android.widget.Gallery setGravity void int 
+android.widget.Gallery setCallbackDuringFling void boolean 
+android.widget.Gallery setAnimationDuration void int 
+android.widget.Gallery setSpacing void int 
+android.widget.Gallery setUnselectedAlpha void float 
+android.widget.DatePicker updateDate void int int int 
+android.widget.DatePicker setEnabled void boolean 
+android.widget.DatePicker setCalendarViewShown void boolean 
+android.widget.DatePicker setMaxDate void long 
+android.widget.DatePicker setSpinnersShown void boolean 
+android.widget.DatePicker setMinDate void long 
+android.widget.ViewSwitcher setFactory void android.widget.ViewSwitcher$ViewFactory 
+android.widget.Chronometer setOnChronometerTickListener void android.widget.Chronometer$OnChronometerTickListener 
+android.widget.Chronometer setBase void long 
+android.widget.Chronometer setFormat void java.lang.String 
+android.widget.NumberPicker setOnValueChangedListener void android.widget.NumberPicker$OnValueChangeListener 
+android.widget.NumberPicker setOnLongPressUpdateInterval void long 
+android.widget.NumberPicker setEnabled void boolean 
+android.widget.NumberPicker setOnScrollListener void android.widget.NumberPicker$OnScrollListener 
+android.widget.NumberPicker setDisplayedValues void java.lang.String[] 
+android.widget.NumberPicker setWrapSelectorWheel void boolean 
+android.widget.NumberPicker setMaxValue void int 
+android.widget.NumberPicker setMinValue void int 
+android.widget.NumberPicker setFormatter void android.widget.NumberPicker$Formatter 
+android.widget.NumberPicker setValue void int 
+android.widget.ViewFlipper setFlipInterval void int 
+android.widget.ViewFlipper setAutoStart void boolean 
+android.widget.ProgressBar setMax void int 
+android.widget.ProgressBar setProgress void int 
+android.widget.ProgressBar setSecondaryProgress void int 
+android.widget.ProgressBar setVisibility void int 
+android.widget.ProgressBar setIndeterminate void boolean 
+android.widget.ProgressBar setIndeterminateDrawable void android.graphics.drawable.Drawable 
+android.widget.ProgressBar setProgressDrawable void android.graphics.drawable.Drawable 
+android.widget.ProgressBar setInterpolator void android.view.animation.Interpolator 
+android.widget.ProgressBar setInterpolator void android.content.Context int 
+android.widget.TabHost setOnTabChangedListener void android.widget.TabHost$OnTabChangeListener 
+android.widget.TabHost setCurrentTabByTag void java.lang.String 
+android.widget.TabHost setCurrentTab void int 
+android.widget.TabHost setup void 
+android.widget.TabHost setup void android.app.LocalActivityManager 
+android.widget.LinearLayout setMeasureWithLargestChildEnabled void boolean 
+android.widget.LinearLayout setBaselineAlignedChildIndex void int 
+android.widget.LinearLayout setGravity void int 
+android.widget.LinearLayout setDividerDrawable void android.graphics.drawable.Drawable 
+android.widget.LinearLayout setShowDividers void int 
+android.widget.LinearLayout setDividerPadding void int 
+android.widget.LinearLayout setBaselineAligned void boolean 
+android.widget.LinearLayout setWeightSum void float 
+android.widget.LinearLayout setOrientation void int 
+android.widget.LinearLayout setHorizontalGravity void int 
+android.widget.LinearLayout setVerticalGravity void int 
+android.widget.FrameLayout setForegroundGravity void int 
+android.widget.FrameLayout setForeground void android.graphics.drawable.Drawable 
+android.widget.FrameLayout setMeasureAllChildren void boolean 
+android.widget.RatingBar setOnRatingBarChangeListener void android.widget.RatingBar$OnRatingBarChangeListener 
+android.widget.RatingBar setMax void int 
+android.widget.RatingBar setRating void float 
+android.widget.RatingBar setIsIndicator void boolean 
+android.widget.RatingBar setNumStars void int 
+android.widget.RatingBar setStepSize void float 
+android.widget.GridLayout$LayoutParams setGravity void int 
+android.widget.GridLayout$LayoutParams setBaseAttributes void android.content.res.TypedArray int int 
+android.widget.TabHost$TabSpec setContent android.widget.TabHost$TabSpec int 
+android.widget.TabHost$TabSpec setContent android.widget.TabHost$TabSpec android.widget.TabHost$TabContentFactory 
+android.widget.TabHost$TabSpec setContent android.widget.TabHost$TabSpec android.content.Intent 
+android.widget.TabHost$TabSpec setIndicator android.widget.TabHost$TabSpec java.lang.CharSequence 
+android.widget.TabHost$TabSpec setIndicator android.widget.TabHost$TabSpec java.lang.CharSequence android.graphics.drawable.Drawable 
+android.widget.TabHost$TabSpec setIndicator android.widget.TabHost$TabSpec android.view.View 
+android.widget.TextSwitcher setText void java.lang.CharSequence 
+android.widget.TextSwitcher setCurrentText void java.lang.CharSequence 
+android.widget.EdgeEffect setSize void int int 
+android.widget.RelativeLayout setGravity void int 
+android.widget.RelativeLayout setHorizontalGravity void int 
+android.widget.RelativeLayout setVerticalGravity void int 
+android.widget.RelativeLayout setIgnoreGravity void int 
+android.widget.Toast setText void int 
+android.widget.Toast setText void java.lang.CharSequence 
+android.widget.Toast setView void android.view.View 
+android.widget.Toast setGravity void int int int 
+android.widget.Toast setDuration void int 
+android.widget.Toast setMargin void float float 
+android.widget.ImageSwitcher setImageResource void int 
+android.widget.ImageSwitcher setImageURI void android.net.Uri 
+android.widget.ImageSwitcher setImageDrawable void android.graphics.drawable.Drawable 
+android.widget.Spinner setPopupBackgroundDrawable void android.graphics.drawable.Drawable 
+android.widget.Spinner setPopupBackgroundResource void int 
+android.widget.Spinner setDropDownVerticalOffset void int 
+android.widget.Spinner setDropDownHorizontalOffset void int 
+android.widget.Spinner setAdapter void android.widget.SpinnerAdapter 
+android.widget.Spinner setAdapter void android.widget.Adapter 
+android.widget.Spinner setOnItemClickListener void android.widget.AdapterView$OnItemClickListener 
+android.widget.Spinner setEnabled void boolean 
+android.widget.Spinner setGravity void int 
+android.widget.Spinner setDropDownWidth void int 
+android.widget.Spinner setPromptId void int 
+android.widget.Spinner setPrompt void java.lang.CharSequence 
+android.widget.SeekBar setOnSeekBarChangeListener void android.widget.SeekBar$OnSeekBarChangeListener 
+android.widget.RemoteViews setTextViewCompoundDrawables void int int int int int 
+android.widget.RemoteViews setTextViewCompoundDrawablesRelative void int int int int int 
+android.widget.RemoteViews setRelativeScrollPosition void int int 
+android.widget.RemoteViews setUri void int java.lang.String android.net.Uri 
+android.widget.RemoteViews setEmptyView void int int 
+android.widget.RemoteViews setIntent void int java.lang.String android.content.Intent 
+android.widget.RemoteViews setContentDescription void int java.lang.CharSequence 
+android.widget.RemoteViews setBitmap void int java.lang.String android.graphics.Bitmap 
+android.widget.RemoteViews setTextColor void int int 
+android.widget.RemoteViews setString void int java.lang.String java.lang.String 
+android.widget.RemoteViews setImageViewBitmap void int android.graphics.Bitmap 
+android.widget.RemoteViews setImageViewUri void int android.net.Uri 
+android.widget.RemoteViews setImageViewResource void int int 
+android.widget.RemoteViews setTextViewTextSize void int int float 
+android.widget.RemoteViews setTextViewText void int java.lang.CharSequence 
+android.widget.RemoteViews setChronometer void int long java.lang.String boolean 
+android.widget.RemoteViews setProgressBar void int int int boolean 
+android.widget.RemoteViews setOnClickPendingIntent void int android.app.PendingIntent 
+android.widget.RemoteViews setPendingIntentTemplate void int android.app.PendingIntent 
+android.widget.RemoteViews setOnClickFillInIntent void int android.content.Intent 
+android.widget.RemoteViews setRemoteAdapter void int int android.content.Intent 
+android.widget.RemoteViews setRemoteAdapter void int android.content.Intent 
+android.widget.RemoteViews setScrollPosition void int int 
+android.widget.RemoteViews setViewPadding void int int int int int 
+android.widget.RemoteViews setViewVisibility void int int 
+android.widget.RemoteViews setDisplayedChild void int int 
+android.widget.RemoteViews setCharSequence void int java.lang.String java.lang.CharSequence 
+android.widget.RemoteViews setBundle void int java.lang.String android.os.Bundle 
+android.widget.RemoteViews setBoolean void int java.lang.String boolean 
+android.widget.RemoteViews setByte void int java.lang.String byte 
+android.widget.RemoteViews setChar void int java.lang.String char 
+android.widget.RemoteViews setShort void int java.lang.String short 
+android.widget.RemoteViews setInt void int java.lang.String int 
+android.widget.RemoteViews setLong void int java.lang.String long 
+android.widget.RemoteViews setFloat void int java.lang.String float 
+android.widget.RemoteViews setDouble void int java.lang.String double 
+android.widget.EditText setText void java.lang.CharSequence android.widget.TextView$BufferType 
+android.widget.EditText setSelection void int int 
+android.widget.EditText setSelection void int 
+android.widget.EditText setEllipsize void android.text.TextUtils$TruncateAt 
+android.widget.MediaController setEnabled void boolean 
+android.widget.MediaController setPrevNextListeners void android.view.View$OnClickListener android.view.View$OnClickListener 
+android.widget.MediaController setAnchorView void android.view.View 
+android.widget.MediaController setMediaPlayer void android.widget.MediaController$MediaPlayerControl 
+android.widget.ZoomButtonsController setVisible void boolean 
+android.widget.ZoomButtonsController setFocusable void boolean 
+android.widget.ZoomButtonsController setOnZoomListener void android.widget.ZoomButtonsController$OnZoomListener 
+android.widget.ZoomButtonsController setZoomSpeed void long 
+android.widget.ZoomButtonsController setZoomOutEnabled void boolean 
+android.widget.ZoomButtonsController setZoomInEnabled void boolean 
+android.widget.ZoomButtonsController setAutoDismissed void boolean 
+android.widget.ImageView setAlpha void int 
+android.widget.ImageView setFrame boolean int int int int 
+android.widget.ImageView setVisibility void int 
+android.widget.ImageView setColorFilter void android.graphics.ColorFilter 
+android.widget.ImageView setColorFilter void int 
+android.widget.ImageView setColorFilter void int android.graphics.PorterDuff$Mode 
+android.widget.ImageView setMaxHeight void int 
+android.widget.ImageView setMaxWidth void int 
+android.widget.ImageView setSelected void boolean 
+android.widget.ImageView setAdjustViewBounds void boolean 
+android.widget.ImageView setImageResource void int 
+android.widget.ImageView setImageURI void android.net.Uri 
+android.widget.ImageView setImageMatrix void android.graphics.Matrix 
+android.widget.ImageView setCropToPadding void boolean 
+android.widget.ImageView setBaseline void int 
+android.widget.ImageView setBaselineAlignBottom void boolean 
+android.widget.ImageView setImageAlpha void int 
+android.widget.ImageView setImageDrawable void android.graphics.drawable.Drawable 
+android.widget.ImageView setImageBitmap void android.graphics.Bitmap 
+android.widget.ImageView setImageState void int[] boolean 
+android.widget.ImageView setImageLevel void int 
+android.widget.ImageView setScaleType void android.widget.ImageView$ScaleType 
+android.widget.MultiAutoCompleteTextView setTokenizer void android.widget.MultiAutoCompleteTextView$Tokenizer 
+android.widget.QuickContactBadge setMode void int 
+android.widget.QuickContactBadge setExcludeMimes void java.lang.String[] 
+android.widget.QuickContactBadge setImageToDefault void 
+android.widget.ShareActionProvider setOnShareTargetSelectedListener void android.widget.ShareActionProvider$OnShareTargetSelectedListener 
+android.widget.ShareActionProvider setShareIntent void android.content.Intent 
+android.widget.ShareActionProvider setShareHistoryFileName void java.lang.String 
+android.widget.TableLayout$LayoutParams setBaseAttributes void android.content.res.TypedArray int int 
+android.widget.ExpandableListView setOnGroupCollapseListener void android.widget.ExpandableListView$OnGroupCollapseListener 
+android.widget.ExpandableListView setAdapter void android.widget.ExpandableListAdapter 
+android.widget.ExpandableListView setAdapter void android.widget.ListAdapter 
+android.widget.ExpandableListView setAdapter void android.widget.Adapter 
+android.widget.ExpandableListView setOnItemClickListener void android.widget.AdapterView$OnItemClickListener 
+android.widget.ExpandableListView setSelectedChild boolean int int boolean 
+android.widget.ExpandableListView setSelectedGroup void int 
+android.widget.ExpandableListView setOnGroupExpandListener void android.widget.ExpandableListView$OnGroupExpandListener 
+android.widget.ExpandableListView setOnGroupClickListener void android.widget.ExpandableListView$OnGroupClickListener 
+android.widget.ExpandableListView setOnChildClickListener void android.widget.ExpandableListView$OnChildClickListener 
+android.widget.ExpandableListView setChildDivider void android.graphics.drawable.Drawable 
+android.widget.ExpandableListView setChildIndicator void android.graphics.drawable.Drawable 
+android.widget.ExpandableListView setChildIndicatorBounds void int int 
+android.widget.ExpandableListView setGroupIndicator void android.graphics.drawable.Drawable 
+android.widget.ExpandableListView setIndicatorBounds void int int 
+android.widget.AdapterViewFlipper setAdapter void android.widget.Adapter 
+android.widget.AdapterViewFlipper setFlipInterval void int 
+android.widget.AdapterViewFlipper setAutoStart void boolean 
+android.widget.DialerFilter setMode void int 
+android.widget.DialerFilter setLettersWatcher void android.text.TextWatcher 
+android.widget.DialerFilter setDigitsWatcher void android.text.TextWatcher 
+android.widget.DialerFilter setFilterWatcher void android.text.TextWatcher 
+android.widget.ZoomButton setEnabled void boolean 
+android.widget.ZoomButton setZoomSpeed void long 
+android.widget.AlphabetIndexer setCursor void android.database.Cursor 
+android.widget.TimePicker setEnabled void boolean 
+android.widget.TimePicker setOnTimeChangedListener void android.widget.TimePicker$OnTimeChangedListener 
+android.widget.TimePicker setCurrentHour void java.lang.Integer 
+android.widget.TimePicker setIs24HourView void java.lang.Boolean 
+android.widget.TimePicker setCurrentMinute void java.lang.Integer 
+android.widget.TableLayout setOnHierarchyChangeListener void android.view.ViewGroup$OnHierarchyChangeListener 
+android.widget.TableLayout setColumnStretchable void int boolean 
+android.widget.TableLayout setColumnCollapsed void int boolean 
+android.widget.TableLayout setColumnShrinkable void int boolean 
+android.widget.TableLayout setStretchAllColumns void boolean 
+android.widget.TableLayout setShrinkAllColumns void boolean 
+android.widget.GridView setNumColumns void int 
+android.widget.GridView setSelection void int 
+android.widget.GridView setAdapter void android.widget.Adapter 
+android.widget.GridView setAdapter void android.widget.ListAdapter 
+android.widget.GridView setGravity void int 
+android.widget.GridView setRemoteViewsAdapter void android.content.Intent 
+android.widget.GridView setVerticalSpacing void int 
+android.widget.GridView setHorizontalSpacing void int 
+android.widget.GridView setStretchMode void int 
+android.widget.GridView setColumnWidth void int 
+android.widget.SimpleCursorAdapter setStringConversionColumn void int 
+android.widget.SimpleCursorAdapter setCursorToStringConverter void android.widget.SimpleCursorAdapter$CursorToStringConverter 
+android.widget.SimpleCursorAdapter setViewBinder void android.widget.SimpleCursorAdapter$ViewBinder 
+android.widget.SimpleCursorAdapter setViewImage void android.widget.ImageView java.lang.String 
+android.widget.SimpleCursorAdapter setViewText void android.widget.TextView java.lang.String 
+android.widget.TableRow$LayoutParams setBaseAttributes void android.content.res.TypedArray int int 
+android.widget.SearchView setOnQueryTextFocusChangeListener void android.view.View$OnFocusChangeListener 
+android.widget.SearchView setQueryRefinementEnabled void boolean 
+android.widget.SearchView setQuery void java.lang.CharSequence boolean 
+android.widget.SearchView setMaxWidth void int 
+android.widget.SearchView setInputType void int 
+android.widget.SearchView setImeOptions void int 
+android.widget.SearchView setOnCloseListener void android.widget.SearchView$OnCloseListener 
+android.widget.SearchView setOnQueryTextListener void android.widget.SearchView$OnQueryTextListener 
+android.widget.SearchView setQueryHint void java.lang.CharSequence 
+android.widget.SearchView setIconifiedByDefault void boolean 
+android.widget.SearchView setIconified void boolean 
+android.widget.SearchView setSubmitButtonEnabled void boolean 
+android.widget.SearchView setOnSuggestionListener void android.widget.SearchView$OnSuggestionListener 
+android.widget.SearchView setOnSearchClickListener void android.view.View$OnClickListener 
+android.widget.SearchView setSuggestionsAdapter void android.widget.CursorAdapter 
+android.widget.SearchView setSearchableInfo void android.app.SearchableInfo 
+android.widget.ScrollView setSmoothScrollingEnabled void boolean 
+android.widget.ScrollView setOverScrollMode void int 
+android.widget.ScrollView setFillViewport void boolean 
+android.widget.RadioGroup$LayoutParams setBaseAttributes void android.content.res.TypedArray int int 
+android.widget.ArrayAdapter setNotifyOnChange void boolean 
+android.widget.ArrayAdapter setDropDownViewResource void int 
+android.widget.TextView setCompoundDrawablesWithIntrinsicBounds void int int int int 
+android.widget.TextView setCompoundDrawablesWithIntrinsicBounds void android.graphics.drawable.Drawable android.graphics.drawable.Drawable android.graphics.drawable.Drawable android.graphics.drawable.Drawable 
+android.widget.TextView setCompoundDrawablePadding void int 
+android.widget.TextView setOnEditorActionListener void android.widget.TextView$OnEditorActionListener 
+android.widget.TextView setCustomSelectionActionModeCallback void android.view.ActionMode$Callback 
+android.widget.TextView setLines void int 
+android.widget.TextView setEms void int 
+android.widget.TextView setWidth void int 
+android.widget.TextView setText void java.lang.CharSequence android.widget.TextView$BufferType 
+android.widget.TextView setText void int 
+android.widget.TextView setText void char[] int int 
+android.widget.TextView setText void java.lang.CharSequence 
+android.widget.TextView setText void int android.widget.TextView$BufferType 
+android.widget.TextView setHint void java.lang.CharSequence 
+android.widget.TextView setHint void int 
+android.widget.TextView setFrame boolean int int int int 
+android.widget.TextView setEnabled void boolean 
+android.widget.TextView setTypeface void android.graphics.Typeface int 
+android.widget.TextView setTypeface void android.graphics.Typeface 
+android.widget.TextView setShadowLayer void float float float int 
+android.widget.TextView setTextSize void float 
+android.widget.TextView setTextSize void int float 
+android.widget.TextView setTextScaleX void float 
+android.widget.TextView setKeyListener void android.text.method.KeyListener 
+android.widget.TextView setMovementMethod void android.text.method.MovementMethod 
+android.widget.TextView setTransformationMethod void android.text.method.TransformationMethod 
+android.widget.TextView setCompoundDrawables void android.graphics.drawable.Drawable android.graphics.drawable.Drawable android.graphics.drawable.Drawable android.graphics.drawable.Drawable 
+android.widget.TextView setPadding void int int int int 
+android.widget.TextView setPaddingRelative void int int int int 
+android.widget.TextView setTextAppearance void android.content.Context int 
+android.widget.TextView setTextColor void android.content.res.ColorStateList 
+android.widget.TextView setTextColor void int 
+android.widget.TextView setHighlightColor void int 
+android.widget.TextView setAutoLinkMask void int 
+android.widget.TextView setLinksClickable void boolean 
+android.widget.TextView setHintTextColor void int 
+android.widget.TextView setHintTextColor void android.content.res.ColorStateList 
+android.widget.TextView setLinkTextColor void android.content.res.ColorStateList 
+android.widget.TextView setLinkTextColor void int 
+android.widget.TextView setGravity void int 
+android.widget.TextView setPaintFlags void int 
+android.widget.TextView setHorizontallyScrolling void boolean 
+android.widget.TextView setMinLines void int 
+android.widget.TextView setMinHeight void int 
+android.widget.TextView setMaxLines void int 
+android.widget.TextView setMaxHeight void int 
+android.widget.TextView setHeight void int 
+android.widget.TextView setMinEms void int 
+android.widget.TextView setMinWidth void int 
+android.widget.TextView setMaxEms void int 
+android.widget.TextView setMaxWidth void int 
+android.widget.TextView setLineSpacing void float float 
+android.widget.TextView setFreezesText void boolean 
+android.widget.TextView setEditableFactory void android.text.Editable$Factory 
+android.widget.TextView setSpannableFactory void android.text.Spannable$Factory 
+android.widget.TextView setTextKeepState void java.lang.CharSequence android.widget.TextView$BufferType 
+android.widget.TextView setTextKeepState void java.lang.CharSequence 
+android.widget.TextView setInputType void int 
+android.widget.TextView setRawInputType void int 
+android.widget.TextView setImeOptions void int 
+android.widget.TextView setImeActionLabel void java.lang.CharSequence int 
+android.widget.TextView setPrivateImeOptions void java.lang.String 
+android.widget.TextView setInputExtras void int 
+android.widget.TextView setFilters void android.text.InputFilter[] 
+android.widget.TextView setTextIsSelectable void boolean 
+android.widget.TextView setExtractedText void android.view.inputmethod.ExtractedText 
+android.widget.TextView setIncludeFontPadding void boolean 
+android.widget.TextView setSingleLine void boolean 
+android.widget.TextView setSingleLine void 
+android.widget.TextView setAllCaps void boolean 
+android.widget.TextView setEllipsize void android.text.TextUtils$TruncateAt 
+android.widget.TextView setMarqueeRepeatLimit void int 
+android.widget.TextView setSelectAllOnFocus void boolean 
+android.widget.TextView setCursorVisible void boolean 
+android.widget.TextView setSelected void boolean 
+android.widget.TextView setScroller void android.widget.Scroller 
+android.widget.TextView setError void java.lang.CharSequence android.graphics.drawable.Drawable 
+android.widget.TextView setError void java.lang.CharSequence 
+android.widget.Scroller setFriction void float 
+android.widget.Scroller setFinalY void int 
+android.widget.Scroller setFinalX void int 
+android.widget.TabWidget setEnabled void boolean 
+android.widget.TabWidget setCurrentTab void int 
+android.widget.TabWidget setDividerDrawable void int 
+android.widget.TabWidget setDividerDrawable void android.graphics.drawable.Drawable 
+android.widget.TabWidget setLeftStripDrawable void android.graphics.drawable.Drawable 
+android.widget.TabWidget setLeftStripDrawable void int 
+android.widget.TabWidget setRightStripDrawable void int 
+android.widget.TabWidget setRightStripDrawable void android.graphics.drawable.Drawable 
+android.widget.TabWidget setStripEnabled void boolean 
+android.widget.ListPopupWindow setOnItemSelectedListener void android.widget.AdapterView$OnItemSelectedListener 
+android.widget.ListPopupWindow setWidth void int 
+android.widget.ListPopupWindow setModal void boolean 
+android.widget.ListPopupWindow setOnDismissListener void android.widget.PopupWindow$OnDismissListener 
+android.widget.ListPopupWindow setSelection void int 
+android.widget.ListPopupWindow setAdapter void android.widget.ListAdapter 
+android.widget.ListPopupWindow setOnItemClickListener void android.widget.AdapterView$OnItemClickListener 
+android.widget.ListPopupWindow setHeight void int 
+android.widget.ListPopupWindow setBackgroundDrawable void android.graphics.drawable.Drawable 
+android.widget.ListPopupWindow setSoftInputMode void int 
+android.widget.ListPopupWindow setAnchorView void android.view.View 
+android.widget.ListPopupWindow setHorizontalOffset void int 
+android.widget.ListPopupWindow setAnimationStyle void int 
+android.widget.ListPopupWindow setListSelector void android.graphics.drawable.Drawable 
+android.widget.ListPopupWindow setVerticalOffset void int 
+android.widget.ListPopupWindow setContentWidth void int 
+android.widget.ListPopupWindow setInputMethodMode void int 
+android.widget.ListPopupWindow setPromptView void android.view.View 
+android.widget.ListPopupWindow setPromptPosition void int 
+android.widget.CheckedTextView setPadding void int int int int 
+android.widget.CheckedTextView setPaddingRelative void int int int int 
+android.widget.CheckedTextView setChecked void boolean 
+android.widget.CheckedTextView setCheckMarkDrawable void android.graphics.drawable.Drawable 
+android.widget.CheckedTextView setCheckMarkDrawable void int 
+android.widget.GridLayout setOrientation void int 
+android.widget.GridLayout setRowOrderPreserved void boolean 
+android.widget.GridLayout setUseDefaultMargins void boolean 
+android.widget.GridLayout setColumnOrderPreserved void boolean 
+android.widget.GridLayout setAlignmentMode void int 
+android.widget.GridLayout setRowCount void int 
+android.widget.GridLayout setColumnCount void int 
+android.widget.ViewAnimator setDisplayedChild void int 
+android.widget.ViewAnimator setAnimateFirstView void boolean 
+android.widget.ViewAnimator setInAnimation void android.content.Context int 
+android.widget.ViewAnimator setInAnimation void android.view.animation.Animation 
+android.widget.ViewAnimator setOutAnimation void android.content.Context int 
+android.widget.ViewAnimator setOutAnimation void android.view.animation.Animation 
+android.widget.RadioGroup setOnHierarchyChangeListener void android.view.ViewGroup$OnHierarchyChangeListener 
+android.widget.RadioGroup setOnCheckedChangeListener void android.widget.RadioGroup$OnCheckedChangeListener 
+android.widget.ZoomControls setOnZoomOutClickListener void android.view.View$OnClickListener 
+android.widget.ZoomControls setZoomSpeed void long 
+android.widget.ZoomControls setOnZoomInClickListener void android.view.View$OnClickListener 
+android.widget.ZoomControls setIsZoomOutEnabled void boolean 
+android.widget.ZoomControls setIsZoomInEnabled void boolean 
+android.widget.PopupMenu setOnMenuItemClickListener void android.widget.PopupMenu$OnMenuItemClickListener 
+android.widget.PopupMenu setOnDismissListener void android.widget.PopupMenu$OnDismissListener 
+android.widget.CalendarView setUnfocusedMonthDateColor void int 
+android.widget.CalendarView setSelectedWeekBackgroundColor void int 
+android.widget.CalendarView setWeekSeparatorLineColor void int 
+android.widget.CalendarView setSelectedDateVerticalBar void android.graphics.drawable.Drawable 
+android.widget.CalendarView setSelectedDateVerticalBar void int 
+android.widget.CalendarView setEnabled void boolean 
+android.widget.CalendarView setMaxDate void long 
+android.widget.CalendarView setMinDate void long 
+android.widget.CalendarView setShownWeekCount void int 
+android.widget.CalendarView setFocusedMonthDateColor void int 
+android.widget.CalendarView setWeekNumberColor void int 
+android.widget.CalendarView setWeekDayTextAppearance void int 
+android.widget.CalendarView setDateTextAppearance void int 
+android.widget.CalendarView setShowWeekNumber void boolean 
+android.widget.CalendarView setOnDateChangeListener void android.widget.CalendarView$OnDateChangeListener 
+android.widget.CalendarView setFirstDayOfWeek void int 
+android.widget.CalendarView setDate void long 
+android.widget.CalendarView setDate void long boolean boolean 
+android.widget.SimpleAdapter setViewBinder void android.widget.SimpleAdapter$ViewBinder 
+android.widget.SimpleAdapter setViewImage void android.widget.ImageView java.lang.String 
+android.widget.SimpleAdapter setViewImage void android.widget.ImageView int 
+android.widget.SimpleAdapter setViewText void android.widget.TextView java.lang.String 
+android.widget.SimpleAdapter setDropDownViewResource void int 
+android.widget.PopupWindow setWidth void int 
+android.widget.PopupWindow setOnDismissListener void android.widget.PopupWindow$OnDismissListener 
+android.widget.PopupWindow setContentView void android.view.View 
+android.widget.PopupWindow setFocusable void boolean 
+android.widget.PopupWindow setHeight void int 
+android.widget.PopupWindow setBackgroundDrawable void android.graphics.drawable.Drawable 
+android.widget.PopupWindow setSoftInputMode void int 
+android.widget.PopupWindow setSplitTouchEnabled void boolean 
+android.widget.PopupWindow setTouchable void boolean 
+android.widget.PopupWindow setTouchInterceptor void android.view.View$OnTouchListener 
+android.widget.PopupWindow setIgnoreCheekPress void 
+android.widget.PopupWindow setClippingEnabled void boolean 
+android.widget.PopupWindow setOutsideTouchable void boolean 
+android.widget.PopupWindow setWindowLayoutMode void int int 
+android.widget.PopupWindow setAnimationStyle void int 
+android.widget.PopupWindow setInputMethodMode void int 
+android.widget.PopupWindow update void android.view.View int int 
+android.widget.PopupWindow update void int int int int boolean 
+android.widget.PopupWindow update void android.view.View int int int int 
+android.widget.PopupWindow update void int int int int 
+android.widget.PopupWindow update void int int 
+android.widget.PopupWindow update void 
+android.appwidget.AppWidgetManager updateAppWidget void android.content.ComponentName android.widget.RemoteViews 
+android.appwidget.AppWidgetManager updateAppWidget void int android.widget.RemoteViews 
+android.appwidget.AppWidgetManager updateAppWidget void int[] android.widget.RemoteViews 
+android.appwidget.AppWidgetManager updateAppWidgetOptions void int android.os.Bundle 
+android.appwidget.AppWidgetHostView updateAppWidget void android.widget.RemoteViews 
+android.appwidget.AppWidgetHostView updateAppWidgetOptions void android.os.Bundle 
+android.appwidget.AppWidgetHostView updateAppWidgetSize void android.os.Bundle int int int int 
+android.appwidget.AppWidgetHostView setAppWidget void int android.appwidget.AppWidgetProviderInfo 
+android.inputmethodservice.InputMethodService setTheme void int 
+android.inputmethodservice.InputMethodService setBackDisposition void int 
+android.inputmethodservice.InputMethodService updateFullscreenMode void 
+android.inputmethodservice.InputMethodService setExtractViewShown void boolean 
+android.inputmethodservice.InputMethodService updateInputViewShown void 
+android.inputmethodservice.InputMethodService setCandidatesViewShown void boolean 
+android.inputmethodservice.InputMethodService setExtractView void android.view.View 
+android.inputmethodservice.InputMethodService setCandidatesView void android.view.View 
+android.inputmethodservice.InputMethodService setInputView void android.view.View 
+android.inputmethodservice.InputMethodService$InputMethodSessionImpl updateExtractedText void int android.view.inputmethod.ExtractedText 
+android.inputmethodservice.InputMethodService$InputMethodSessionImpl updateSelection void int int int int int int 
+android.inputmethodservice.InputMethodService$InputMethodSessionImpl updateCursor void android.graphics.Rect 
+android.inputmethodservice.KeyboardView setOnKeyboardActionListener void android.inputmethodservice.KeyboardView$OnKeyboardActionListener 
+android.inputmethodservice.KeyboardView setProximityCorrectionEnabled void boolean 
+android.inputmethodservice.KeyboardView setPopupOffset void int int 
+android.inputmethodservice.KeyboardView setPopupParent void android.view.View 
+android.inputmethodservice.KeyboardView setPreviewEnabled void boolean 
+android.inputmethodservice.KeyboardView setVerticalCorrection void int 
+android.inputmethodservice.KeyboardView setShifted boolean boolean 
+android.inputmethodservice.KeyboardView setKeyboard void android.inputmethodservice.Keyboard 
+android.inputmethodservice.Keyboard setShifted boolean boolean 
+android.inputmethodservice.Keyboard setHorizontalGap void int 
+android.inputmethodservice.Keyboard setVerticalGap void int 
+android.inputmethodservice.Keyboard setKeyHeight void int 
+android.inputmethodservice.Keyboard setKeyWidth void int 
+android.inputmethodservice.ExtractEditText setExtractedText void android.view.inputmethod.ExtractedText 
+android.sax.Element setEndTextElementListener void android.sax.EndTextElementListener 
+android.sax.Element setElementListener void android.sax.ElementListener 
+android.sax.Element setTextElementListener void android.sax.TextElementListener 
+android.sax.Element setStartElementListener void android.sax.StartElementListener 
+android.sax.Element setEndElementListener void android.sax.EndElementListener 
+android.animation.TimeAnimator setTimeListener void android.animation.TimeAnimator$TimeListener 
+android.animation.PropertyValuesHolder setKeyframes void android.animation.Keyframe[] 
+android.animation.PropertyValuesHolder setPropertyName void java.lang.String 
+android.animation.PropertyValuesHolder setFloatValues void float[] 
+android.animation.PropertyValuesHolder setIntValues void int[] 
+android.animation.PropertyValuesHolder setObjectValues void java.lang.Object[] 
+android.animation.PropertyValuesHolder setEvaluator void android.animation.TypeEvaluator 
+android.animation.PropertyValuesHolder setProperty void android.util.Property 
+android.animation.AnimatorSet setStartDelay void long 
+android.animation.AnimatorSet setInterpolator void android.animation.TimeInterpolator 
+android.animation.AnimatorSet setDuration android.animation.AnimatorSet long 
+android.animation.AnimatorSet setDuration android.animation.Animator long 
+android.animation.AnimatorSet setupStartValues void 
+android.animation.AnimatorSet setupEndValues void 
+android.animation.AnimatorSet setTarget void java.lang.Object 
+android.animation.LayoutTransition setAnimateParentHierarchy void boolean 
+android.animation.LayoutTransition setStartDelay void int long 
+android.animation.LayoutTransition setInterpolator void int android.animation.TimeInterpolator 
+android.animation.LayoutTransition setDuration void int long 
+android.animation.LayoutTransition setDuration void long 
+android.animation.LayoutTransition setStagger void int long 
+android.animation.LayoutTransition setAnimator void int android.animation.Animator 
+android.animation.ObjectAnimator setDuration android.animation.ObjectAnimator long 
+android.animation.ObjectAnimator setDuration android.animation.Animator long 
+android.animation.ObjectAnimator setDuration android.animation.ValueAnimator long 
+android.animation.ObjectAnimator setupStartValues void 
+android.animation.ObjectAnimator setupEndValues void 
+android.animation.ObjectAnimator setPropertyName void java.lang.String 
+android.animation.ObjectAnimator setFloatValues void float[] 
+android.animation.ObjectAnimator setIntValues void int[] 
+android.animation.ObjectAnimator setObjectValues void java.lang.Object[] 
+android.animation.ObjectAnimator setProperty void android.util.Property 
+android.animation.ObjectAnimator setTarget void java.lang.Object 
+android.animation.ValueAnimator setStartDelay void long 
+android.animation.ValueAnimator setInterpolator void android.animation.TimeInterpolator 
+android.animation.ValueAnimator setDuration android.animation.Animator long 
+android.animation.ValueAnimator setDuration android.animation.ValueAnimator long 
+android.animation.ValueAnimator setValues void android.animation.PropertyValuesHolder[] 
+android.animation.ValueAnimator setRepeatMode void int 
+android.animation.ValueAnimator setRepeatCount void int 
+android.animation.ValueAnimator setFloatValues void float[] 
+android.animation.ValueAnimator setIntValues void int[] 
+android.animation.ValueAnimator setObjectValues void java.lang.Object[] 
+android.animation.ValueAnimator setCurrentPlayTime void long 
+android.animation.ValueAnimator setFrameDelay void long 
+android.animation.ValueAnimator setEvaluator void android.animation.TypeEvaluator 

@@ -1,0 +1,2929 @@
+android.nfc.NfcAdapter getDefaultAdapter android.nfc.NfcAdapter android.content.Context 
+android.nfc.Tag getTechList java.lang.String[] 
+android.nfc.Tag getId byte[] 
+android.nfc.NfcManager getDefaultAdapter android.nfc.NfcAdapter 
+android.nfc.NdefMessage getRecords android.nfc.NdefRecord[] 
+android.nfc.NdefMessage getByteArrayLength int 
+android.nfc.NdefRecord getPayload byte[] 
+android.nfc.NdefRecord getTnf short 
+android.nfc.NdefRecord getId byte[] 
+android.nfc.NdefRecord getType byte[] 
+android.nfc.tech.MifareClassic getSectorCount int 
+android.nfc.tech.MifareClassic getBlockCount int 
+android.nfc.tech.MifareClassic getBlockCountInSector int int 
+android.nfc.tech.MifareClassic getMaxTransceiveLength int 
+android.nfc.tech.MifareClassic getTag android.nfc.Tag 
+android.nfc.tech.MifareClassic getTimeout int 
+android.nfc.tech.MifareClassic get android.nfc.tech.MifareClassic android.nfc.Tag 
+android.nfc.tech.MifareClassic getType int 
+android.nfc.tech.MifareClassic getSize int 
+android.nfc.tech.NfcA getMaxTransceiveLength int 
+android.nfc.tech.NfcA getTag android.nfc.Tag 
+android.nfc.tech.NfcA getAtqa byte[] 
+android.nfc.tech.NfcA getSak short 
+android.nfc.tech.NfcA getTimeout int 
+android.nfc.tech.NfcA get android.nfc.tech.NfcA android.nfc.Tag 
+android.nfc.tech.NfcB getMaxTransceiveLength int 
+android.nfc.tech.NfcB getProtocolInfo byte[] 
+android.nfc.tech.NfcB getApplicationData byte[] 
+android.nfc.tech.NfcB getTag android.nfc.Tag 
+android.nfc.tech.NfcB get android.nfc.tech.NfcB android.nfc.Tag 
+android.nfc.tech.MifareUltralight getMaxTransceiveLength int 
+android.nfc.tech.MifareUltralight getTag android.nfc.Tag 
+android.nfc.tech.MifareUltralight getTimeout int 
+android.nfc.tech.MifareUltralight get android.nfc.tech.MifareUltralight android.nfc.Tag 
+android.nfc.tech.MifareUltralight getType int 
+android.nfc.tech.NfcV getMaxTransceiveLength int 
+android.nfc.tech.NfcV getResponseFlags byte 
+android.nfc.tech.NfcV getDsfId byte 
+android.nfc.tech.NfcV getTag android.nfc.Tag 
+android.nfc.tech.NfcV get android.nfc.tech.NfcV android.nfc.Tag 
+android.nfc.tech.NfcF getMaxTransceiveLength int 
+android.nfc.tech.NfcF getSystemCode byte[] 
+android.nfc.tech.NfcF getManufacturer byte[] 
+android.nfc.tech.NfcF getTag android.nfc.Tag 
+android.nfc.tech.NfcF getTimeout int 
+android.nfc.tech.NfcF get android.nfc.tech.NfcF android.nfc.Tag 
+android.nfc.tech.Ndef getCachedNdefMessage android.nfc.NdefMessage 
+android.nfc.tech.Ndef getMaxSize int 
+android.nfc.tech.Ndef getNdefMessage android.nfc.NdefMessage 
+android.nfc.tech.Ndef getTag android.nfc.Tag 
+android.nfc.tech.Ndef get android.nfc.tech.Ndef android.nfc.Tag 
+android.nfc.tech.Ndef getType java.lang.String 
+android.nfc.tech.NdefFormatable getTag android.nfc.Tag 
+android.nfc.tech.NdefFormatable get android.nfc.tech.NdefFormatable android.nfc.Tag 
+android.nfc.tech.IsoDep getMaxTransceiveLength int 
+android.nfc.tech.IsoDep getHiLayerResponse byte[] 
+android.nfc.tech.IsoDep getHistoricalBytes byte[] 
+android.nfc.tech.IsoDep getTag android.nfc.Tag 
+android.nfc.tech.IsoDep getTimeout int 
+android.nfc.tech.IsoDep get android.nfc.tech.IsoDep android.nfc.Tag 
+android.renderscript.Matrix3f get float int int 
+android.renderscript.Matrix3f getArray float[] 
+android.renderscript.Matrix2f get float int int 
+android.renderscript.Matrix2f getArray float[] 
+android.renderscript.BaseObj getName java.lang.String 
+android.renderscript.Allocation getElement android.renderscript.Element 
+android.renderscript.Allocation getBytesSize int 
+android.renderscript.Allocation getSurface android.view.Surface 
+android.renderscript.Allocation getUsage int 
+android.renderscript.Allocation getType android.renderscript.Type 
+android.renderscript.Matrix4f get float int int 
+android.renderscript.Matrix4f getArray float[] 
+android.renderscript.Sampler getAnisotropy float 
+android.renderscript.Sampler getMagnification android.renderscript.Sampler$Value 
+android.renderscript.Sampler getMinification android.renderscript.Sampler$Value 
+android.renderscript.Sampler getWrapS android.renderscript.Sampler$Value 
+android.renderscript.Sampler getWrapT android.renderscript.Sampler$Value 
+android.renderscript.Type getElement android.renderscript.Element 
+android.renderscript.Type getCount int 
+android.renderscript.Type getY int 
+android.renderscript.Type getZ int 
+android.renderscript.Type getX int 
+android.renderscript.RenderScript getMessageHandler android.renderscript.RenderScript$RSMessageHandler 
+android.renderscript.RenderScript getErrorHandler android.renderscript.RenderScript$RSErrorHandler 
+android.renderscript.RenderScript getApplicationContext android.content.Context 
+android.renderscript.FieldPacker getData byte[] 
+android.renderscript.Element getDataType android.renderscript.Element$DataType 
+android.renderscript.Element getBytesSize int 
+android.renderscript.Element getSubElementName java.lang.String int 
+android.renderscript.Element getVectorSize int 
+android.renderscript.Element getSubElementCount int 
+android.renderscript.Element getSubElement android.renderscript.Element int 
+android.renderscript.Element getSubElementArraySize int int 
+android.renderscript.Element getSubElementOffsetBytes int int 
+android.renderscript.Element getDataKind android.renderscript.Element$DataKind 
+android.renderscript.Script$FieldBase getAllocation android.renderscript.Allocation 
+android.renderscript.Script$FieldBase getElement android.renderscript.Element 
+android.renderscript.Script$FieldBase getType android.renderscript.Type 
+android.database.DatabaseUtils$InsertHelper getColumnIndex int java.lang.String 
+android.database.MatrixCursor getColumnNames java.lang.String[] 
+android.database.MatrixCursor getBlob byte[] int 
+android.database.MatrixCursor getCount int 
+android.database.MatrixCursor getString java.lang.String int 
+android.database.MatrixCursor getShort short int 
+android.database.MatrixCursor getInt int int 
+android.database.MatrixCursor getLong long int 
+android.database.MatrixCursor getFloat float int 
+android.database.MatrixCursor getDouble double int 
+android.database.MatrixCursor getType int int 
+android.database.CursorWindow getNumRows int 
+android.database.CursorWindow getStartPosition int 
+android.database.CursorWindow getBlob byte[] int int 
+android.database.CursorWindow getString java.lang.String int int 
+android.database.CursorWindow getShort short int int 
+android.database.CursorWindow getInt int int int 
+android.database.CursorWindow getLong long int int 
+android.database.CursorWindow getFloat float int int 
+android.database.CursorWindow getDouble double int int 
+android.database.CursorWindow getType int int int 
+android.database.MergeCursor getColumnNames java.lang.String[] 
+android.database.MergeCursor getBlob byte[] int 
+android.database.MergeCursor getCount int 
+android.database.MergeCursor getString java.lang.String int 
+android.database.MergeCursor getShort short int 
+android.database.MergeCursor getInt int int 
+android.database.MergeCursor getLong long int 
+android.database.MergeCursor getFloat float int 
+android.database.MergeCursor getDouble double int 
+android.database.MergeCursor getType int int 
+android.database.sqlite.SQLiteQueryBuilder getTables java.lang.String 
+android.database.sqlite.SQLiteCursor getColumnIndex int java.lang.String 
+android.database.sqlite.SQLiteCursor getDatabase android.database.sqlite.SQLiteDatabase 
+android.database.sqlite.SQLiteCursor getColumnNames java.lang.String[] 
+android.database.sqlite.SQLiteCursor getCount int 
+android.database.sqlite.SQLiteDatabase getSyncedTables java.util.Map 
+android.database.sqlite.SQLiteDatabase getVersion int 
+android.database.sqlite.SQLiteDatabase getMaximumSize long 
+android.database.sqlite.SQLiteDatabase getPageSize long 
+android.database.sqlite.SQLiteDatabase findEditTable java.lang.String java.lang.String 
+android.database.sqlite.SQLiteDatabase getAttachedDbs java.util.List 
+android.database.sqlite.SQLiteDatabase getPath java.lang.String 
+android.database.DatabaseUtils getCollationKey java.lang.String java.lang.String 
+android.database.DatabaseUtils getHexCollationKey java.lang.String java.lang.String 
+android.database.DatabaseUtils getSqlStatementType int java.lang.String 
+android.database.CursorWrapper getWrappedCursor android.database.Cursor 
+android.database.CursorWrapper getColumnIndex int java.lang.String 
+android.database.CursorWrapper getColumnCount int 
+android.database.CursorWrapper getPosition int 
+android.database.CursorWrapper getColumnIndexOrThrow int java.lang.String 
+android.database.CursorWrapper getColumnName java.lang.String int 
+android.database.CursorWrapper getWantsAllOnMoveCalls boolean 
+android.database.CursorWrapper getExtras android.os.Bundle 
+android.database.CursorWrapper getColumnNames java.lang.String[] 
+android.database.CursorWrapper getBlob byte[] int 
+android.database.CursorWrapper getCount int 
+android.database.CursorWrapper getString java.lang.String int 
+android.database.CursorWrapper getShort short int 
+android.database.CursorWrapper getInt int int 
+android.database.CursorWrapper getLong long int 
+android.database.CursorWrapper getFloat float int 
+android.database.CursorWrapper getDouble double int 
+android.database.CursorWrapper getType int int 
+android.database.CrossProcessCursorWrapper getWindow android.database.CursorWindow 
+android.bluetooth.BluetoothSocket getRemoteDevice android.bluetooth.BluetoothDevice 
+android.bluetooth.BluetoothSocket getInputStream java.io.InputStream 
+android.bluetooth.BluetoothSocket getOutputStream java.io.OutputStream 
+android.bluetooth.BluetoothHeadset getConnectedDevices java.util.List 
+android.bluetooth.BluetoothHeadset getConnectionState int android.bluetooth.BluetoothDevice 
+android.bluetooth.BluetoothHeadset getDevicesMatchingConnectionStates java.util.List int[] 
+android.bluetooth.BluetoothClass getDeviceClass int 
+android.bluetooth.BluetoothClass getMajorDeviceClass int 
+android.bluetooth.BluetoothA2dp getConnectedDevices java.util.List 
+android.bluetooth.BluetoothA2dp getConnectionState int android.bluetooth.BluetoothDevice 
+android.bluetooth.BluetoothA2dp getDevicesMatchingConnectionStates java.util.List int[] 
+android.bluetooth.BluetoothDevice getBondState int 
+android.bluetooth.BluetoothDevice getBluetoothClass android.bluetooth.BluetoothClass 
+android.bluetooth.BluetoothDevice getUuids android.os.ParcelUuid[] 
+android.bluetooth.BluetoothDevice getAddress java.lang.String 
+android.bluetooth.BluetoothDevice getName java.lang.String 
+android.bluetooth.BluetoothHealthAppConfiguration getDataType int 
+android.bluetooth.BluetoothHealthAppConfiguration getRole int 
+android.bluetooth.BluetoothHealthAppConfiguration getName java.lang.String 
+android.bluetooth.BluetoothHealth getConnectedDevices java.util.List 
+android.bluetooth.BluetoothHealth getConnectionState int android.bluetooth.BluetoothDevice 
+android.bluetooth.BluetoothHealth getMainChannelFd android.os.ParcelFileDescriptor android.bluetooth.BluetoothDevice android.bluetooth.BluetoothHealthAppConfiguration 
+android.bluetooth.BluetoothHealth getDevicesMatchingConnectionStates java.util.List int[] 
+android.bluetooth.BluetoothAdapter getRemoteDevice android.bluetooth.BluetoothDevice byte[] 
+android.bluetooth.BluetoothAdapter getRemoteDevice android.bluetooth.BluetoothDevice java.lang.String 
+android.bluetooth.BluetoothAdapter getScanMode int 
+android.bluetooth.BluetoothAdapter getBondedDevices java.util.Set 
+android.bluetooth.BluetoothAdapter getProfileProxy boolean android.content.Context android.bluetooth.BluetoothProfile$ServiceListener int 
+android.bluetooth.BluetoothAdapter getDefaultAdapter android.bluetooth.BluetoothAdapter 
+android.bluetooth.BluetoothAdapter getProfileConnectionState int int 
+android.bluetooth.BluetoothAdapter getAddress java.lang.String 
+android.bluetooth.BluetoothAdapter getName java.lang.String 
+android.bluetooth.BluetoothAdapter getState int 
+android.speech.RecognizerIntent getVoiceDetailsIntent android.content.Intent android.content.Context 
+android.speech.tts.SynthesisRequest getParams android.os.Bundle 
+android.speech.tts.SynthesisRequest getSpeechRate int 
+android.speech.tts.SynthesisRequest getPitch int 
+android.speech.tts.SynthesisRequest getText java.lang.String 
+android.speech.tts.SynthesisRequest getLanguage java.lang.String 
+android.speech.tts.SynthesisRequest getCountry java.lang.String 
+android.speech.tts.SynthesisRequest getVariant java.lang.String 
+android.speech.tts.TextToSpeech getFeatures java.util.Set java.util.Locale 
+android.speech.tts.TextToSpeech getDefaultEngine java.lang.String 
+android.speech.tts.TextToSpeech getEngines java.util.List 
+android.speech.tts.TextToSpeech getLanguage java.util.Locale 
+android.text.BoringLayout getLineCount int 
+android.text.BoringLayout getLineTop int int 
+android.text.BoringLayout getLineDescent int int 
+android.text.BoringLayout getLineStart int int 
+android.text.BoringLayout getParagraphDirection int int 
+android.text.BoringLayout getLineContainsTab boolean int 
+android.text.BoringLayout getLineMax float int 
+android.text.BoringLayout getLineDirections android.text.Layout$Directions int 
+android.text.BoringLayout getTopPadding int 
+android.text.BoringLayout getBottomPadding int 
+android.text.BoringLayout getEllipsisCount int int 
+android.text.BoringLayout getEllipsisStart int int 
+android.text.BoringLayout getEllipsizedWidth int 
+android.text.BoringLayout getHeight int 
+android.text.Spannable$Factory getInstance android.text.Spannable$Factory 
+android.text.method.BaseMovementMethod getMovementMetaState int android.text.Spannable android.view.KeyEvent 
+android.text.method.TimeKeyListener getAcceptedChars char[] 
+android.text.method.TimeKeyListener getInputType int 
+android.text.method.TimeKeyListener getInstance android.text.method.TimeKeyListener 
+android.text.method.PasswordTransformationMethod getTransformation java.lang.CharSequence java.lang.CharSequence android.view.View 
+android.text.method.PasswordTransformationMethod getInstance android.text.method.PasswordTransformationMethod 
+android.text.method.DateTimeKeyListener getAcceptedChars char[] 
+android.text.method.DateTimeKeyListener getInputType int 
+android.text.method.DateTimeKeyListener getInstance android.text.method.DateTimeKeyListener 
+android.text.method.DialerKeyListener getAcceptedChars char[] 
+android.text.method.DialerKeyListener getInputType int 
+android.text.method.DialerKeyListener getInstance android.text.method.DialerKeyListener 
+android.text.method.MultiTapKeyListener getInputType int 
+android.text.method.MultiTapKeyListener getInstance android.text.method.MultiTapKeyListener boolean android.text.method.TextKeyListener$Capitalize 
+android.text.method.TextKeyListener getInputType int 
+android.text.method.TextKeyListener getInstance android.text.method.TextKeyListener boolean android.text.method.TextKeyListener$Capitalize 
+android.text.method.TextKeyListener getInstance android.text.method.TextKeyListener 
+android.text.method.LinkMovementMethod getInstance android.text.method.MovementMethod 
+android.text.method.SingleLineTransformationMethod getReplacement char[] 
+android.text.method.SingleLineTransformationMethod getOriginal char[] 
+android.text.method.SingleLineTransformationMethod getInstance android.text.method.SingleLineTransformationMethod 
+android.text.method.DateKeyListener getAcceptedChars char[] 
+android.text.method.DateKeyListener getInputType int 
+android.text.method.DateKeyListener getInstance android.text.method.DateKeyListener 
+android.text.method.ScrollingMovementMethod getInstance android.text.method.MovementMethod 
+android.text.method.ArrowKeyMovementMethod getInstance android.text.method.MovementMethod 
+android.text.method.HideReturnsTransformationMethod getReplacement char[] 
+android.text.method.HideReturnsTransformationMethod getOriginal char[] 
+android.text.method.HideReturnsTransformationMethod getInstance android.text.method.HideReturnsTransformationMethod 
+android.text.method.QwertyKeyListener getInputType int 
+android.text.method.QwertyKeyListener getInstanceForFullKeyboard android.text.method.QwertyKeyListener 
+android.text.method.QwertyKeyListener getInstance android.text.method.QwertyKeyListener boolean android.text.method.TextKeyListener$Capitalize 
+android.text.method.Touch getInitialScrollY int android.widget.TextView android.text.Spannable 
+android.text.method.Touch getInitialScrollX int android.widget.TextView android.text.Spannable 
+android.text.method.DigitsKeyListener getAcceptedChars char[] 
+android.text.method.DigitsKeyListener getInputType int 
+android.text.method.DigitsKeyListener getInstance android.text.method.DigitsKeyListener java.lang.String 
+android.text.method.DigitsKeyListener getInstance android.text.method.DigitsKeyListener boolean boolean 
+android.text.method.DigitsKeyListener getInstance android.text.method.DigitsKeyListener 
+android.text.TextUtils getTrimmedLength int java.lang.CharSequence 
+android.text.TextUtils getReverse java.lang.CharSequence java.lang.CharSequence int int 
+android.text.TextUtils getOffsetBefore int java.lang.CharSequence int 
+android.text.TextUtils getOffsetAfter int java.lang.CharSequence int 
+android.text.TextUtils getCapsMode int java.lang.CharSequence int int 
+android.text.TextUtils getChars void java.lang.CharSequence int int char[] int 
+android.text.SpannedString getSpanStart int java.lang.Object 
+android.text.SpannedString getSpanEnd int java.lang.Object 
+android.text.SpannedString getSpanFlags int java.lang.Object 
+android.text.SpannedString getSpans java.lang.Object[] int int java.lang.Class 
+android.text.AutoText get java.lang.String java.lang.CharSequence int int android.view.View 
+android.text.AutoText getSize int android.view.View 
+android.text.format.DateFormat getDateFormat java.text.DateFormat android.content.Context 
+android.text.format.DateFormat getTimeFormat java.text.DateFormat android.content.Context 
+android.text.format.DateFormat getLongDateFormat java.text.DateFormat android.content.Context 
+android.text.format.DateFormat getMediumDateFormat java.text.DateFormat android.content.Context 
+android.text.format.DateFormat getDateFormatOrder char[] android.content.Context 
+android.text.format.DateUtils getDayOfWeekString java.lang.String int int 
+android.text.format.DateUtils getAMPMString java.lang.String int 
+android.text.format.DateUtils getMonthString java.lang.String int int 
+android.text.format.DateUtils getRelativeTimeSpanString java.lang.CharSequence android.content.Context long boolean 
+android.text.format.DateUtils getRelativeTimeSpanString java.lang.CharSequence long long long int 
+android.text.format.DateUtils getRelativeTimeSpanString java.lang.CharSequence long long long 
+android.text.format.DateUtils getRelativeTimeSpanString java.lang.CharSequence android.content.Context long 
+android.text.format.DateUtils getRelativeTimeSpanString java.lang.CharSequence long 
+android.text.format.DateUtils getRelativeDateTimeString java.lang.CharSequence android.content.Context long long long int 
+android.text.format.Time getCurrentTimezone java.lang.String 
+android.text.format.Time getWeekNumber int 
+android.text.format.Time getJulianDay int long long 
+android.text.format.Time getWeeksSinceEpochFromJulianDay int int int 
+android.text.format.Time getJulianMondayFromWeeksSinceEpoch int int 
+android.text.format.Time getActualMaximum int int 
+android.text.AlteredCharSequence getChars void int int char[] int 
+android.text.Editable$Factory getInstance android.text.Editable$Factory 
+android.text.AndroidCharacter getMirror char char 
+android.text.AndroidCharacter getEastAsianWidths void char[] int int byte[] 
+android.text.AndroidCharacter getDirectionalities void char[] byte[] int 
+android.text.AndroidCharacter getEastAsianWidth int char 
+android.text.style.IconMarginSpan getLeadingMargin int boolean 
+android.text.style.URLSpan getSpanTypeId int 
+android.text.style.URLSpan getURL java.lang.String 
+android.text.style.AlignmentSpan$Standard getAlignment android.text.Layout$Alignment 
+android.text.style.AlignmentSpan$Standard getSpanTypeId int 
+android.text.style.RelativeSizeSpan getSizeChange float 
+android.text.style.RelativeSizeSpan getSpanTypeId int 
+android.text.style.UnderlineSpan getSpanTypeId int 
+android.text.style.ScaleXSpan getScaleX float 
+android.text.style.ScaleXSpan getSpanTypeId int 
+android.text.style.BulletSpan getLeadingMargin int boolean 
+android.text.style.BulletSpan getSpanTypeId int 
+android.text.style.DrawableMarginSpan getLeadingMargin int boolean 
+android.text.style.TypefaceSpan getSpanTypeId int 
+android.text.style.TypefaceSpan getFamily java.lang.String 
+android.text.style.SuggestionSpan getSuggestions java.lang.String[] 
+android.text.style.SuggestionSpan getLocale java.lang.String 
+android.text.style.SuggestionSpan getSpanTypeId int 
+android.text.style.SuggestionSpan getFlags int 
+android.text.style.TextAppearanceSpan getTextSize int 
+android.text.style.TextAppearanceSpan getTextStyle int 
+android.text.style.TextAppearanceSpan getLinkTextColor android.content.res.ColorStateList 
+android.text.style.TextAppearanceSpan getSpanTypeId int 
+android.text.style.TextAppearanceSpan getTextColor android.content.res.ColorStateList 
+android.text.style.TextAppearanceSpan getFamily java.lang.String 
+android.text.style.BackgroundColorSpan getBackgroundColor int 
+android.text.style.BackgroundColorSpan getSpanTypeId int 
+android.text.style.LeadingMarginSpan$Standard getLeadingMargin int boolean 
+android.text.style.LeadingMarginSpan$Standard getSpanTypeId int 
+android.text.style.SuperscriptSpan getSpanTypeId int 
+android.text.style.ForegroundColorSpan getForegroundColor int 
+android.text.style.ForegroundColorSpan getSpanTypeId int 
+android.text.style.AbsoluteSizeSpan getSpanTypeId int 
+android.text.style.AbsoluteSizeSpan getDip boolean 
+android.text.style.AbsoluteSizeSpan getSize int 
+android.text.style.StrikethroughSpan getSpanTypeId int 
+android.text.style.EasyEditSpan getSpanTypeId int 
+android.text.style.TabStopSpan$Standard getTabStop int 
+android.text.style.ImageSpan getDrawable android.graphics.drawable.Drawable 
+android.text.style.ImageSpan getSource java.lang.String 
+android.text.style.StyleSpan getSpanTypeId int 
+android.text.style.StyleSpan getStyle int 
+android.text.style.MaskFilterSpan getMaskFilter android.graphics.MaskFilter 
+android.text.style.QuoteSpan getLeadingMargin int boolean 
+android.text.style.QuoteSpan getSpanTypeId int 
+android.text.style.QuoteSpan getColor int 
+android.text.style.SubscriptSpan getSpanTypeId int 
+android.text.util.Rfc822Tokenizer findTokenEnd int java.lang.CharSequence int 
+android.text.util.Rfc822Tokenizer findTokenStart int java.lang.CharSequence int 
+android.text.util.Rfc822Token getAddress java.lang.String 
+android.text.util.Rfc822Token getName java.lang.String 
+android.text.util.Rfc822Token getComment java.lang.String 
+android.text.Selection getSelectionStart int java.lang.CharSequence 
+android.text.Selection getSelectionEnd int java.lang.CharSequence 
+android.text.SpannableStringBuilder getSpanStart int java.lang.Object 
+android.text.SpannableStringBuilder getSpanEnd int java.lang.Object 
+android.text.SpannableStringBuilder getSpanFlags int java.lang.Object 
+android.text.SpannableStringBuilder getTextRunCursor int int int int int int android.graphics.Paint 
+android.text.SpannableStringBuilder getFilters android.text.InputFilter[] 
+android.text.SpannableStringBuilder getSpans java.lang.Object[] int int java.lang.Class 
+android.text.SpannableStringBuilder getChars void int int char[] int 
+android.text.SpannableString getSpanStart int java.lang.Object 
+android.text.SpannableString getSpanEnd int java.lang.Object 
+android.text.SpannableString getSpanFlags int java.lang.Object 
+android.text.SpannableString getSpans java.lang.Object[] int int java.lang.Class 
+android.text.DynamicLayout getLineCount int 
+android.text.DynamicLayout getLineTop int int 
+android.text.DynamicLayout getLineDescent int int 
+android.text.DynamicLayout getLineStart int int 
+android.text.DynamicLayout getParagraphDirection int int 
+android.text.DynamicLayout getLineContainsTab boolean int 
+android.text.DynamicLayout getLineDirections android.text.Layout$Directions int 
+android.text.DynamicLayout getTopPadding int 
+android.text.DynamicLayout getBottomPadding int 
+android.text.DynamicLayout getEllipsisCount int int 
+android.text.DynamicLayout getEllipsisStart int int 
+android.text.DynamicLayout getEllipsizedWidth int 
+android.text.StaticLayout getLineCount int 
+android.text.StaticLayout getLineTop int int 
+android.text.StaticLayout getLineDescent int int 
+android.text.StaticLayout getLineStart int int 
+android.text.StaticLayout getParagraphDirection int int 
+android.text.StaticLayout getLineContainsTab boolean int 
+android.text.StaticLayout getLineDirections android.text.Layout$Directions int 
+android.text.StaticLayout getTopPadding int 
+android.text.StaticLayout getBottomPadding int 
+android.text.StaticLayout getEllipsisCount int int 
+android.text.StaticLayout getEllipsisStart int int 
+android.text.StaticLayout getEllipsizedWidth int 
+android.text.StaticLayout getLineForVertical int int 
+android.text.Annotation getSpanTypeId int 
+android.text.Annotation getValue java.lang.String 
+android.text.Annotation getKey java.lang.String 
+android.hardware.Camera$Parameters getPreviewSize android.hardware.Camera$Size 
+android.hardware.Camera$Parameters getSupportedPreviewSizes java.util.List 
+android.hardware.Camera$Parameters getSupportedVideoSizes java.util.List 
+android.hardware.Camera$Parameters getJpegThumbnailSize android.hardware.Camera$Size 
+android.hardware.Camera$Parameters getJpegThumbnailQuality int 
+android.hardware.Camera$Parameters getJpegQuality int 
+android.hardware.Camera$Parameters getPreviewFrameRate int 
+android.hardware.Camera$Parameters getPreviewFpsRange void int[] 
+android.hardware.Camera$Parameters getPreviewFormat int 
+android.hardware.Camera$Parameters getPictureSize android.hardware.Camera$Size 
+android.hardware.Camera$Parameters getSupportedPictureSizes java.util.List 
+android.hardware.Camera$Parameters getPictureFormat int 
+android.hardware.Camera$Parameters getWhiteBalance java.lang.String 
+android.hardware.Camera$Parameters getSupportedWhiteBalance java.util.List 
+android.hardware.Camera$Parameters getColorEffect java.lang.String 
+android.hardware.Camera$Parameters getSupportedColorEffects java.util.List 
+android.hardware.Camera$Parameters getAntibanding java.lang.String 
+android.hardware.Camera$Parameters getSupportedAntibanding java.util.List 
+android.hardware.Camera$Parameters getSceneMode java.lang.String 
+android.hardware.Camera$Parameters getSupportedSceneModes java.util.List 
+android.hardware.Camera$Parameters getFlashMode java.lang.String 
+android.hardware.Camera$Parameters getSupportedFlashModes java.util.List 
+android.hardware.Camera$Parameters getFocusMode java.lang.String 
+android.hardware.Camera$Parameters getSupportedFocusModes java.util.List 
+android.hardware.Camera$Parameters getFocalLength float 
+android.hardware.Camera$Parameters getHorizontalViewAngle float 
+android.hardware.Camera$Parameters getVerticalViewAngle float 
+android.hardware.Camera$Parameters getExposureCompensation int 
+android.hardware.Camera$Parameters getAutoExposureLock boolean 
+android.hardware.Camera$Parameters getAutoWhiteBalanceLock boolean 
+android.hardware.Camera$Parameters getMaxZoom int 
+android.hardware.Camera$Parameters getZoomRatios java.util.List 
+android.hardware.Camera$Parameters getFocusDistances void float[] 
+android.hardware.Camera$Parameters getMaxNumFocusAreas int 
+android.hardware.Camera$Parameters getFocusAreas java.util.List 
+android.hardware.Camera$Parameters getMaxNumMeteringAreas int 
+android.hardware.Camera$Parameters getMeteringAreas java.util.List 
+android.hardware.Camera$Parameters getMaxNumDetectedFaces int 
+android.hardware.Camera$Parameters getVideoStabilization boolean 
+android.hardware.Camera$Parameters getZoom int 
+android.hardware.Camera$Parameters getPreferredPreviewSizeForVideo android.hardware.Camera$Size 
+android.hardware.Camera$Parameters getSupportedJpegThumbnailSizes java.util.List 
+android.hardware.Camera$Parameters getSupportedPreviewFrameRates java.util.List 
+android.hardware.Camera$Parameters getSupportedPreviewFpsRange java.util.List 
+android.hardware.Camera$Parameters getSupportedPreviewFormats java.util.List 
+android.hardware.Camera$Parameters getSupportedPictureFormats java.util.List 
+android.hardware.Camera$Parameters getMaxExposureCompensation int 
+android.hardware.Camera$Parameters getMinExposureCompensation int 
+android.hardware.Camera$Parameters getExposureCompensationStep float 
+android.hardware.Camera$Parameters get java.lang.String java.lang.String 
+android.hardware.Camera$Parameters getInt int java.lang.String 
+android.hardware.usb.UsbEndpoint getInterval int 
+android.hardware.usb.UsbEndpoint getMaxPacketSize int 
+android.hardware.usb.UsbEndpoint getDirection int 
+android.hardware.usb.UsbEndpoint getEndpointNumber int 
+android.hardware.usb.UsbEndpoint getAddress int 
+android.hardware.usb.UsbEndpoint getType int 
+android.hardware.usb.UsbEndpoint getAttributes int 
+android.hardware.usb.UsbAccessory getSerial java.lang.String 
+android.hardware.usb.UsbAccessory getDescription java.lang.String 
+android.hardware.usb.UsbAccessory getVersion java.lang.String 
+android.hardware.usb.UsbAccessory getManufacturer java.lang.String 
+android.hardware.usb.UsbAccessory getUri java.lang.String 
+android.hardware.usb.UsbAccessory getModel java.lang.String 
+android.hardware.usb.UsbDevice getDeviceId int 
+android.hardware.usb.UsbDevice getDeviceId int java.lang.String 
+android.hardware.usb.UsbDevice getProductId int 
+android.hardware.usb.UsbDevice getDeviceSubclass int 
+android.hardware.usb.UsbDevice getDeviceProtocol int 
+android.hardware.usb.UsbDevice getInterfaceCount int 
+android.hardware.usb.UsbDevice getInterface android.hardware.usb.UsbInterface int 
+android.hardware.usb.UsbDevice getVendorId int 
+android.hardware.usb.UsbDevice getDeviceName java.lang.String int 
+android.hardware.usb.UsbDevice getDeviceName java.lang.String 
+android.hardware.usb.UsbDevice getDeviceClass int 
+android.hardware.usb.UsbManager getDeviceList java.util.HashMap 
+android.hardware.usb.UsbManager getAccessoryList android.hardware.usb.UsbAccessory[] 
+android.hardware.usb.UsbRequest getEndpoint android.hardware.usb.UsbEndpoint 
+android.hardware.usb.UsbRequest getClientData java.lang.Object 
+android.hardware.usb.UsbDeviceConnection getSerial java.lang.String 
+android.hardware.usb.UsbDeviceConnection getRawDescriptors byte[] 
+android.hardware.usb.UsbDeviceConnection getFileDescriptor int 
+android.hardware.usb.UsbInterface getEndpoint android.hardware.usb.UsbEndpoint int 
+android.hardware.usb.UsbInterface getEndpointCount int 
+android.hardware.usb.UsbInterface getInterfaceProtocol int 
+android.hardware.usb.UsbInterface getInterfaceSubclass int 
+android.hardware.usb.UsbInterface getInterfaceClass int 
+android.hardware.usb.UsbInterface getId int 
+android.hardware.Sensor getVendor java.lang.String 
+android.hardware.Sensor getMaximumRange float 
+android.hardware.Sensor getResolution float 
+android.hardware.Sensor getMinDelay int 
+android.hardware.Sensor getVersion int 
+android.hardware.Sensor getPower float 
+android.hardware.Sensor getName java.lang.String 
+android.hardware.Sensor getType int 
+android.hardware.Camera getNumberOfCameras int 
+android.hardware.Camera getCameraInfo void int android.hardware.Camera$CameraInfo 
+android.hardware.Camera getParameters android.hardware.Camera$Parameters 
+android.hardware.input.InputManager getInputDeviceIds int[] 
+android.hardware.input.InputManager getInputDevice android.view.InputDevice int 
+android.hardware.GeomagneticField getInclination float 
+android.hardware.GeomagneticField getDeclination float 
+android.hardware.GeomagneticField getHorizontalStrength float 
+android.hardware.GeomagneticField getFieldStrength float 
+android.hardware.GeomagneticField getY float 
+android.hardware.GeomagneticField getZ float 
+android.hardware.GeomagneticField getX float 
+android.service.wallpaper.WallpaperService$Engine getDesiredMinimumHeight int 
+android.service.wallpaper.WallpaperService$Engine getDesiredMinimumWidth int 
+android.service.wallpaper.WallpaperService$Engine getSurfaceHolder android.view.SurfaceHolder 
+android.webkit.WebStorage getUsageForOrigin void java.lang.String android.webkit.ValueCallback 
+android.webkit.WebStorage getOrigins void android.webkit.ValueCallback 
+android.webkit.WebStorage getQuotaForOrigin void java.lang.String android.webkit.ValueCallback 
+android.webkit.WebStorage getInstance android.webkit.WebStorage 
+android.webkit.WebStorage$Origin getOrigin java.lang.String 
+android.webkit.WebStorage$Origin getQuota long 
+android.webkit.WebStorage$Origin getUsage long 
+android.webkit.WebView$HitTestResult getType int 
+android.webkit.WebView$HitTestResult getExtra java.lang.String 
+android.webkit.CookieManager getCookie java.lang.String java.lang.String 
+android.webkit.CookieManager getInstance android.webkit.CookieManager 
+android.webkit.WebHistoryItem getOriginalUrl java.lang.String 
+android.webkit.WebHistoryItem getFavicon android.graphics.Bitmap 
+android.webkit.WebHistoryItem getTitle java.lang.String 
+android.webkit.WebHistoryItem getUrl java.lang.String 
+android.webkit.WebHistoryItem getId int 
+android.webkit.WebViewDatabase getInstance android.webkit.WebViewDatabase android.content.Context 
+android.webkit.MimeTypeMap getFileExtensionFromUrl java.lang.String java.lang.String 
+android.webkit.MimeTypeMap getMimeTypeFromExtension java.lang.String java.lang.String 
+android.webkit.MimeTypeMap getExtensionFromMimeType java.lang.String java.lang.String 
+android.webkit.MimeTypeMap getSingleton android.webkit.MimeTypeMap 
+android.webkit.WebResourceResponse getMimeType java.lang.String 
+android.webkit.WebResourceResponse getData java.io.InputStream 
+android.webkit.WebResourceResponse getEncoding java.lang.String 
+android.webkit.WebChromeClient getDefaultVideoPoster android.graphics.Bitmap 
+android.webkit.WebChromeClient getVisitedHistory void android.webkit.ValueCallback 
+android.webkit.WebChromeClient getVideoLoadingProgressView android.view.View 
+android.webkit.DateSorter getBoundary long int 
+android.webkit.DateSorter getLabel java.lang.String int 
+android.webkit.DateSorter getIndex int long 
+android.webkit.GeolocationPermissions getOrigins void android.webkit.ValueCallback 
+android.webkit.GeolocationPermissions getAllowed void java.lang.String android.webkit.ValueCallback 
+android.webkit.GeolocationPermissions getInstance android.webkit.GeolocationPermissions 
+android.webkit.WebBackForwardList getCurrentItem android.webkit.WebHistoryItem 
+android.webkit.WebBackForwardList getCurrentIndex int 
+android.webkit.WebBackForwardList getItemAtIndex android.webkit.WebHistoryItem int 
+android.webkit.WebBackForwardList getSize int 
+android.webkit.WebIconDatabase getInstance android.webkit.WebIconDatabase 
+android.webkit.CookieSyncManager getInstance android.webkit.CookieSyncManager 
+android.webkit.WebView$WebViewTransport getWebView android.webkit.WebView 
+android.webkit.WebViewFragment getWebView android.webkit.WebView 
+android.webkit.WebView getCertificate android.net.http.SslCertificate 
+android.webkit.WebView getVisibleTitleHeight int 
+android.webkit.WebView getHitTestResult android.webkit.WebView$HitTestResult 
+android.webkit.WebView getOriginalUrl java.lang.String 
+android.webkit.WebView getFavicon android.graphics.Bitmap 
+android.webkit.WebView getProgress int 
+android.webkit.WebView getContentHeight int 
+android.webkit.WebView findAllAsync void java.lang.String 
+android.webkit.WebView findAddress java.lang.String java.lang.String 
+android.webkit.WebView getSettings android.webkit.WebSettings 
+android.webkit.WebView getTitle java.lang.String 
+android.webkit.WebView getScale float 
+android.webkit.WebView getUrl java.lang.String 
+android.webkit.WebView findNext void boolean 
+android.webkit.WebView findAll int java.lang.String 
+android.webkit.WebView getHttpAuthUsernamePassword java.lang.String[] java.lang.String java.lang.String 
+android.app.Activity getSystemService java.lang.Object java.lang.String 
+android.app.Activity getIntent android.content.Intent 
+android.app.Activity getApplication android.app.Application 
+android.app.Activity getWindowManager android.view.WindowManager 
+android.app.Activity getWindow android.view.Window 
+android.app.Activity getLoaderManager android.app.LoaderManager 
+android.app.Activity getCurrentFocus android.view.View 
+android.app.Activity getFragmentManager android.app.FragmentManager 
+android.app.Activity findViewById android.view.View int 
+android.app.Activity getActionBar android.app.ActionBar 
+android.app.Activity getLayoutInflater android.view.LayoutInflater 
+android.app.Activity getMenuInflater android.view.MenuInflater 
+android.app.Activity getCallingPackage java.lang.String 
+android.app.Activity getCallingActivity android.content.ComponentName 
+android.app.Activity getRequestedOrientation int 
+android.app.Activity getTaskId int 
+android.app.Activity getLocalClassName java.lang.String 
+android.app.Activity getComponentName android.content.ComponentName 
+android.app.Activity getPreferences android.content.SharedPreferences int 
+android.app.Activity getTitleColor int 
+android.app.Activity getVolumeControlStream int 
+android.app.Activity getParentActivityIntent android.content.Intent 
+android.app.Activity getTitle java.lang.CharSequence 
+android.app.Activity getChangingConfigurations int 
+android.app.Activity getLastNonConfigurationInstance java.lang.Object 
+android.app.Activity getParent android.app.Activity 
+android.app.ExpandableListActivity getExpandableListView android.widget.ExpandableListView 
+android.app.ExpandableListActivity getExpandableListAdapter android.widget.ExpandableListAdapter 
+android.app.ExpandableListActivity getSelectedId long 
+android.app.ExpandableListActivity getSelectedPosition long 
+android.app.WallpaperManager getDrawable android.graphics.drawable.Drawable 
+android.app.WallpaperManager getDesiredMinimumHeight int 
+android.app.WallpaperManager getDesiredMinimumWidth int 
+android.app.WallpaperManager getFastDrawable android.graphics.drawable.Drawable 
+android.app.WallpaperManager getWallpaperInfo android.app.WallpaperInfo 
+android.app.WallpaperManager getInstance android.app.WallpaperManager android.content.Context 
+android.app.Instrumentation$ActivityMonitor getFilter android.content.IntentFilter 
+android.app.Instrumentation$ActivityMonitor getLastActivity android.app.Activity 
+android.app.Instrumentation$ActivityMonitor getHits int 
+android.app.Instrumentation$ActivityMonitor getResult android.app.Instrumentation$ActivityResult 
+android.app.TabActivity getTabHost android.widget.TabHost 
+android.app.TabActivity getTabWidget android.widget.TabWidget 
+android.app.ActivityGroup getCurrentActivity android.app.Activity 
+android.app.ActivityGroup getLocalActivityManager android.app.LocalActivityManager 
+android.app.SearchManager getGlobalSearchActivity android.content.ComponentName 
+android.app.SearchManager getSearchableInfo android.app.SearchableInfo android.content.ComponentName 
+android.app.SearchManager getSearchablesInGlobalSearch java.util.List 
+android.app.LocalActivityManager getActivity android.app.Activity java.lang.String 
+android.app.LocalActivityManager getCurrentActivity android.app.Activity 
+android.app.LocalActivityManager getCurrentId java.lang.String 
+android.app.Fragment getArguments android.os.Bundle 
+android.app.Fragment getTargetFragment android.app.Fragment 
+android.app.Fragment getTargetRequestCode int 
+android.app.Fragment getRetainInstance boolean 
+android.app.Fragment getUserVisibleHint boolean 
+android.app.Fragment getActivity android.app.Activity 
+android.app.Fragment getLoaderManager android.app.LoaderManager 
+android.app.Fragment getFragmentManager android.app.FragmentManager 
+android.app.Fragment getText java.lang.CharSequence int 
+android.app.Fragment getView android.view.View 
+android.app.Fragment getTag java.lang.String 
+android.app.Fragment getString java.lang.String int 
+android.app.Fragment getString java.lang.String int java.lang.Object[] 
+android.app.Fragment getResources android.content.res.Resources 
+android.app.Fragment getId int 
+android.app.Instrumentation$ActivityResult getResultData android.content.Intent 
+android.app.Instrumentation$ActivityResult getResultCode int 
+android.app.TaskStackBuilder getIntentCount int 
+android.app.TaskStackBuilder getPendingIntent android.app.PendingIntent int int 
+android.app.TaskStackBuilder getPendingIntent android.app.PendingIntent int int android.os.Bundle 
+android.app.TaskStackBuilder getIntents android.content.Intent[] 
+android.app.ActivityManager getMemoryClass int 
+android.app.ActivityManager getLargeMemoryClass int 
+android.app.ActivityManager getRecentTasks java.util.List int int 
+android.app.ActivityManager getRunningTasks java.util.List int 
+android.app.ActivityManager getRunningServices java.util.List int 
+android.app.ActivityManager getMemoryInfo void android.app.ActivityManager$MemoryInfo 
+android.app.ActivityManager getProcessesInErrorState java.util.List 
+android.app.ActivityManager getRunningAppProcesses java.util.List 
+android.app.ActivityManager getMyMemoryState void android.app.ActivityManager$RunningAppProcessInfo 
+android.app.ActivityManager getProcessMemoryInfo android.os.Debug$MemoryInfo[] int[] 
+android.app.ActivityManager getLauncherLargeIconSize int 
+android.app.ActivityManager getRunningServiceControlPanel android.app.PendingIntent android.content.ComponentName 
+android.app.ActivityManager getDeviceConfigurationInfo android.content.pm.ConfigurationInfo 
+android.app.ActivityManager getLauncherLargeIconDensity int 
+android.app.Dialog getWindow android.view.Window 
+android.app.Dialog getCurrentFocus android.view.View 
+android.app.Dialog findViewById android.view.View int 
+android.app.Dialog getActionBar android.app.ActionBar 
+android.app.Dialog getLayoutInflater android.view.LayoutInflater 
+android.app.Dialog getVolumeControlStream int 
+android.app.Dialog getOwnerActivity android.app.Activity 
+android.app.Dialog getContext android.content.Context 
+android.app.AlertDialog$Builder getContext android.content.Context 
+android.app.DownloadManager getUriForDownloadedFile android.net.Uri long 
+android.app.DownloadManager getMaxBytesOverMobile java.lang.Long android.content.Context 
+android.app.DownloadManager getMimeTypeForDownloadedFile java.lang.String long 
+android.app.DownloadManager getRecommendedMaxBytesOverMobile java.lang.Long android.content.Context 
+android.app.PendingIntent getActivity android.app.PendingIntent android.content.Context int android.content.Intent int android.os.Bundle 
+android.app.PendingIntent getActivity android.app.PendingIntent android.content.Context int android.content.Intent int 
+android.app.PendingIntent getActivities android.app.PendingIntent android.content.Context int android.content.Intent[] int 
+android.app.PendingIntent getActivities android.app.PendingIntent android.content.Context int android.content.Intent[] int android.os.Bundle 
+android.app.PendingIntent getService android.app.PendingIntent android.content.Context int android.content.Intent int 
+android.app.PendingIntent getIntentSender android.content.IntentSender 
+android.app.PendingIntent getTargetPackage java.lang.String 
+android.app.PendingIntent getBroadcast android.app.PendingIntent android.content.Context int android.content.Intent int 
+android.app.Notification$Builder getNotification android.app.Notification 
+android.app.ProgressDialog getSecondaryProgress int 
+android.app.ProgressDialog getProgress int 
+android.app.ProgressDialog getMax int 
+android.app.DialogFragment getDialog android.app.Dialog 
+android.app.DialogFragment getShowsDialog boolean 
+android.app.DialogFragment getTheme int 
+android.app.WallpaperInfo getComponent android.content.ComponentName 
+android.app.WallpaperInfo getSettingsActivity java.lang.String 
+android.app.WallpaperInfo getServiceInfo android.content.pm.ServiceInfo 
+android.app.WallpaperInfo getServiceName java.lang.String 
+android.app.WallpaperInfo getPackageName java.lang.String 
+android.app.SearchableInfo getInputType int 
+android.app.SearchableInfo getImeOptions int 
+android.app.SearchableInfo getSuggestThreshold int 
+android.app.SearchableInfo getSuggestSelection java.lang.String 
+android.app.SearchableInfo getSuggestIntentData java.lang.String 
+android.app.SearchableInfo getSuggestIntentAction java.lang.String 
+android.app.SearchableInfo getSuggestPath java.lang.String 
+android.app.SearchableInfo getSettingsDescriptionId int 
+android.app.SearchableInfo getSearchActivity android.content.ComponentName 
+android.app.SearchableInfo getSuggestPackage java.lang.String 
+android.app.SearchableInfo getSuggestAuthority java.lang.String 
+android.app.SearchableInfo getHintId int 
+android.app.SearchableInfo getVoiceSearchEnabled boolean 
+android.app.SearchableInfo getVoiceLanguageModeId int 
+android.app.SearchableInfo getVoicePromptTextId int 
+android.app.SearchableInfo getVoiceLanguageId int 
+android.app.SearchableInfo getVoiceMaxResults int 
+android.app.SearchableInfo getVoiceSearchLaunchWebSearch boolean 
+android.app.SearchableInfo getVoiceSearchLaunchRecognizer boolean 
+android.app.AlertDialog getButton android.widget.Button int 
+android.app.AlertDialog getListView android.widget.ListView 
+android.app.MediaRouteButton getRouteTypes int 
+android.app.UiModeManager getCurrentModeType int 
+android.app.UiModeManager getNightMode int 
+android.app.admin.DevicePolicyManager getActiveAdmins java.util.List 
+android.app.admin.DevicePolicyManager getPasswordQuality int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumLength int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordExpiration long android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordHistoryLength int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMaximumLength int int 
+android.app.admin.DevicePolicyManager getMaximumTimeToLock long android.content.ComponentName 
+android.app.admin.DevicePolicyManager getStorageEncryption boolean android.content.ComponentName 
+android.app.admin.DevicePolicyManager getCameraDisabled boolean android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumUpperCase int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumLowerCase int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumLetters int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumNumeric int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumSymbols int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordMinimumNonLetter int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getPasswordExpirationTimeout long android.content.ComponentName 
+android.app.admin.DevicePolicyManager getCurrentFailedPasswordAttempts int 
+android.app.admin.DevicePolicyManager getMaximumFailedPasswordsForWipe int android.content.ComponentName 
+android.app.admin.DevicePolicyManager getStorageEncryptionStatus int 
+android.app.admin.DeviceAdminReceiver getManager android.app.admin.DevicePolicyManager android.content.Context 
+android.app.admin.DeviceAdminReceiver getWho android.content.ComponentName android.content.Context 
+android.app.admin.DeviceAdminInfo getComponent android.content.ComponentName 
+android.app.admin.DeviceAdminInfo getActivityInfo android.content.pm.ActivityInfo 
+android.app.admin.DeviceAdminInfo getReceiverName java.lang.String 
+android.app.admin.DeviceAdminInfo getTagForPolicy java.lang.String int 
+android.app.admin.DeviceAdminInfo getPackageName java.lang.String 
+android.app.ListFragment getSelectedItemId long 
+android.app.ListFragment getSelectedItemPosition int 
+android.app.ListFragment getListAdapter android.widget.ListAdapter 
+android.app.ListFragment getListView android.widget.ListView 
+android.app.ListActivity getSelectedItemId long 
+android.app.ListActivity getSelectedItemPosition int 
+android.app.ListActivity getListAdapter android.widget.ListAdapter 
+android.app.ListActivity getListView android.widget.ListView 
+android.app.backup.BackupDataInput getDataSize int 
+android.app.backup.BackupDataInput getKey java.lang.String 
+android.app.backup.BackupDataInputStream getKey java.lang.String 
+android.app.Instrumentation getTargetContext android.content.Context 
+android.app.Instrumentation getComponentName android.content.ComponentName 
+android.app.Instrumentation getAllocCounts android.os.Bundle 
+android.app.Instrumentation getBinderCounts android.os.Bundle 
+android.app.Instrumentation getContext android.content.Context 
+android.app.DatePickerDialog getDatePicker android.widget.DatePicker 
+android.app.ApplicationErrorReport getErrorReportReceiver android.content.ComponentName android.content.Context java.lang.String int 
+android.accessibilityservice.AccessibilityServiceInfo getDescription java.lang.String 
+android.accessibilityservice.AccessibilityServiceInfo getResolveInfo android.content.pm.ResolveInfo 
+android.accessibilityservice.AccessibilityServiceInfo getSettingsActivityName java.lang.String 
+android.accessibilityservice.AccessibilityServiceInfo getCanRetrieveWindowContent boolean 
+android.accessibilityservice.AccessibilityServiceInfo getId java.lang.String 
+android.preference.RingtonePreference getRingtoneType int 
+android.preference.RingtonePreference getShowSilent boolean 
+android.preference.RingtonePreference getShowDefault boolean 
+android.preference.PreferenceActivity$Header getBreadCrumbTitle java.lang.CharSequence android.content.res.Resources 
+android.preference.PreferenceActivity$Header getBreadCrumbShortTitle java.lang.CharSequence android.content.res.Resources 
+android.preference.PreferenceActivity$Header getSummary java.lang.CharSequence android.content.res.Resources 
+android.preference.PreferenceActivity$Header getTitle java.lang.CharSequence android.content.res.Resources 
+android.preference.PreferenceScreen getRootAdapter android.widget.ListAdapter 
+android.preference.PreferenceScreen getDialog android.app.Dialog 
+android.preference.EditTextPreference getEditText android.widget.EditText 
+android.preference.EditTextPreference getText java.lang.String 
+android.preference.SwitchPreference getSwitchTextOff java.lang.CharSequence 
+android.preference.SwitchPreference getSwitchTextOn java.lang.CharSequence 
+android.preference.ListPreference getSummary java.lang.CharSequence 
+android.preference.ListPreference getEntryValues java.lang.CharSequence[] 
+android.preference.ListPreference findIndexOfValue int java.lang.String 
+android.preference.ListPreference getValue java.lang.String 
+android.preference.ListPreference getEntries java.lang.CharSequence[] 
+android.preference.ListPreference getEntry java.lang.CharSequence 
+android.preference.Preference getExtras android.os.Bundle 
+android.preference.Preference getSharedPreferences android.content.SharedPreferences 
+android.preference.Preference getIntent android.content.Intent 
+android.preference.Preference getPreferenceManager android.preference.PreferenceManager 
+android.preference.Preference getLayoutResource int 
+android.preference.Preference getWidgetLayoutResource int 
+android.preference.Preference getTitleRes int 
+android.preference.Preference getSummary java.lang.CharSequence 
+android.preference.Preference getShouldDisableView boolean 
+android.preference.Preference getEditor android.content.SharedPreferences$Editor 
+android.preference.Preference getDependency java.lang.String 
+android.preference.Preference getPersistedString java.lang.String java.lang.String 
+android.preference.Preference getPersistedInt int int 
+android.preference.Preference getPersistedFloat float float 
+android.preference.Preference getPersistedLong long long 
+android.preference.Preference getPersistedBoolean boolean boolean 
+android.preference.Preference getTitle java.lang.CharSequence 
+android.preference.Preference getView android.view.View android.view.View android.view.ViewGroup 
+android.preference.Preference getOrder int 
+android.preference.Preference getIcon android.graphics.drawable.Drawable 
+android.preference.Preference getOnPreferenceChangeListener android.preference.Preference$OnPreferenceChangeListener 
+android.preference.Preference getOnPreferenceClickListener android.preference.Preference$OnPreferenceClickListener 
+android.preference.Preference findPreferenceInHierarchy android.preference.Preference java.lang.String 
+android.preference.Preference getKey java.lang.String 
+android.preference.Preference getContext android.content.Context 
+android.preference.Preference getFragment java.lang.String 
+android.preference.MultiSelectListPreference getEntryValues java.lang.CharSequence[] 
+android.preference.MultiSelectListPreference findIndexOfValue int java.lang.String 
+android.preference.MultiSelectListPreference getValues java.util.Set 
+android.preference.MultiSelectListPreference getEntries java.lang.CharSequence[] 
+android.preference.PreferenceManager getSharedPreferences android.content.SharedPreferences 
+android.preference.PreferenceManager findPreference android.preference.Preference java.lang.CharSequence 
+android.preference.PreferenceManager getSharedPreferencesName java.lang.String 
+android.preference.PreferenceManager getSharedPreferencesMode int 
+android.preference.PreferenceManager getDefaultSharedPreferences android.content.SharedPreferences android.content.Context 
+android.accounts.AccountManager getUserData java.lang.String android.accounts.Account java.lang.String 
+android.accounts.AccountManager getAuthenticatorTypes android.accounts.AuthenticatorDescription[] 
+android.accounts.AccountManager getAccounts android.accounts.Account[] 
+android.accounts.AccountManager getAccountsByType android.accounts.Account[] java.lang.String 
+android.accounts.AccountManager getAuthToken android.accounts.AccountManagerFuture android.accounts.Account java.lang.String boolean android.accounts.AccountManagerCallback android.os.Handler 
+android.accounts.AccountManager getAuthToken android.accounts.AccountManagerFuture android.accounts.Account java.lang.String android.os.Bundle boolean android.accounts.AccountManagerCallback android.os.Handler 
+android.accounts.AccountManager getAuthToken android.accounts.AccountManagerFuture android.accounts.Account java.lang.String android.os.Bundle android.app.Activity android.accounts.AccountManagerCallback android.os.Handler 
+android.accounts.AccountManager getAuthTokenByFeatures android.accounts.AccountManagerFuture java.lang.String java.lang.String java.lang.String[] android.app.Activity android.os.Bundle android.os.Bundle android.accounts.AccountManagerCallback android.os.Handler 
+android.accounts.AccountManager getAccountsByTypeAndFeatures android.accounts.AccountManagerFuture java.lang.String java.lang.String[] android.accounts.AccountManagerCallback android.os.Handler 
+android.accounts.AccountManager getPassword java.lang.String android.accounts.Account 
+android.accounts.AccountManager get android.accounts.AccountManager android.content.Context 
+android.provider.SyncStateContract$Helpers getWithUri android.util.Pair android.content.ContentProviderClient android.net.Uri android.accounts.Account 
+android.provider.SyncStateContract$Helpers get byte[] android.content.ContentProviderClient android.net.Uri android.accounts.Account 
+android.provider.Contacts$Settings getSetting java.lang.String android.content.ContentResolver java.lang.String java.lang.String 
+android.provider.Settings$System getConfiguration void android.content.ContentResolver android.content.res.Configuration 
+android.provider.Settings$System getUriFor android.net.Uri java.lang.String 
+android.provider.Settings$System getShowGTalkServiceStatus boolean android.content.ContentResolver 
+android.provider.Settings$System getString java.lang.String android.content.ContentResolver java.lang.String 
+android.provider.Settings$System getInt int android.content.ContentResolver java.lang.String int 
+android.provider.Settings$System getInt int android.content.ContentResolver java.lang.String 
+android.provider.Settings$System getLong long android.content.ContentResolver java.lang.String long 
+android.provider.Settings$System getLong long android.content.ContentResolver java.lang.String 
+android.provider.Settings$System getFloat float android.content.ContentResolver java.lang.String float 
+android.provider.Settings$System getFloat float android.content.ContentResolver java.lang.String 
+android.provider.ContactsContract$RawContacts getContactLookupUri android.net.Uri android.content.ContentResolver android.net.Uri 
+android.provider.MediaStore$Files getContentUri android.net.Uri java.lang.String 
+android.provider.MediaStore$Files getContentUri android.net.Uri java.lang.String long 
+android.provider.MediaStore$Audio$Playlists$Members getContentUri android.net.Uri java.lang.String long 
+android.provider.ContactsContract$Contacts getLookupUri android.net.Uri long java.lang.String 
+android.provider.ContactsContract$Contacts getLookupUri android.net.Uri android.content.ContentResolver android.net.Uri 
+android.provider.ContactsContract$Data getContactLookupUri android.net.Uri android.content.ContentResolver android.net.Uri 
+android.provider.ContactsContract$CommonDataKinds$Im getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$Im getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.ContactsContract$CommonDataKinds$Im getProtocolLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$Im getProtocolLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.MediaStore$Video$Media getContentUri android.net.Uri java.lang.String 
+android.provider.MediaStore$Audio$Genres$Members getContentUri android.net.Uri java.lang.String long 
+android.provider.MediaStore$Audio$Artists getContentUri android.net.Uri java.lang.String 
+android.provider.MediaStore getVersion java.lang.String android.content.Context 
+android.provider.MediaStore getMediaScannerUri android.net.Uri 
+android.provider.Contacts$Organizations getDisplayLabel java.lang.CharSequence android.content.Context int java.lang.CharSequence 
+android.provider.ContactsContract$CommonDataKinds$Organization getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$Organization getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.CallLog$Calls getLastOutgoingCall java.lang.String android.content.Context 
+android.provider.ContactsContract$CommonDataKinds$Email getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$Email getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.ContactsContract$CommonDataKinds$StructuredPostal getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$StructuredPostal getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.ContactsContract$CommonDataKinds$Event getTypeResource int java.lang.Integer 
+android.provider.ContactsContract$CommonDataKinds$SipAddress getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$SipAddress getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.MediaStore$Video$Thumbnails getThumbnail android.graphics.Bitmap android.content.ContentResolver long long int android.graphics.BitmapFactory$Options 
+android.provider.MediaStore$Video$Thumbnails getThumbnail android.graphics.Bitmap android.content.ContentResolver long int android.graphics.BitmapFactory$Options 
+android.provider.MediaStore$Video$Thumbnails getContentUri android.net.Uri java.lang.String 
+android.provider.MediaStore$Images$Thumbnails getThumbnail android.graphics.Bitmap android.content.ContentResolver long long int android.graphics.BitmapFactory$Options 
+android.provider.MediaStore$Images$Thumbnails getThumbnail android.graphics.Bitmap android.content.ContentResolver long int android.graphics.BitmapFactory$Options 
+android.provider.MediaStore$Images$Thumbnails getContentUri android.net.Uri java.lang.String 
+android.provider.Contacts$Phones getDisplayLabel java.lang.CharSequence android.content.Context int java.lang.CharSequence 
+android.provider.Contacts$Phones getDisplayLabel java.lang.CharSequence android.content.Context int java.lang.CharSequence java.lang.CharSequence[] 
+android.provider.MediaStore$Audio$Albums getContentUri android.net.Uri java.lang.String 
+android.provider.ContactsContract$ProfileSyncState getWithUri android.util.Pair android.content.ContentProviderClient android.accounts.Account 
+android.provider.ContactsContract$ProfileSyncState get byte[] android.content.ContentProviderClient android.accounts.Account 
+android.provider.Settings$Secure getUriFor android.net.Uri java.lang.String 
+android.provider.Settings$Secure getString java.lang.String android.content.ContentResolver java.lang.String 
+android.provider.Settings$Secure getInt int android.content.ContentResolver java.lang.String 
+android.provider.Settings$Secure getInt int android.content.ContentResolver java.lang.String int 
+android.provider.Settings$Secure getLong long android.content.ContentResolver java.lang.String 
+android.provider.Settings$Secure getLong long android.content.ContentResolver java.lang.String long 
+android.provider.Settings$Secure getFloat float android.content.ContentResolver java.lang.String 
+android.provider.Settings$Secure getFloat float android.content.ContentResolver java.lang.String float 
+android.provider.MediaStore$Audio$Genres getContentUri android.net.Uri java.lang.String 
+android.provider.MediaStore$Audio$Genres getContentUriForAudioId android.net.Uri java.lang.String int 
+android.provider.ContactsContract$CommonDataKinds$Phone getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$Phone getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.MediaStore$Audio$Artists$Albums getContentUri android.net.Uri java.lang.String long 
+android.provider.MediaStore$Audio$Playlists getContentUri android.net.Uri java.lang.String 
+android.provider.Settings$NameValueTable getUriFor android.net.Uri android.net.Uri java.lang.String 
+android.provider.ContactsContract$SyncState getWithUri android.util.Pair android.content.ContentProviderClient android.accounts.Account 
+android.provider.ContactsContract$SyncState get byte[] android.content.ContentProviderClient android.accounts.Account 
+android.provider.Contacts$ContactMethods getDisplayLabel java.lang.CharSequence android.content.Context int int java.lang.CharSequence 
+android.provider.ContactsContract$CommonDataKinds$Relation getTypeLabelResource int int 
+android.provider.ContactsContract$CommonDataKinds$Relation getTypeLabel java.lang.CharSequence android.content.res.Resources int java.lang.CharSequence 
+android.provider.Browser getAllBookmarks android.database.Cursor android.content.ContentResolver 
+android.provider.Browser getAllVisitedUrls android.database.Cursor android.content.ContentResolver 
+android.provider.ContactsContract$StatusUpdates getPresencePrecedence int int 
+android.provider.ContactsContract$StatusUpdates getPresenceIconResourceId int int 
+android.provider.MediaStore$Images$Media getBitmap android.graphics.Bitmap android.content.ContentResolver android.net.Uri 
+android.provider.MediaStore$Images$Media getContentUri android.net.Uri java.lang.String 
+android.provider.MediaStore$Audio$Media getContentUriForPath android.net.Uri java.lang.String 
+android.provider.MediaStore$Audio$Media getContentUri android.net.Uri java.lang.String 
+android.os.StrictMode getVmPolicy android.os.StrictMode$VmPolicy 
+android.os.StrictMode getThreadPolicy android.os.StrictMode$ThreadPolicy
+android.os.Bundle getStringArray java.lang.String[] java.lang.String
+android.os.Bundle getIntArray int[] java.lang.String 
+android.os.Bundle getCharSequence java.lang.CharSequence java.lang.String 
+android.os.Bundle getCharSequence java.lang.CharSequence java.lang.String java.lang.CharSequence 
+android.os.Bundle getBundle android.os.Bundle java.lang.String 
+android.os.Bundle getParcelable android.os.Parcelable java.lang.String 
+android.os.Bundle getParcelableArray android.os.Parcelable[] java.lang.String 
+android.os.Bundle getParcelableArrayList java.util.ArrayList java.lang.String 
+android.os.Bundle getSparseParcelableArray android.util.SparseArray java.lang.String 
+android.os.Bundle getSerializable java.io.Serializable java.lang.String 
+android.os.Bundle getIntegerArrayList java.util.ArrayList java.lang.String 
+android.os.Bundle getStringArrayList java.util.ArrayList java.lang.String 
+android.os.Bundle getCharSequenceArrayList java.util.ArrayList java.lang.String 
+android.os.Bundle getBooleanArray boolean[] java.lang.String 
+android.os.Bundle getByteArray byte[] java.lang.String 
+android.os.Bundle getShortArray short[] java.lang.String 
+android.os.Bundle getCharArray char[] java.lang.String 
+android.os.Bundle getLongArray long[] java.lang.String 
+android.os.Bundle getFloatArray float[] java.lang.String 
+android.os.Bundle getDoubleArray double[] java.lang.String 
+android.os.Bundle getCharSequenceArray java.lang.CharSequence[] java.lang.String 
+android.os.Bundle getString java.lang.String java.lang.String java.lang.String 
+android.os.Bundle getString java.lang.String java.lang.String 
+android.os.Bundle get java.lang.Object java.lang.String 
+android.os.Bundle getBoolean boolean java.lang.String 
+android.os.Bundle getBoolean boolean java.lang.String boolean 
+android.os.Bundle getByte java.lang.Byte java.lang.String byte 
+android.os.Bundle getByte byte java.lang.String 
+android.os.Bundle getShort short java.lang.String short 
+android.os.Bundle getShort short java.lang.String 
+android.os.Bundle getChar char java.lang.String 
+android.os.Bundle getChar char java.lang.String char 
+android.os.Bundle getInt int java.lang.String 
+android.os.Bundle getInt int java.lang.String int 
+android.os.Bundle getLong long java.lang.String 
+android.os.Bundle getLong long java.lang.String long 
+android.os.Bundle getFloat float java.lang.String float 
+android.os.Bundle getFloat float java.lang.String 
+android.os.Bundle getDouble double java.lang.String 
+android.os.Bundle getDouble double java.lang.String double 
+android.os.Bundle getClassLoader java.lang.ClassLoader 
+android.os.DropBoxManager$Entry getTimeMillis long 
+android.os.DropBoxManager$Entry getText java.lang.String int 
+android.os.DropBoxManager$Entry getTag java.lang.String 
+android.os.DropBoxManager$Entry getFlags int 
+android.os.DropBoxManager$Entry getInputStream java.io.InputStream 
+android.os.Debug$MemoryInfo getTotalPss int 
+android.os.Debug$MemoryInfo getTotalPrivateDirty int 
+android.os.Debug$MemoryInfo getTotalSharedDirty int 
+android.os.Debug$MemoryInfo getOtherPss int int 
+android.os.Debug$MemoryInfo getOtherPrivateDirty int int 
+android.os.Debug$MemoryInfo getOtherSharedDirty int int 
+android.os.Debug$MemoryInfo getOtherLabel java.lang.String int 
+android.os.HandlerThread getLooper android.os.Looper 
+android.os.HandlerThread getThreadId int 
+android.os.StatFs getBlockCount int 
+android.os.StatFs getBlockSize int 
+android.os.StatFs getAvailableBlocks int 
+android.os.StatFs getFreeBlocks int 
+android.os.Debug getMemoryInfo void android.os.Debug$MemoryInfo 
+android.os.Debug getGlobalAllocCount int 
+android.os.Debug getGlobalAllocSize int 
+android.os.Debug getGlobalFreedCount int 
+android.os.Debug getGlobalFreedSize int 
+android.os.Debug getGlobalClassInitCount int 
+android.os.Debug getGlobalClassInitTime int 
+android.os.Debug getThreadAllocCount int 
+android.os.Debug getThreadAllocSize int 
+android.os.Debug getNativeHeapSize long 
+android.os.Debug getNativeHeapFreeSize long 
+android.os.Debug getLoadedClassCount int 
+android.os.Debug getPss long 
+android.os.Debug getGlobalExternalAllocCount int 
+android.os.Debug getGlobalExternalAllocSize int 
+android.os.Debug getGlobalExternalFreedCount int 
+android.os.Debug getGlobalExternalFreedSize int 
+android.os.Debug getGlobalGcInvocationCount int 
+android.os.Debug getThreadExternalAllocCount int 
+android.os.Debug getThreadExternalAllocSize int 
+android.os.Debug getThreadGcInvocationCount int 
+android.os.Debug getNativeHeapAllocatedSize long 
+android.os.Debug getBinderSentTransactions int 
+android.os.Debug getBinderReceivedTransactions int 
+android.os.Debug getBinderLocalObjectCount int 
+android.os.Debug getBinderProxyObjectCount int 
+android.os.Debug getBinderDeathObjectCount int 
+android.os.Message getCallback java.lang.Runnable 
+android.os.Message getData android.os.Bundle 
+android.os.Message getWhen long 
+android.os.Message getTarget android.os.Handler 
+android.os.Messenger getBinder android.os.IBinder 
+android.os.Binder getInterfaceDescriptor java.lang.String 
+android.os.Binder getCallingUid int 
+android.os.Binder getCallingPid int 
+android.os.Environment getRootDirectory java.io.File 
+android.os.Environment getDataDirectory java.io.File 
+android.os.Environment getExternalStorageState java.lang.String 
+android.os.Environment getExternalStorageDirectory java.io.File 
+android.os.Environment getExternalStoragePublicDirectory java.io.File java.lang.String 
+android.os.Environment getDownloadCacheDirectory java.io.File 
+android.os.storage.StorageManager getMountedObbPath java.lang.String java.lang.String 
+android.os.Process getElapsedCpuTime long 
+android.os.Process getUidForName int java.lang.String 
+android.os.Process getGidForName int java.lang.String 
+android.os.Process getThreadPriority int int 
+android.os.ParcelUuid getUuid java.util.UUID 
+android.os.Looper getMainLooper android.os.Looper 
+android.os.Looper getThread java.lang.Thread 
+android.os.ParcelFileDescriptor getStatSize long 
+android.os.ParcelFileDescriptor getFd int 
+android.os.ParcelFileDescriptor getFileDescriptor java.io.FileDescriptor 
+android.os.PatternMatcher getType int 
+android.os.PatternMatcher getPath java.lang.String 
+android.os.Handler getMessageName java.lang.String android.os.Message 
+android.os.Handler getLooper android.os.Looper 
+android.os.RemoteCallbackList getBroadcastCookie java.lang.Object int 
+android.os.RemoteCallbackList getBroadcastItem android.os.IInterface int 
+android.os.Build getRadioVersion java.lang.String 
+android.os.DropBoxManager getNextEntry android.os.DropBoxManager$Entry java.lang.String long 
+android.os.MemoryFile getInputStream java.io.InputStream 
+android.os.MemoryFile getOutputStream java.io.OutputStream 
+android.content.pm.LabeledIntent getIconResource int 
+android.content.pm.LabeledIntent getNonLocalizedLabel java.lang.CharSequence 
+android.content.pm.LabeledIntent getLabelResource int 
+android.content.pm.LabeledIntent getSourcePackage java.lang.String 
+android.content.pm.FeatureInfo getGlEsVersion java.lang.String 
+android.content.pm.ComponentInfo getIconResource int 
+android.content.pm.PathPermission getReadPermission java.lang.String 
+android.content.pm.PathPermission getWritePermission java.lang.String 
+android.content.pm.ResolveInfo getIconResource int 
+android.content.pm.ConfigurationInfo getGlEsVersion java.lang.String 
+android.content.pm.ActivityInfo getThemeResource int 
+android.content.ClipData$Item getHtmlText java.lang.String 
+android.content.ClipData$Item getIntent android.content.Intent 
+android.content.ClipData$Item getText java.lang.CharSequence 
+android.content.ClipData$Item getUri android.net.Uri 
+android.content.ComponentName getShortClassName java.lang.String 
+android.content.ComponentName getClassName java.lang.String 
+android.content.ComponentName getPackageName java.lang.String 
+android.content.ContextWrapper getBaseContext android.content.Context 
+android.content.ContextWrapper getAssets android.content.res.AssetManager 
+android.content.ContextWrapper getPackageManager android.content.pm.PackageManager 
+android.content.ContextWrapper getContentResolver android.content.ContentResolver 
+android.content.ContextWrapper getMainLooper android.os.Looper 
+android.content.ContextWrapper getApplicationContext android.content.Context 
+android.content.ContextWrapper getApplicationInfo android.content.pm.ApplicationInfo 
+android.content.ContextWrapper getPackageResourcePath java.lang.String 
+android.content.ContextWrapper getPackageCodePath java.lang.String 
+android.content.ContextWrapper getSharedPreferences android.content.SharedPreferences java.lang.String int 
+android.content.ContextWrapper getFileStreamPath java.io.File java.lang.String 
+android.content.ContextWrapper getFilesDir java.io.File 
+android.content.ContextWrapper getExternalFilesDir java.io.File java.lang.String 
+android.content.ContextWrapper getObbDir java.io.File 
+android.content.ContextWrapper getCacheDir java.io.File 
+android.content.ContextWrapper getExternalCacheDir java.io.File 
+android.content.ContextWrapper getDatabasePath java.io.File java.lang.String 
+android.content.ContextWrapper getWallpaper android.graphics.drawable.Drawable 
+android.content.ContextWrapper getSystemService java.lang.Object java.lang.String 
+android.content.ContextWrapper getTheme android.content.res.Resources$Theme 
+android.content.ContextWrapper getDir java.io.File java.lang.String int 
+android.content.ContextWrapper getWallpaperDesiredMinimumWidth int 
+android.content.ContextWrapper getWallpaperDesiredMinimumHeight int 
+android.content.ContextWrapper getClassLoader java.lang.ClassLoader 
+android.content.ContextWrapper getResources android.content.res.Resources 
+android.content.ContextWrapper getPackageName java.lang.String 
+android.content.BroadcastReceiver$PendingResult getResultExtras android.os.Bundle boolean 
+android.content.BroadcastReceiver$PendingResult getAbortBroadcast boolean 
+android.content.BroadcastReceiver$PendingResult getResultData java.lang.String 
+android.content.BroadcastReceiver$PendingResult getResultCode int 
+android.content.IntentFilter$AuthorityEntry getHost java.lang.String 
+android.content.IntentFilter$AuthorityEntry getPort int 
+android.content.CursorLoader getProjection java.lang.String[] 
+android.content.CursorLoader getSelection java.lang.String 
+android.content.CursorLoader getSelectionArgs java.lang.String[] 
+android.content.CursorLoader getSortOrder java.lang.String 
+android.content.CursorLoader getUri android.net.Uri 
+android.content.ContentProviderClient getStreamTypes java.lang.String[] android.net.Uri java.lang.String 
+android.content.ContentProviderClient getLocalContentProvider android.content.ContentProvider 
+android.content.ContentProviderClient getType java.lang.String android.net.Uri 
+android.content.SyncAdapterType getSettingsActivity java.lang.String 
+android.content.IntentSender getTargetPackage java.lang.String 
+android.content.Entity getSubValues java.util.ArrayList 
+android.content.Entity getEntityValues android.content.ContentValues 
+android.content.ContentValues getAsString java.lang.String java.lang.String 
+android.content.ContentValues getAsLong java.lang.Long java.lang.String 
+android.content.ContentValues getAsInteger java.lang.Integer java.lang.String 
+android.content.ContentValues getAsShort java.lang.Short java.lang.String 
+android.content.ContentValues getAsByte java.lang.Byte java.lang.String 
+android.content.ContentValues getAsDouble java.lang.Double java.lang.String 
+android.content.ContentValues getAsFloat java.lang.Float java.lang.String 
+android.content.ContentValues getAsBoolean java.lang.Boolean java.lang.String 
+android.content.ContentValues getAsByteArray byte[] java.lang.String 
+android.content.ContentValues get java.lang.Object java.lang.String 
+android.content.ContentProviderOperation getUri android.net.Uri 
+android.content.ContentQueryMap getValues android.content.ContentValues java.lang.String 
+android.content.ContentQueryMap getRows java.util.Map 
+android.content.Loader getContext android.content.Context 
+android.content.Loader getId int 
+android.content.ClipboardManager getPrimaryClip android.content.ClipData 
+android.content.ClipboardManager getText java.lang.CharSequence 
+android.content.ClipboardManager getPrimaryClipDescription android.content.ClipDescription 
+android.content.ClipData getDescription android.content.ClipDescription 
+android.content.ClipData getItemAt android.content.ClipData$Item int 
+android.content.ClipData getItemCount int 
+android.content.SyncContext getSyncContextBinder android.os.IBinder 
+android.content.OperationApplicationException getNumSuccessfulYieldPoints int 
+android.content.ClipDescription getMimeType java.lang.String int 
+android.content.ClipDescription getMimeTypeCount int 
+android.content.ClipDescription getLabel java.lang.CharSequence 
+android.content.Intent$FilterComparison getIntent android.content.Intent 
+android.content.IntentFilter getAction java.lang.String int 
+android.content.IntentFilter getDataType java.lang.String int 
+android.content.IntentFilter getDataScheme java.lang.String int 
+android.content.IntentFilter getDataAuthority android.content.IntentFilter$AuthorityEntry int 
+android.content.IntentFilter getDataPath android.os.PatternMatcher int 
+android.content.IntentFilter getCategory java.lang.String int 
+android.content.IntentFilter getPriority int 
+android.content.SearchRecentSuggestionsProvider getType java.lang.String android.net.Uri 
+android.content.Intent getIntentOld android.content.Intent java.lang.String 
+android.content.Intent getDataString java.lang.String 
+android.content.Intent getCategories java.util.Set 
+android.content.Intent getSelector android.content.Intent 
+android.content.Intent getClipData android.content.ClipData 
+android.content.Intent getBooleanExtra boolean java.lang.String boolean 
+android.content.Intent getByteExtra byte java.lang.String byte 
+android.content.Intent getShortExtra short java.lang.String short 
+android.content.Intent getCharExtra char java.lang.String char 
+android.content.Intent getIntExtra int java.lang.String int 
+android.content.Intent getLongExtra long java.lang.String long 
+android.content.Intent getFloatExtra float java.lang.String float 
+android.content.Intent getDoubleExtra double java.lang.String double 
+android.content.Intent getStringExtra java.lang.String java.lang.String 
+android.content.Intent getCharSequenceExtra java.lang.CharSequence java.lang.String 
+android.content.Intent getParcelableExtra android.os.Parcelable java.lang.String 
+android.content.Intent getParcelableArrayExtra android.os.Parcelable[] java.lang.String 
+android.content.Intent getSerializableExtra java.io.Serializable java.lang.String 
+android.content.Intent getIntegerArrayListExtra java.util.ArrayList java.lang.String 
+android.content.Intent getStringArrayListExtra java.util.ArrayList java.lang.String 
+android.content.Intent getBooleanArrayExtra boolean[] java.lang.String 
+android.content.Intent getByteArrayExtra byte[] java.lang.String 
+android.content.Intent getShortArrayExtra short[] java.lang.String 
+android.content.Intent getCharArrayExtra char[] java.lang.String 
+android.content.Intent getIntArrayExtra int[] java.lang.String 
+android.content.Intent getLongArrayExtra long[] java.lang.String 
+android.content.Intent getFloatArrayExtra float[] java.lang.String 
+android.content.Intent getDoubleArrayExtra double[] java.lang.String 
+android.content.Intent getStringArrayExtra java.lang.String[] java.lang.String 
+android.content.Intent getBundleExtra android.os.Bundle java.lang.String 
+android.content.Intent getComponent android.content.ComponentName 
+android.content.Intent getSourceBounds android.graphics.Rect 
+android.content.Intent getExtras android.os.Bundle 
+android.content.Intent getAction java.lang.String 
+android.content.Intent getIntent android.content.Intent java.lang.String 
+android.content.Intent getData android.net.Uri 
+android.content.Intent getFlags int 
+android.content.Intent getParcelableArrayListExtra java.util.ArrayList java.lang.String 
+android.content.Intent getCharSequenceArrayListExtra java.util.ArrayList java.lang.String 
+android.content.Intent getCharSequenceArrayExtra java.lang.CharSequence[] java.lang.String 
+android.content.Intent getPackage java.lang.String 
+android.content.Intent getType java.lang.String 
+android.content.Intent getScheme java.lang.String 
+android.content.res.ColorStateList getColorForState int int[] int 
+android.content.res.ColorStateList getDefaultColor int 
+android.content.res.ObbScanner getObbInfo android.content.res.ObbInfo java.lang.String 
+android.content.res.AssetFileDescriptor getDeclaredLength long 
+android.content.res.AssetFileDescriptor getStartOffset long 
+android.content.res.AssetFileDescriptor getParcelFileDescriptor android.os.ParcelFileDescriptor 
+android.content.res.AssetFileDescriptor getFileDescriptor java.io.FileDescriptor 
+android.content.res.AssetFileDescriptor getLength long 
+android.content.res.AssetManager$AssetInputStream getAssetInt int 
+android.content.res.AssetManager getLocales java.lang.String[] 
+android.content.res.Resources getQuantityText java.lang.CharSequence int int 
+android.content.res.Resources getQuantityString java.lang.String int int 
+android.content.res.Resources getQuantityString java.lang.String int int java.lang.Object[] 
+android.content.res.Resources getTextArray java.lang.CharSequence[] int 
+android.content.res.Resources getSystem android.content.res.Resources 
+android.content.res.Resources getStringArray java.lang.String[] int 
+android.content.res.Resources getIntArray int[] int 
+android.content.res.Resources getDimension float int 
+android.content.res.Resources getDimensionPixelOffset int int 
+android.content.res.Resources getDimensionPixelSize int int 
+android.content.res.Resources getFraction float int int int 
+android.content.res.Resources getDrawable android.graphics.drawable.Drawable int 
+android.content.res.Resources getDrawableForDensity android.graphics.drawable.Drawable int int 
+android.content.res.Resources getColorStateList android.content.res.ColorStateList int 
+android.content.res.Resources getLayout android.content.res.XmlResourceParser int 
+android.content.res.Resources getAnimation android.content.res.XmlResourceParser int 
+android.content.res.Resources getValueForDensity void int int android.util.TypedValue boolean 
+android.content.res.Resources getDisplayMetrics android.util.DisplayMetrics 
+android.content.res.Resources getConfiguration android.content.res.Configuration 
+android.content.res.Resources getIdentifier int java.lang.String java.lang.String java.lang.String 
+android.content.res.Resources getResourceName java.lang.String int 
+android.content.res.Resources getResourcePackageName java.lang.String int 
+android.content.res.Resources getResourceTypeName java.lang.String int 
+android.content.res.Resources getResourceEntryName java.lang.String int 
+android.content.res.Resources getAssets android.content.res.AssetManager 
+android.content.res.Resources getMovie android.graphics.Movie int 
+android.content.res.Resources getColor int int 
+android.content.res.Resources getXml android.content.res.XmlResourceParser int 
+android.content.res.Resources getText java.lang.CharSequence int java.lang.CharSequence 
+android.content.res.Resources getText java.lang.CharSequence int 
+android.content.res.Resources getString java.lang.String int 
+android.content.res.Resources getString java.lang.String int java.lang.Object[] 
+android.content.res.Resources getBoolean boolean int 
+android.content.res.Resources getValue void int android.util.TypedValue boolean 
+android.content.res.Resources getValue void java.lang.String android.util.TypedValue boolean 
+android.content.res.Resources getInteger int int 
+android.content.res.TypedArray getTextArray java.lang.CharSequence[] int 
+android.content.res.TypedArray getDimension float int float 
+android.content.res.TypedArray getDimensionPixelOffset int int int 
+android.content.res.TypedArray getDimensionPixelSize int int int 
+android.content.res.TypedArray getFraction float int int int float 
+android.content.res.TypedArray getDrawable android.graphics.drawable.Drawable int 
+android.content.res.TypedArray getColorStateList android.content.res.ColorStateList int 
+android.content.res.TypedArray getPositionDescription java.lang.String 
+android.content.res.TypedArray getResourceId int int int 
+android.content.res.TypedArray getLayoutDimension int int java.lang.String 
+android.content.res.TypedArray getLayoutDimension int int int 
+android.content.res.TypedArray getNonResourceString java.lang.String int 
+android.content.res.TypedArray getIndexCount int 
+android.content.res.TypedArray getColor int int int 
+android.content.res.TypedArray getText java.lang.CharSequence int 
+android.content.res.TypedArray getString java.lang.String int 
+android.content.res.TypedArray getBoolean boolean int boolean 
+android.content.res.TypedArray getInt int int int 
+android.content.res.TypedArray getFloat float int float 
+android.content.res.TypedArray getValue boolean int android.util.TypedValue 
+android.content.res.TypedArray getResources android.content.res.Resources 
+android.content.res.TypedArray getInteger int int int 
+android.content.res.TypedArray getIndex int int 
+android.drm.DrmEvent getUniqueId int 
+android.drm.DrmEvent getAttribute java.lang.Object java.lang.String 
+android.drm.DrmEvent getMessage java.lang.String 
+android.drm.DrmEvent getType int 
+android.drm.DrmManagerClient getAvailableDrmEngines java.lang.String[] 
+android.drm.DrmManagerClient getConstraints android.content.ContentValues android.net.Uri int 
+android.drm.DrmManagerClient getConstraints android.content.ContentValues java.lang.String int 
+android.drm.DrmManagerClient getMetadata android.content.ContentValues android.net.Uri 
+android.drm.DrmManagerClient getMetadata android.content.ContentValues java.lang.String 
+android.drm.DrmManagerClient getDrmObjectType int java.lang.String java.lang.String 
+android.drm.DrmManagerClient getDrmObjectType int android.net.Uri java.lang.String 
+android.drm.DrmManagerClient getOriginalMimeType java.lang.String java.lang.String 
+android.drm.DrmManagerClient getOriginalMimeType java.lang.String android.net.Uri 
+android.drm.DrmUtils getExtendedMetadataParser android.drm.DrmUtils$ExtendedMetadataParser byte[] 
+android.drm.DrmInfo getMimeType java.lang.String 
+android.drm.DrmInfo getInfoType int 
+android.drm.DrmInfo getData byte[] 
+android.drm.DrmInfo get java.lang.Object java.lang.String 
+android.drm.ProcessedData getSubscriptionId java.lang.String 
+android.drm.ProcessedData getAccountId java.lang.String 
+android.drm.ProcessedData getData byte[] 
+android.drm.DrmUtils$ExtendedMetadataParser get java.lang.String java.lang.String 
+android.drm.DrmInfoRequest getMimeType java.lang.String 
+android.drm.DrmInfoRequest getInfoType int 
+android.drm.DrmInfoRequest get java.lang.Object java.lang.String 
+android.drm.DrmRights getMimeType java.lang.String 
+android.drm.DrmRights getSubscriptionId java.lang.String 
+android.drm.DrmRights getAccountId java.lang.String 
+android.drm.DrmRights getData byte[] 
+android.drm.DrmSupportInfo getDescription java.lang.String 
+android.drm.DrmSupportInfo getMimeTypeIterator java.util.Iterator 
+android.drm.DrmSupportInfo getFileSuffixIterator java.util.Iterator 
+android.drm.DrmSupportInfo getDescriprition java.lang.String 
+android.util.Xml findEncodingByName android.util.Xml$Encoding java.lang.String 
+android.util.TimeUtils getTimeZoneDatabaseVersion java.lang.String 
+android.util.TimeUtils getTimeZone java.util.TimeZone int boolean long java.lang.String 
+android.util.EventLogTags get android.util.EventLogTags$Description int 
+android.util.EventLogTags get android.util.EventLogTags$Description java.lang.String 
+android.util.LruCache get java.lang.Object java.lang.Object 
+android.util.LongSparseArray get java.lang.Object long java.lang.Object 
+android.util.LongSparseArray get java.lang.Object long 
+android.util.EventLog getTagName java.lang.String int 
+android.util.EventLog getTagCode int java.lang.String 
+android.util.EventLog$Event getTimeNanos long 
+android.util.EventLog$Event getProcessId int 
+android.util.EventLog$Event getThreadId int 
+android.util.EventLog$Event getData java.lang.Object 
+android.util.EventLog$Event getTag int 
+android.util.MonthDisplayHelper getWeekStartDay int 
+android.util.MonthDisplayHelper getFirstDayOfMonth int 
+android.util.MonthDisplayHelper getNumberOfDaysInMonth int 
+android.util.MonthDisplayHelper getDigitsForRow int[] int 
+android.util.MonthDisplayHelper getColumnOf int int 
+android.util.MonthDisplayHelper getRowOf int int 
+android.util.MonthDisplayHelper getDayAt int int int 
+android.util.MonthDisplayHelper getOffset int 
+android.util.MonthDisplayHelper getYear int 
+android.util.MonthDisplayHelper getMonth int 
+android.util.SparseArray get java.lang.Object int java.lang.Object 
+android.util.SparseArray get java.lang.Object int 
+android.util.Log getStackTraceString java.lang.String java.lang.Throwable 
+android.util.TypedValue getDimension float android.util.DisplayMetrics 
+android.util.TypedValue getFraction float float float 
+android.util.TypedValue getFloat float 
+android.util.SparseIntArray get int int int 
+android.util.SparseIntArray get int int 
+android.util.SparseBooleanArray get boolean int boolean 
+android.util.SparseBooleanArray get boolean int 
+android.media.FaceDetector$Face getMidPoint void android.graphics.PointF 
+android.media.AudioManager getRingerMode int 
+android.media.AudioManager getStreamMaxVolume int int 
+android.media.AudioManager getStreamVolume int int 
+android.media.AudioManager getVibrateSetting int int 
+android.media.AudioManager getRouting int int 
+android.media.AudioManager getMode int 
+android.media.AudioManager getParameters java.lang.String java.lang.String 
+android.media.MediaCodec$CryptoException getErrorCode int 
+android.media.Ringtone getStreamType int 
+android.media.Ringtone getTitle java.lang.String android.content.Context 
+android.media.MediaSyncEvent getAudioSessionId int 
+android.media.MediaSyncEvent getType int 
+android.media.CameraProfile getJpegEncodingQualityParameter int int 
+android.media.CameraProfile getJpegEncodingQualityParameter int int int 
+android.media.MediaFormat getString java.lang.String java.lang.String 
+android.media.MediaFormat getLong long java.lang.String 
+android.media.MediaFormat getFloat float java.lang.String 
+android.media.MediaFormat getByteBuffer java.nio.ByteBuffer java.lang.String 
+android.media.MediaFormat getInteger int java.lang.String 
+android.media.MediaCodecList getCodecCount int 
+android.media.MediaCodecList getCodecInfoAt android.media.MediaCodecInfo int 
+android.media.effect.EffectContext getFactory android.media.effect.EffectFactory 
+android.media.AudioRecord getAudioSessionId int 
+android.media.AudioRecord getSampleRate int 
+android.media.AudioRecord getAudioSource int 
+android.media.AudioRecord getAudioFormat int 
+android.media.AudioRecord getChannelConfiguration int 
+android.media.AudioRecord getChannelCount int 
+android.media.AudioRecord getRecordingState int 
+android.media.AudioRecord getMinBufferSize int int int int 
+android.media.AudioRecord getNotificationMarkerPosition int 
+android.media.AudioRecord getPositionNotificationPeriod int 
+android.media.AudioRecord getState int 
+android.media.AudioTrack getStreamType int 
+android.media.AudioTrack getAudioSessionId int 
+android.media.AudioTrack getSampleRate int 
+android.media.AudioTrack getAudioFormat int 
+android.media.AudioTrack getChannelConfiguration int 
+android.media.AudioTrack getChannelCount int 
+android.media.AudioTrack getMinBufferSize int int int int 
+android.media.AudioTrack getMinVolume float 
+android.media.AudioTrack getMaxVolume float 
+android.media.AudioTrack getPlaybackRate int 
+android.media.AudioTrack getPlayState int 
+android.media.AudioTrack getNativeFrameCount int 
+android.media.AudioTrack getPlaybackHeadPosition int 
+android.media.AudioTrack getNotificationMarkerPosition int 
+android.media.AudioTrack getPositionNotificationPeriod int 
+android.media.AudioTrack getNativeOutputSampleRate int int 
+android.media.AudioTrack getState int 
+android.media.MediaExtractor getCachedDuration long 
+android.media.MediaExtractor getTrackFormat android.media.MediaFormat int 
+android.media.MediaExtractor getSampleTrackIndex int 
+android.media.MediaExtractor getSampleTime long 
+android.media.MediaExtractor getSampleFlags int 
+android.media.MediaExtractor getSampleCryptoInfo boolean android.media.MediaCodec$CryptoInfo 
+android.media.MediaExtractor getTrackCount int 
+android.media.MediaPlayer getDuration int 
+android.media.MediaPlayer getVideoWidth int 
+android.media.MediaPlayer getVideoHeight int 
+android.media.MediaPlayer getCurrentPosition int 
+android.media.MediaPlayer getTrackInfo android.media.MediaPlayer$TrackInfo[] 
+android.media.MediaPlayer getAudioSessionId int 
+android.media.MediaRecorder getAudioSourceMax int 
+android.media.MediaRecorder getMaxAmplitude int 
+android.media.MediaRouter$RouteInfo getStatus java.lang.CharSequence 
+android.media.MediaRouter$RouteInfo getCategory android.media.MediaRouter$RouteCategory 
+android.media.MediaRouter$RouteInfo getIconDrawable android.graphics.drawable.Drawable 
+android.media.MediaRouter$RouteInfo getPlaybackType int 
+android.media.MediaRouter$RouteInfo getPlaybackStream int 
+android.media.MediaRouter$RouteInfo getVolume int 
+android.media.MediaRouter$RouteInfo getVolumeMax int 
+android.media.MediaRouter$RouteInfo getVolumeHandling int 
+android.media.MediaRouter$RouteInfo getSupportedTypes int 
+android.media.MediaRouter$RouteInfo getGroup android.media.MediaRouter$RouteGroup 
+android.media.MediaRouter$RouteInfo getTag java.lang.Object 
+android.media.MediaRouter$RouteInfo getName java.lang.CharSequence android.content.Context 
+android.media.MediaRouter$RouteInfo getName java.lang.CharSequence 
+android.media.MediaPlayer$TrackInfo getTrackType int 
+android.media.MediaPlayer$TrackInfo getLanguage java.lang.String 
+android.media.FaceDetector findFaces int android.graphics.Bitmap android.media.FaceDetector$Face[] 
+android.media.MediaCodec getOutputFormat android.media.MediaFormat 
+android.media.MediaCodec getInputBuffers java.nio.ByteBuffer[] 
+android.media.MediaCodec getOutputBuffers java.nio.ByteBuffer[] 
+android.media.ExifInterface getAltitude double double 
+android.media.ExifInterface getAttribute java.lang.String java.lang.String 
+android.media.ExifInterface getThumbnail byte[] 
+android.media.ExifInterface getAttributeInt int java.lang.String int 
+android.media.ExifInterface getAttributeDouble double java.lang.String double 
+android.media.ExifInterface getLatLong boolean float[] 
+android.media.MediaMetadataRetriever getFrameAtTime android.graphics.Bitmap 
+android.media.MediaMetadataRetriever getFrameAtTime android.graphics.Bitmap long int 
+android.media.MediaMetadataRetriever getFrameAtTime android.graphics.Bitmap long 
+android.media.MediaMetadataRetriever getEmbeddedPicture byte[] 
+android.media.MediaRouter$RouteGroup getRouteAt android.media.MediaRouter$RouteInfo int 
+android.media.MediaRouter$RouteGroup getRouteCount int 
+android.media.TimedText getBounds android.graphics.Rect 
+android.media.TimedText getText java.lang.String 
+android.media.RingtoneManager getStopPreviousRingtone boolean 
+android.media.RingtoneManager getIncludeDrm boolean 
+android.media.RingtoneManager getCursor android.database.Cursor 
+android.media.RingtoneManager getRingtone android.media.Ringtone int 
+android.media.RingtoneManager getRingtone android.media.Ringtone android.content.Context android.net.Uri 
+android.media.RingtoneManager getRingtoneUri android.net.Uri int 
+android.media.RingtoneManager getRingtonePosition int android.net.Uri 
+android.media.RingtoneManager getValidRingtoneUri android.net.Uri android.content.Context 
+android.media.RingtoneManager getDefaultType int android.net.Uri 
+android.media.RingtoneManager getDefaultUri android.net.Uri int 
+android.media.RingtoneManager getActualDefaultRingtoneUri android.net.Uri android.content.Context int 
+android.media.CamcorderProfile get android.media.CamcorderProfile int 
+android.media.CamcorderProfile get android.media.CamcorderProfile int int 
+android.media.JetPlayer getMaxTracks int 
+android.media.JetPlayer getJetPlayer android.media.JetPlayer 
+android.media.MediaRouter$RouteCategory getRoutes java.util.List java.util.List 
+android.media.MediaRouter$RouteCategory getSupportedTypes int 
+android.media.MediaRouter$RouteCategory getName java.lang.CharSequence 
+android.media.MediaRouter$RouteCategory getName java.lang.CharSequence android.content.Context 
+android.media.MediaRouter$UserRouteInfo getRemoteControlClient android.media.RemoteControlClient 
+android.media.ToneGenerator getAudioSessionId int 
+android.media.MediaCodecInfo getCapabilitiesForType android.media.MediaCodecInfo$CodecCapabilities java.lang.String 
+android.media.MediaCodecInfo getSupportedTypes java.lang.String[] 
+android.media.MediaCodecInfo getName java.lang.String 
+android.media.MediaRouter getRouteAt android.media.MediaRouter$RouteInfo int 
+android.media.MediaRouter getRouteCount int 
+android.media.MediaRouter getSelectedRoute android.media.MediaRouter$RouteInfo int 
+android.media.MediaRouter getCategoryCount int 
+android.media.MediaRouter getCategoryAt android.media.MediaRouter$RouteCategory int 
+android.media.audiofx.BassBoost getStrengthSupported boolean 
+android.media.audiofx.BassBoost getRoundedStrength short 
+android.media.audiofx.BassBoost getProperties android.media.audiofx.BassBoost$Settings 
+android.media.audiofx.PresetReverb getPreset short 
+android.media.audiofx.PresetReverb getProperties android.media.audiofx.PresetReverb$Settings 
+android.media.audiofx.Virtualizer getStrengthSupported boolean 
+android.media.audiofx.Virtualizer getRoundedStrength short 
+android.media.audiofx.Virtualizer getProperties android.media.audiofx.Virtualizer$Settings 
+android.media.audiofx.Visualizer getEnabled boolean 
+android.media.audiofx.Visualizer getCaptureSizeRange int[] 
+android.media.audiofx.Visualizer getMaxCaptureRate int 
+android.media.audiofx.Visualizer getCaptureSize int 
+android.media.audiofx.Visualizer getScalingMode int 
+android.media.audiofx.Visualizer getSamplingRate int 
+android.media.audiofx.Visualizer getWaveForm int byte[] 
+android.media.audiofx.Visualizer getFft int byte[] 
+android.media.audiofx.AudioEffect getEnabled boolean 
+android.media.audiofx.AudioEffect getDescriptor android.media.audiofx.AudioEffect$Descriptor 
+android.media.audiofx.AudioEffect getId int 
+android.media.audiofx.Equalizer getNumberOfBands short 
+android.media.audiofx.Equalizer getBandLevelRange short[] 
+android.media.audiofx.Equalizer getBandLevel short short 
+android.media.audiofx.Equalizer getCenterFreq int short 
+android.media.audiofx.Equalizer getBandFreqRange int[] short 
+android.media.audiofx.Equalizer getCurrentPreset short 
+android.media.audiofx.Equalizer getNumberOfPresets short 
+android.media.audiofx.Equalizer getPresetName java.lang.String short 
+android.media.audiofx.Equalizer getBand short int 
+android.media.audiofx.Equalizer getProperties android.media.audiofx.Equalizer$Settings 
+android.media.audiofx.EnvironmentalReverb getDensity short 
+android.media.audiofx.EnvironmentalReverb getRoomLevel short 
+android.media.audiofx.EnvironmentalReverb getRoomHFLevel short 
+android.media.audiofx.EnvironmentalReverb getDecayTime int 
+android.media.audiofx.EnvironmentalReverb getDecayHFRatio short 
+android.media.audiofx.EnvironmentalReverb getReflectionsLevel short 
+android.media.audiofx.EnvironmentalReverb getReflectionsDelay int 
+android.media.audiofx.EnvironmentalReverb getReverbLevel short 
+android.media.audiofx.EnvironmentalReverb getReverbDelay int 
+android.media.audiofx.EnvironmentalReverb getDiffusion short 
+android.media.audiofx.EnvironmentalReverb getProperties android.media.audiofx.EnvironmentalReverb$Settings 
+android.graphics.Bitmap getDensity int 
+android.graphics.Bitmap getGenerationId int 
+android.graphics.Bitmap getNinePatchChunk byte[] 
+android.graphics.Bitmap getHeight int 
+android.graphics.Bitmap getScaledWidth int int 
+android.graphics.Bitmap getScaledWidth int android.util.DisplayMetrics 
+android.graphics.Bitmap getScaledWidth int android.graphics.Canvas 
+android.graphics.Bitmap getScaledHeight int int 
+android.graphics.Bitmap getScaledHeight int android.graphics.Canvas 
+android.graphics.Bitmap getScaledHeight int android.util.DisplayMetrics 
+android.graphics.Bitmap getRowBytes int 
+android.graphics.Bitmap getByteCount int 
+android.graphics.Bitmap getConfig android.graphics.Bitmap$Config 
+android.graphics.Bitmap getPixels void int[] int int int int int int 
+android.graphics.Bitmap getWidth int 
+android.graphics.Bitmap getPixel int int int 
+android.graphics.ImageFormat getBitsPerPixel int int 
+android.graphics.YuvImage getHeight int 
+android.graphics.YuvImage getStrides int[] 
+android.graphics.YuvImage getYuvFormat int 
+android.graphics.YuvImage getYuvData byte[] 
+android.graphics.YuvImage getWidth int 
+android.graphics.Picture getHeight int 
+android.graphics.Picture getWidth int 
+android.graphics.Region getBounds android.graphics.Rect 
+android.graphics.Region getBounds boolean android.graphics.Rect 
+android.graphics.Region getBoundaryPath boolean android.graphics.Path 
+android.graphics.Region getBoundaryPath android.graphics.Path 
+android.graphics.Interpolator getValueCount int 
+android.graphics.Interpolator getKeyFrameCount int 
+android.graphics.Canvas getMaximumBitmapWidth int 
+android.graphics.Canvas getMaximumBitmapHeight int 
+android.graphics.Canvas getSaveCount int 
+android.graphics.Canvas getMatrix void android.graphics.Matrix 
+android.graphics.Canvas getMatrix android.graphics.Matrix 
+android.graphics.Canvas getDrawFilter android.graphics.DrawFilter 
+android.graphics.Canvas getClipBounds boolean android.graphics.Rect 
+android.graphics.Canvas getClipBounds android.graphics.Rect 
+android.graphics.Canvas getDensity int 
+android.graphics.Canvas getHeight int 
+android.graphics.Canvas getWidth int 
+android.graphics.drawable.DrawableContainer getMinimumHeight int 
+android.graphics.drawable.DrawableContainer getMinimumWidth int 
+android.graphics.drawable.DrawableContainer getCurrent android.graphics.drawable.Drawable 
+android.graphics.drawable.DrawableContainer getOpacity int 
+android.graphics.drawable.DrawableContainer getIntrinsicWidth int 
+android.graphics.drawable.DrawableContainer getIntrinsicHeight int 
+android.graphics.drawable.DrawableContainer getPadding boolean android.graphics.Rect 
+android.graphics.drawable.DrawableContainer getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.DrawableContainer getChangingConfigurations int 
+android.graphics.drawable.LayerDrawable getDrawable android.graphics.drawable.Drawable int 
+android.graphics.drawable.LayerDrawable getOpacity int 
+android.graphics.drawable.LayerDrawable getIntrinsicWidth int 
+android.graphics.drawable.LayerDrawable getIntrinsicHeight int 
+android.graphics.drawable.LayerDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.LayerDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.LayerDrawable getNumberOfLayers int 
+android.graphics.drawable.LayerDrawable findDrawableByLayerId android.graphics.drawable.Drawable int 
+android.graphics.drawable.LayerDrawable getChangingConfigurations int 
+android.graphics.drawable.LayerDrawable getId int int 
+android.graphics.drawable.RotateDrawable getDrawable android.graphics.drawable.Drawable 
+android.graphics.drawable.RotateDrawable getOpacity int 
+android.graphics.drawable.RotateDrawable getIntrinsicWidth int 
+android.graphics.drawable.RotateDrawable getIntrinsicHeight int 
+android.graphics.drawable.RotateDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.RotateDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.RotateDrawable getChangingConfigurations int 
+android.graphics.drawable.AnimationDrawable getDuration int int 
+android.graphics.drawable.AnimationDrawable getNumberOfFrames int 
+android.graphics.drawable.AnimationDrawable getFrame android.graphics.drawable.Drawable int 
+android.graphics.drawable.GradientDrawable getOrientation android.graphics.drawable.GradientDrawable$Orientation 
+android.graphics.drawable.GradientDrawable getOpacity int 
+android.graphics.drawable.GradientDrawable getIntrinsicWidth int 
+android.graphics.drawable.GradientDrawable getIntrinsicHeight int 
+android.graphics.drawable.GradientDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.GradientDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.GradientDrawable getChangingConfigurations int 
+android.graphics.drawable.ColorDrawable getOpacity int 
+android.graphics.drawable.ColorDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.ColorDrawable getAlpha int 
+android.graphics.drawable.ColorDrawable getColor int 
+android.graphics.drawable.ColorDrawable getChangingConfigurations int 
+android.graphics.drawable.PictureDrawable getPicture android.graphics.Picture 
+android.graphics.drawable.PictureDrawable getOpacity int 
+android.graphics.drawable.PictureDrawable getIntrinsicWidth int 
+android.graphics.drawable.PictureDrawable getIntrinsicHeight int 
+android.graphics.drawable.ShapeDrawable getOpacity int 
+android.graphics.drawable.ShapeDrawable getIntrinsicWidth int 
+android.graphics.drawable.ShapeDrawable getIntrinsicHeight int 
+android.graphics.drawable.ShapeDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.ShapeDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.ShapeDrawable getShaderFactory android.graphics.drawable.ShapeDrawable$ShaderFactory 
+android.graphics.drawable.ShapeDrawable getPaint android.graphics.Paint 
+android.graphics.drawable.ShapeDrawable getShape android.graphics.drawable.shapes.Shape 
+android.graphics.drawable.ShapeDrawable getChangingConfigurations int 
+android.graphics.drawable.BitmapDrawable getOpacity int 
+android.graphics.drawable.BitmapDrawable getIntrinsicWidth int 
+android.graphics.drawable.BitmapDrawable getIntrinsicHeight int 
+android.graphics.drawable.BitmapDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.BitmapDrawable getBitmap android.graphics.Bitmap 
+android.graphics.drawable.BitmapDrawable getGravity int 
+android.graphics.drawable.BitmapDrawable getTileModeX android.graphics.Shader$TileMode 
+android.graphics.drawable.BitmapDrawable getTileModeY android.graphics.Shader$TileMode 
+android.graphics.drawable.BitmapDrawable getPaint android.graphics.Paint 
+android.graphics.drawable.BitmapDrawable getChangingConfigurations int 
+android.graphics.drawable.InsetDrawable getOpacity int 
+android.graphics.drawable.InsetDrawable getIntrinsicWidth int 
+android.graphics.drawable.InsetDrawable getIntrinsicHeight int 
+android.graphics.drawable.InsetDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.InsetDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.InsetDrawable getChangingConfigurations int 
+android.graphics.drawable.NinePatchDrawable getMinimumHeight int 
+android.graphics.drawable.NinePatchDrawable getMinimumWidth int 
+android.graphics.drawable.NinePatchDrawable getOpacity int 
+android.graphics.drawable.NinePatchDrawable getTransparentRegion android.graphics.Region 
+android.graphics.drawable.NinePatchDrawable getIntrinsicWidth int 
+android.graphics.drawable.NinePatchDrawable getIntrinsicHeight int 
+android.graphics.drawable.NinePatchDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.NinePatchDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.NinePatchDrawable getPaint android.graphics.Paint 
+android.graphics.drawable.NinePatchDrawable getChangingConfigurations int 
+android.graphics.drawable.ClipDrawable getOpacity int 
+android.graphics.drawable.ClipDrawable getIntrinsicWidth int 
+android.graphics.drawable.ClipDrawable getIntrinsicHeight int 
+android.graphics.drawable.ClipDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.ClipDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.ClipDrawable getChangingConfigurations int 
+android.graphics.drawable.ScaleDrawable getDrawable android.graphics.drawable.Drawable 
+android.graphics.drawable.ScaleDrawable getOpacity int 
+android.graphics.drawable.ScaleDrawable getIntrinsicWidth int 
+android.graphics.drawable.ScaleDrawable getIntrinsicHeight int 
+android.graphics.drawable.ScaleDrawable getPadding boolean android.graphics.Rect 
+android.graphics.drawable.ScaleDrawable getConstantState android.graphics.drawable.Drawable$ConstantState 
+android.graphics.drawable.ScaleDrawable getChangingConfigurations int 
+android.graphics.Matrix getValues void float[] 
+android.graphics.Shader getLocalMatrix boolean android.graphics.Matrix 
+android.graphics.Typeface getStyle int 
+android.graphics.BitmapRegionDecoder getHeight int 
+android.graphics.BitmapRegionDecoder getWidth int 
+android.graphics.ColorMatrix getArray float[] 
+android.graphics.Camera getMatrix void android.graphics.Matrix 
+android.graphics.Camera getLocationY float 
+android.graphics.Camera getLocationZ float 
+android.graphics.Camera getLocationX float 
+android.graphics.SurfaceTexture getTransformMatrix void float[] 
+android.graphics.SurfaceTexture getTimestamp long 
+android.graphics.Paint getHinting int 
+android.graphics.Paint getStrokeWidth float 
+android.graphics.Paint getStrokeMiter float 
+android.graphics.Paint getStrokeCap android.graphics.Paint$Cap 
+android.graphics.Paint getStrokeJoin android.graphics.Paint$Join 
+android.graphics.Paint getFillPath boolean android.graphics.Path android.graphics.Path 
+android.graphics.Paint getShader android.graphics.Shader 
+android.graphics.Paint getColorFilter android.graphics.ColorFilter 
+android.graphics.Paint getXfermode android.graphics.Xfermode 
+android.graphics.Paint getPathEffect android.graphics.PathEffect 
+android.graphics.Paint getMaskFilter android.graphics.MaskFilter 
+android.graphics.Paint getTypeface android.graphics.Typeface 
+android.graphics.Paint getRasterizer android.graphics.Rasterizer 
+android.graphics.Paint getTextAlign android.graphics.Paint$Align 
+android.graphics.Paint getTextSize float 
+android.graphics.Paint getTextScaleX float 
+android.graphics.Paint getTextSkewX float 
+android.graphics.Paint getFontMetrics android.graphics.Paint$FontMetrics 
+android.graphics.Paint getFontMetrics float android.graphics.Paint$FontMetrics 
+android.graphics.Paint getFontMetricsInt int android.graphics.Paint$FontMetricsInt 
+android.graphics.Paint getFontMetricsInt android.graphics.Paint$FontMetricsInt 
+android.graphics.Paint getFontSpacing float 
+android.graphics.Paint getTextWidths int char[] int int float[] 
+android.graphics.Paint getTextWidths int java.lang.CharSequence int int float[] 
+android.graphics.Paint getTextWidths int java.lang.String int int float[] 
+android.graphics.Paint getTextWidths int java.lang.String float[] 
+android.graphics.Paint getTextPath void java.lang.String int int float float android.graphics.Path 
+android.graphics.Paint getTextPath void char[] int int float float android.graphics.Path 
+android.graphics.Paint getTextBounds void java.lang.String int int android.graphics.Rect 
+android.graphics.Paint getTextBounds void char[] int int android.graphics.Rect 
+android.graphics.Paint getStyle android.graphics.Paint$Style 
+android.graphics.Paint getAlpha int 
+android.graphics.Paint getColor int 
+android.graphics.Paint getFlags int 
+android.graphics.Path getFillType android.graphics.Path$FillType 
+android.graphics.PixelFormat getPixelFormatInfo void int android.graphics.PixelFormat 
+android.graphics.PathMeasure getMatrix boolean float android.graphics.Matrix int 
+android.graphics.PathMeasure getPosTan boolean float float[] float[] 
+android.graphics.PathMeasure getSegment boolean float float android.graphics.Path boolean 
+android.graphics.PathMeasure getLength float 
+android.graphics.NinePatch getTransparentRegion android.graphics.Region android.graphics.Rect 
+android.graphics.NinePatch getDensity int 
+android.graphics.NinePatch getHeight int 
+android.graphics.NinePatch getWidth int 
+android.gesture.GestureOverlayView getOrientation int 
+android.gesture.GestureOverlayView getCurrentStroke java.util.ArrayList 
+android.gesture.GestureOverlayView getUncertainGestureColor int 
+android.gesture.GestureOverlayView getGestureColor int 
+android.gesture.GestureOverlayView getGestureStrokeWidth float 
+android.gesture.GestureOverlayView getGestureStrokeType int 
+android.gesture.GestureOverlayView getGesture android.gesture.Gesture 
+android.gesture.GestureOverlayView getGesturePath android.graphics.Path android.graphics.Path 
+android.gesture.GestureOverlayView getGesturePath android.graphics.Path 
+android.gesture.GestureOverlayView getFadeOffset long 
+android.gesture.GestureOverlayView getGestureStrokeLengthThreshold float 
+android.gesture.GestureOverlayView getGestureStrokeSquarenessTreshold float 
+android.gesture.GestureOverlayView getGestureStrokeAngleThreshold float 
+android.gesture.GestureStroke getPath android.graphics.Path 
+android.gesture.GestureStore getGestures java.util.ArrayList java.lang.String 
+android.gesture.GestureStore getGestureEntries java.util.Set 
+android.gesture.GestureStore getSequenceType int 
+android.gesture.GestureStore getOrientationStyle int 
+android.gesture.Gesture getBoundingBox android.graphics.RectF 
+android.gesture.Gesture getStrokesCount int 
+android.gesture.Gesture getStrokes java.util.ArrayList 
+android.gesture.Gesture getLength float 
+android.gesture.Gesture getID long 
+android.location.Address getAddressLine java.lang.String int 
+android.location.Address getMaxAddressLineIndex int 
+android.location.Address getFeatureName java.lang.String 
+android.location.Address getAdminArea java.lang.String 
+android.location.Address getSubAdminArea java.lang.String 
+android.location.Address getLocality java.lang.String 
+android.location.Address getSubLocality java.lang.String 
+android.location.Address getThoroughfare java.lang.String 
+android.location.Address getSubThoroughfare java.lang.String 
+android.location.Address getPremises java.lang.String 
+android.location.Address getPostalCode java.lang.String 
+android.location.Address getCountryCode java.lang.String 
+android.location.Address getCountryName java.lang.String 
+android.location.Address getLatitude double 
+android.location.Address getLongitude double 
+android.location.Address getLocale java.util.Locale 
+android.location.Address getExtras android.os.Bundle 
+android.location.Address getPhone java.lang.String 
+android.location.Address getUrl java.lang.String 
+android.location.Geocoder getFromLocationName java.util.List java.lang.String int double double double double 
+android.location.Geocoder getFromLocationName java.util.List java.lang.String int 
+android.location.Geocoder getFromLocation java.util.List double double int 
+android.location.GpsSatellite getAzimuth float 
+android.location.GpsSatellite getElevation float 
+android.location.GpsSatellite getPrn int 
+android.location.GpsSatellite getSnr float 
+android.location.Location getLatitude double 
+android.location.Location getLongitude double 
+android.location.Location getAltitude double 
+android.location.Location getExtras android.os.Bundle 
+android.location.Location getAccuracy float 
+android.location.Location getBearing float 
+android.location.Location getSpeed float 
+android.location.Location getProvider java.lang.String 
+android.location.Location getTime long 
+android.location.GpsStatus getTimeToFirstFix int 
+android.location.GpsStatus getSatellites java.lang.Iterable 
+android.location.GpsStatus getMaxSatellites int 
+android.location.Criteria getHorizontalAccuracy int 
+android.location.Criteria getVerticalAccuracy int 
+android.location.Criteria getSpeedAccuracy int 
+android.location.Criteria getBearingAccuracy int 
+android.location.Criteria getPowerRequirement int 
+android.location.Criteria getAccuracy int 
+android.location.LocationManager getBestProvider java.lang.String android.location.Criteria boolean 
+android.location.LocationManager getProviders java.util.List android.location.Criteria boolean 
+android.location.LocationManager getProviders java.util.List boolean 
+android.location.LocationManager getAllProviders java.util.List 
+android.location.LocationManager getLastKnownLocation android.location.Location java.lang.String 
+android.location.LocationManager getGpsStatus android.location.GpsStatus android.location.GpsStatus 
+android.location.LocationManager getProvider android.location.LocationProvider java.lang.String 
+android.net.UrlQuerySanitizer getAllIllegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getAllButNulLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getAllButWhitespaceLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getUrlLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getUrlAndSpaceLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getAmpLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getAmpAndSpaceLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getSpaceLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getParameterSet java.util.Set 
+android.net.UrlQuerySanitizer getParameterList java.util.List 
+android.net.UrlQuerySanitizer getValueSanitizer android.net.UrlQuerySanitizer$ValueSanitizer java.lang.String 
+android.net.UrlQuerySanitizer getUnregisteredParameterValueSanitizer android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getAllButNulAndAngleBracketsLegal android.net.UrlQuerySanitizer$ValueSanitizer 
+android.net.UrlQuerySanitizer getAllowUnregisteredParamaters boolean 
+android.net.UrlQuerySanitizer getPreferFirstRepeatedParameter boolean 
+android.net.UrlQuerySanitizer getEffectiveValueSanitizer android.net.UrlQuerySanitizer$ValueSanitizer java.lang.String 
+android.net.UrlQuerySanitizer getValue java.lang.String java.lang.String 
+android.net.LocalSocketAddress getNamespace android.net.LocalSocketAddress$Namespace 
+android.net.LocalSocketAddress getName java.lang.String 
+android.net.wifi.WifiInfo getNetworkId int 
+android.net.wifi.WifiInfo getMacAddress java.lang.String 
+android.net.wifi.WifiInfo getLinkSpeed int 
+android.net.wifi.WifiInfo getIpAddress int 
+android.net.wifi.WifiInfo getHiddenSSID boolean 
+android.net.wifi.WifiInfo getDetailedStateOf android.net.NetworkInfo$DetailedState android.net.wifi.SupplicantState 
+android.net.wifi.WifiInfo getSupplicantState android.net.wifi.SupplicantState 
+android.net.wifi.WifiInfo getBSSID java.lang.String 
+android.net.wifi.WifiInfo getSSID java.lang.String 
+android.net.wifi.WifiInfo getRssi int 
+android.net.wifi.WifiManager getConfiguredNetworks java.util.List 
+android.net.wifi.WifiManager getConnectionInfo android.net.wifi.WifiInfo 
+android.net.wifi.WifiManager getScanResults java.util.List 
+android.net.wifi.WifiManager getDhcpInfo android.net.DhcpInfo 
+android.net.wifi.WifiManager getWifiState int 
+android.net.wifi.p2p.WifiP2pGroup getInterface java.lang.String 
+android.net.wifi.p2p.WifiP2pGroup getClientList java.util.Collection 
+android.net.wifi.p2p.WifiP2pGroup getNetworkName java.lang.String 
+android.net.wifi.p2p.WifiP2pGroup getPassphrase java.lang.String 
+android.net.wifi.p2p.WifiP2pGroup getOwner android.net.wifi.p2p.WifiP2pDevice 
+android.net.wifi.p2p.WifiP2pDeviceList getDeviceList java.util.Collection 
+android.net.Credentials getUid int 
+android.net.Credentials getPid int 
+android.net.Credentials getGid int 
+android.net.ConnectivityManager getNetworkPreference int 
+android.net.ConnectivityManager getActiveNetworkInfo android.net.NetworkInfo 
+android.net.ConnectivityManager getNetworkInfo android.net.NetworkInfo int 
+android.net.ConnectivityManager getAllNetworkInfo android.net.NetworkInfo[] 
+android.net.ConnectivityManager getBackgroundDataSetting boolean 
+android.net.MailTo getSubject java.lang.String 
+android.net.MailTo getCc java.lang.String 
+android.net.MailTo getBody java.lang.String 
+android.net.MailTo getTo java.lang.String 
+android.net.MailTo getHeaders java.util.Map 
+android.net.sip.SipSession getCallId java.lang.String 
+android.net.sip.SipSession getPeerProfile android.net.sip.SipProfile 
+android.net.sip.SipSession getLocalProfile android.net.sip.SipProfile 
+android.net.sip.SipSession getLocalIp java.lang.String 
+android.net.sip.SipSession getState int 
+android.net.sip.SipProfile getUriString java.lang.String 
+android.net.sip.SipProfile getAuthUserName java.lang.String 
+android.net.sip.SipProfile getSipDomain java.lang.String 
+android.net.sip.SipProfile getProxyAddress java.lang.String 
+android.net.sip.SipProfile getProfileName java.lang.String 
+android.net.sip.SipProfile getSendKeepAlive boolean 
+android.net.sip.SipProfile getAutoRegistration boolean 
+android.net.sip.SipProfile getUserName java.lang.String 
+android.net.sip.SipProfile getPassword java.lang.String 
+android.net.sip.SipProfile getProtocol java.lang.String 
+android.net.sip.SipProfile getPort int 
+android.net.sip.SipProfile getDisplayName java.lang.String 
+android.net.sip.SipManager getCallId java.lang.String android.content.Intent 
+android.net.sip.SipManager getSessionFor android.net.sip.SipSession android.content.Intent 
+android.net.sip.SipManager getOfferSessionDescription java.lang.String android.content.Intent 
+android.net.sip.SipAudioCall getPeerProfile android.net.sip.SipProfile 
+android.net.sip.SipAudioCall getLocalProfile android.net.sip.SipProfile 
+android.net.sip.SipAudioCall getState int 
+android.net.LocalServerSocket getFileDescriptor java.io.FileDescriptor 
+android.net.LocalServerSocket getLocalSocketAddress android.net.LocalSocketAddress 
+android.net.http.HttpResponseCache getRequestCount int 
+android.net.http.HttpResponseCache getHitCount int 
+android.net.http.HttpResponseCache getNetworkCount int 
+android.net.http.HttpResponseCache getInstalled android.net.http.HttpResponseCache 
+android.net.http.HttpResponseCache get java.net.CacheResponse java.net.URI java.lang.String java.util.Map 
+android.net.http.SslCertificate$DName getDName java.lang.String 
+android.net.http.SslCertificate$DName getCName java.lang.String 
+android.net.http.SslCertificate$DName getOName java.lang.String 
+android.net.http.SslCertificate$DName getUName java.lang.String 
+android.net.http.SslError getCertificate android.net.http.SslCertificate 
+android.net.http.SslError getPrimaryError int 
+android.net.http.SslError getUrl java.lang.String 
+android.net.http.SslCertificate getIssuedBy android.net.http.SslCertificate$DName 
+android.net.http.SslCertificate getIssuedTo android.net.http.SslCertificate$DName 
+android.net.http.SslCertificate getValidNotAfter java.lang.String 
+android.net.http.SslCertificate getValidNotAfterDate java.util.Date 
+android.net.http.SslCertificate getValidNotBefore java.lang.String 
+android.net.http.SslCertificate getValidNotBeforeDate java.util.Date 
+android.net.NetworkInfo getExtraInfo java.lang.String 
+android.net.NetworkInfo getDetailedState android.net.NetworkInfo$DetailedState 
+android.net.NetworkInfo getSubtypeName java.lang.String 
+android.net.NetworkInfo getSubtype int 
+android.net.NetworkInfo getTypeName java.lang.String 
+android.net.NetworkInfo getState android.net.NetworkInfo$State 
+android.net.NetworkInfo getType int 
+android.net.NetworkInfo getReason java.lang.String 
+android.net.rtp.RtpStream getRemotePort int 
+android.net.rtp.RtpStream getRemoteAddress java.net.InetAddress 
+android.net.rtp.RtpStream getMode int 
+android.net.rtp.RtpStream getLocalAddress java.net.InetAddress 
+android.net.rtp.RtpStream getLocalPort int 
+android.net.rtp.AudioStream getDtmfType int 
+android.net.rtp.AudioStream getCodec android.net.rtp.AudioCodec 
+android.net.rtp.AudioStream getGroup android.net.rtp.AudioGroup 
+android.net.rtp.AudioCodec getCodecs android.net.rtp.AudioCodec[] 
+android.net.rtp.AudioCodec getCodec android.net.rtp.AudioCodec int java.lang.String java.lang.String 
+android.net.rtp.AudioGroup getStreams android.net.rtp.AudioStream[] 
+android.net.rtp.AudioGroup getMode int 
+android.net.SSLCertificateSocketFactory getNpnSelectedProtocol byte[] java.net.Socket 
+android.net.SSLCertificateSocketFactory getHttpSocketFactory org.apache.http.conn.ssl.SSLSocketFactory int android.net.SSLSessionCache 
+android.net.SSLCertificateSocketFactory getInsecure javax.net.ssl.SSLSocketFactory int android.net.SSLSessionCache 
+android.net.SSLCertificateSocketFactory getDefaultCipherSuites java.lang.String[] 
+android.net.SSLCertificateSocketFactory getSupportedCipherSuites java.lang.String[] 
+android.net.SSLCertificateSocketFactory getDefault javax.net.ssl.SSLSocketFactory int android.net.SSLSessionCache 
+android.net.SSLCertificateSocketFactory getDefault javax.net.SocketFactory int 
+android.net.TrafficStats getUidTcpTxSegments long int 
+android.net.TrafficStats getUidTcpRxSegments long int 
+android.net.TrafficStats getUidUdpTxPackets long int 
+android.net.TrafficStats getUidUdpRxPackets long int 
+android.net.TrafficStats getUidUdpRxBytes long int 
+android.net.TrafficStats getThreadStatsTag int 
+android.net.TrafficStats getMobileTxPackets long 
+android.net.TrafficStats getMobileRxPackets long 
+android.net.TrafficStats getMobileTxBytes long 
+android.net.TrafficStats getMobileRxBytes long 
+android.net.TrafficStats getTotalTxPackets long 
+android.net.TrafficStats getTotalRxPackets long 
+android.net.TrafficStats getTotalTxBytes long 
+android.net.TrafficStats getTotalRxBytes long 
+android.net.TrafficStats getUidTxBytes long int 
+android.net.TrafficStats getUidRxBytes long int 
+android.net.TrafficStats getUidTxPackets long int 
+android.net.TrafficStats getUidRxPackets long int 
+android.net.TrafficStats getUidTcpTxBytes long int 
+android.net.TrafficStats getUidTcpRxBytes long int 
+android.net.TrafficStats getUidUdpTxBytes long int 
+android.net.LocalSocket getPeerCredentials android.net.Credentials 
+android.net.LocalSocket getAncillaryFileDescriptors java.io.FileDescriptor[] 
+android.net.LocalSocket getFileDescriptor java.io.FileDescriptor 
+android.net.LocalSocket getInputStream java.io.InputStream 
+android.net.LocalSocket getOutputStream java.io.OutputStream 
+android.net.LocalSocket getRemoteSocketAddress android.net.LocalSocketAddress 
+android.net.LocalSocket getLocalSocketAddress android.net.LocalSocketAddress 
+android.net.LocalSocket getSoTimeout int 
+android.net.LocalSocket getSendBufferSize int 
+android.net.LocalSocket getReceiveBufferSize int 
+android.net.nsd.NsdServiceInfo getServiceName java.lang.String 
+android.net.nsd.NsdServiceInfo getServiceType java.lang.String 
+android.net.nsd.NsdServiceInfo getHost java.net.InetAddress 
+android.net.nsd.NsdServiceInfo getPort int 
+android.net.Proxy getDefaultHost java.lang.String 
+android.net.Proxy getHost java.lang.String android.content.Context 
+android.net.Proxy getPort int android.content.Context 
+android.net.Proxy getDefaultPort int 
+android.telephony.PhoneNumberUtils getNumberFromIntent java.lang.String android.content.Intent android.content.Context 
+android.telephony.PhoneNumberUtils getStrippedReversed java.lang.String java.lang.String 
+android.telephony.PhoneNumberUtils getFormatTypeForLocale int java.util.Locale 
+android.telephony.SignalStrength getGsmBitErrorRate int 
+android.telephony.SignalStrength getEvdoDbm int 
+android.telephony.SignalStrength getCdmaEcio int 
+android.telephony.SignalStrength getCdmaDbm int 
+android.telephony.SignalStrength getGsmSignalStrength int 
+android.telephony.SignalStrength getEvdoEcio int 
+android.telephony.SignalStrength getEvdoSnr int 
+android.telephony.gsm.GsmCellLocation getLac int 
+android.telephony.gsm.GsmCellLocation getCid int 
+android.telephony.gsm.GsmCellLocation getPsc int 
+android.telephony.gsm.SmsMessage getStatus int 
+android.telephony.gsm.SmsMessage getTPLayerLengthForPDU int java.lang.String 
+android.telephony.gsm.SmsMessage getSubmitPdu android.telephony.gsm.SmsMessage$SubmitPdu java.lang.String java.lang.String short byte[] boolean 
+android.telephony.gsm.SmsMessage getSubmitPdu android.telephony.gsm.SmsMessage$SubmitPdu java.lang.String java.lang.String java.lang.String boolean 
+android.telephony.gsm.SmsMessage getServiceCenterAddress java.lang.String 
+android.telephony.gsm.SmsMessage getOriginatingAddress java.lang.String 
+android.telephony.gsm.SmsMessage getMessageBody java.lang.String 
+android.telephony.gsm.SmsMessage getMessageClass android.telephony.gsm.SmsMessage$MessageClass 
+android.telephony.gsm.SmsMessage getDisplayMessageBody java.lang.String 
+android.telephony.gsm.SmsMessage getPseudoSubject java.lang.String 
+android.telephony.gsm.SmsMessage getTimestampMillis long 
+android.telephony.gsm.SmsMessage getEmailBody java.lang.String 
+android.telephony.gsm.SmsMessage getEmailFrom java.lang.String 
+android.telephony.gsm.SmsMessage getProtocolIdentifier int 
+android.telephony.gsm.SmsMessage getStatusOnSim int 
+android.telephony.gsm.SmsMessage getIndexOnSim int 
+android.telephony.gsm.SmsMessage getUserData byte[] 
+android.telephony.gsm.SmsMessage getPdu byte[] 
+android.telephony.gsm.SmsMessage getDisplayOriginatingAddress java.lang.String 
+android.telephony.gsm.SmsManager getDefault android.telephony.gsm.SmsManager 
+android.telephony.cdma.CdmaCellLocation getNetworkId int 
+android.telephony.cdma.CdmaCellLocation getBaseStationId int 
+android.telephony.cdma.CdmaCellLocation getBaseStationLatitude int 
+android.telephony.cdma.CdmaCellLocation getBaseStationLongitude int 
+android.telephony.cdma.CdmaCellLocation getSystemId int 
+android.telephony.SmsMessage getStatus int 
+android.telephony.SmsMessage getIndexOnIcc int 
+android.telephony.SmsMessage getStatusOnIcc int 
+android.telephony.SmsMessage getTPLayerLengthForPDU int java.lang.String 
+android.telephony.SmsMessage getSubmitPdu android.telephony.SmsMessage$SubmitPdu java.lang.String java.lang.String java.lang.String boolean 
+android.telephony.SmsMessage getSubmitPdu android.telephony.SmsMessage$SubmitPdu java.lang.String java.lang.String short byte[] boolean 
+android.telephony.SmsMessage getServiceCenterAddress java.lang.String 
+android.telephony.SmsMessage getOriginatingAddress java.lang.String 
+android.telephony.SmsMessage getMessageBody java.lang.String 
+android.telephony.SmsMessage getMessageClass android.telephony.SmsMessage$MessageClass 
+android.telephony.SmsMessage getDisplayMessageBody java.lang.String 
+android.telephony.SmsMessage getPseudoSubject java.lang.String 
+android.telephony.SmsMessage getTimestampMillis long 
+android.telephony.SmsMessage getEmailBody java.lang.String 
+android.telephony.SmsMessage getEmailFrom java.lang.String 
+android.telephony.SmsMessage getProtocolIdentifier int 
+android.telephony.SmsMessage getStatusOnSim int 
+android.telephony.SmsMessage getIndexOnSim int 
+android.telephony.SmsMessage getUserData byte[] 
+android.telephony.SmsMessage getPdu byte[] 
+android.telephony.SmsMessage getDisplayOriginatingAddress java.lang.String 
+android.telephony.ServiceState getRoaming boolean 
+android.telephony.ServiceState getOperatorAlphaLong java.lang.String 
+android.telephony.ServiceState getOperatorAlphaShort java.lang.String 
+android.telephony.ServiceState getOperatorNumeric java.lang.String 
+android.telephony.ServiceState getIsManualSelection boolean 
+android.telephony.ServiceState getState int 
+android.telephony.NeighboringCellInfo getNetworkType int 
+android.telephony.NeighboringCellInfo getLac int 
+android.telephony.NeighboringCellInfo getCid int 
+android.telephony.NeighboringCellInfo getPsc int 
+android.telephony.NeighboringCellInfo getRssi int 
+android.telephony.SmsManager getDefault android.telephony.SmsManager 
+android.telephony.TelephonyManager getDeviceId java.lang.String 
+android.telephony.TelephonyManager getDeviceSoftwareVersion java.lang.String 
+android.telephony.TelephonyManager getCellLocation android.telephony.CellLocation 
+android.telephony.TelephonyManager getNeighboringCellInfo java.util.List 
+android.telephony.TelephonyManager getPhoneType int 
+android.telephony.TelephonyManager getNetworkOperatorName java.lang.String 
+android.telephony.TelephonyManager getNetworkOperator java.lang.String 
+android.telephony.TelephonyManager getNetworkCountryIso java.lang.String 
+android.telephony.TelephonyManager getSimState int 
+android.telephony.TelephonyManager getSimOperator java.lang.String 
+android.telephony.TelephonyManager getSimOperatorName java.lang.String 
+android.telephony.TelephonyManager getSimCountryIso java.lang.String 
+android.telephony.TelephonyManager getSimSerialNumber java.lang.String 
+android.telephony.TelephonyManager getSubscriberId java.lang.String 
+android.telephony.TelephonyManager getLine1Number java.lang.String 
+android.telephony.TelephonyManager getVoiceMailNumber java.lang.String 
+android.telephony.TelephonyManager getVoiceMailAlphaTag java.lang.String 
+android.telephony.TelephonyManager getCallState int 
+android.telephony.TelephonyManager getDataActivity int 
+android.telephony.TelephonyManager getDataState int 
+android.telephony.TelephonyManager getNetworkType int 
+android.security.KeyChain getCertificateChain java.security.cert.X509Certificate[] android.content.Context java.lang.String 
+android.security.KeyChain getPrivateKey java.security.PrivateKey android.content.Context java.lang.String 
+android.view.MotionEvent getDeviceId int 
+android.view.MotionEvent getSource int 
+android.view.MotionEvent getMetaState int 
+android.view.MotionEvent getDownTime long 
+android.view.MotionEvent getEventTime long 
+android.view.MotionEvent getActionMasked int 
+android.view.MotionEvent getActionIndex int 
+android.view.MotionEvent getPressure float 
+android.view.MotionEvent getPressure float int 
+android.view.MotionEvent getTouchMajor float int 
+android.view.MotionEvent getTouchMajor float 
+android.view.MotionEvent getTouchMinor float int 
+android.view.MotionEvent getTouchMinor float 
+android.view.MotionEvent getToolMajor float 
+android.view.MotionEvent getToolMajor float int 
+android.view.MotionEvent getToolMinor float 
+android.view.MotionEvent getToolMinor float int 
+android.view.MotionEvent getOrientation float int 
+android.view.MotionEvent getOrientation float 
+android.view.MotionEvent getAxisValue float int int 
+android.view.MotionEvent getAxisValue float int 
+android.view.MotionEvent getPointerCount int 
+android.view.MotionEvent getPointerId int int 
+android.view.MotionEvent getToolType int int 
+android.view.MotionEvent findPointerIndex int int 
+android.view.MotionEvent getPointerCoords void int android.view.MotionEvent$PointerCoords 
+android.view.MotionEvent getPointerProperties void int android.view.MotionEvent$PointerProperties 
+android.view.MotionEvent getButtonState int 
+android.view.MotionEvent getXPrecision float 
+android.view.MotionEvent getYPrecision float 
+android.view.MotionEvent getHistorySize int 
+android.view.MotionEvent getHistoricalEventTime long int 
+android.view.MotionEvent getHistoricalX float int int 
+android.view.MotionEvent getHistoricalX float int 
+android.view.MotionEvent getHistoricalY float int int 
+android.view.MotionEvent getHistoricalY float int 
+android.view.MotionEvent getHistoricalPressure float int int 
+android.view.MotionEvent getHistoricalPressure float int 
+android.view.MotionEvent getHistoricalSize float int 
+android.view.MotionEvent getHistoricalSize float int int 
+android.view.MotionEvent getHistoricalTouchMajor float int 
+android.view.MotionEvent getHistoricalTouchMajor float int int 
+android.view.MotionEvent getHistoricalTouchMinor float int 
+android.view.MotionEvent getHistoricalTouchMinor float int int 
+android.view.MotionEvent getHistoricalToolMajor float int int 
+android.view.MotionEvent getHistoricalToolMajor float int 
+android.view.MotionEvent getHistoricalToolMinor float int 
+android.view.MotionEvent getHistoricalToolMinor float int int 
+android.view.MotionEvent getHistoricalOrientation float int int 
+android.view.MotionEvent getHistoricalOrientation float int 
+android.view.MotionEvent getHistoricalAxisValue float int int 
+android.view.MotionEvent getHistoricalAxisValue float int int int 
+android.view.MotionEvent getEdgeFlags int 
+android.view.MotionEvent getAction int 
+android.view.MotionEvent getRawX float 
+android.view.MotionEvent getRawY float 
+android.view.MotionEvent getY float 
+android.view.MotionEvent getY float int 
+android.view.MotionEvent getX float 
+android.view.MotionEvent getX float int 
+android.view.MotionEvent getFlags int 
+android.view.MotionEvent getHistoricalPointerCoords void int int android.view.MotionEvent$PointerCoords 
+android.view.MotionEvent getSize float 
+android.view.MotionEvent getSize float int 
+android.view.ContextThemeWrapper getSystemService java.lang.Object java.lang.String 
+android.view.ContextThemeWrapper getTheme android.content.res.Resources$Theme 
+android.view.textservice.TextInfo getCookie int 
+android.view.textservice.TextInfo getSequence int 
+android.view.textservice.TextInfo getText java.lang.String 
+android.view.textservice.SpellCheckerInfo getComponent android.content.ComponentName 
+android.view.textservice.SpellCheckerInfo getSubtypeCount int 
+android.view.textservice.SpellCheckerInfo getSubtypeAt android.view.textservice.SpellCheckerSubtype int 
+android.view.textservice.SpellCheckerInfo getSettingsActivity java.lang.String 
+android.view.textservice.SpellCheckerInfo getServiceInfo android.content.pm.ServiceInfo 
+android.view.textservice.SpellCheckerInfo getId java.lang.String 
+android.view.textservice.SpellCheckerInfo getPackageName java.lang.String 
+android.view.textservice.SpellCheckerSubtype getLocale java.lang.String 
+android.view.textservice.SpellCheckerSubtype getExtraValueOf java.lang.String java.lang.String 
+android.view.textservice.SpellCheckerSubtype getExtraValue java.lang.String 
+android.view.textservice.SpellCheckerSubtype getNameResId int 
+android.view.textservice.SpellCheckerSubtype getDisplayName java.lang.CharSequence android.content.Context java.lang.String android.content.pm.ApplicationInfo 
+android.view.textservice.SentenceSuggestionsInfo getOffsetAt int int 
+android.view.textservice.SentenceSuggestionsInfo getSuggestionsInfoAt android.view.textservice.SuggestionsInfo int 
+android.view.textservice.SentenceSuggestionsInfo getSuggestionsCount int 
+android.view.textservice.SentenceSuggestionsInfo getLengthAt int int 
+android.view.textservice.SpellCheckerSession getSuggestions void android.view.textservice.TextInfo[] int boolean 
+android.view.textservice.SpellCheckerSession getSuggestions void android.view.textservice.TextInfo int 
+android.view.textservice.SpellCheckerSession getSpellChecker android.view.textservice.SpellCheckerInfo 
+android.view.textservice.SpellCheckerSession getSentenceSuggestions void android.view.textservice.TextInfo[] int 
+android.view.textservice.SuggestionsInfo getCookie int 
+android.view.textservice.SuggestionsInfo getSequence int 
+android.view.textservice.SuggestionsInfo getSuggestionsAttributes int 
+android.view.textservice.SuggestionsInfo getSuggestionAt java.lang.String int 
+android.view.textservice.SuggestionsInfo getSuggestionsCount int 
+android.view.InputDevice getKeyCharacterMap android.view.KeyCharacterMap 
+android.view.InputDevice getDevice android.view.InputDevice int 
+android.view.InputDevice getDeviceIds int[] 
+android.view.InputDevice getSources int 
+android.view.InputDevice getKeyboardType int 
+android.view.InputDevice getMotionRange android.view.InputDevice$MotionRange int int 
+android.view.InputDevice getMotionRange android.view.InputDevice$MotionRange int 
+android.view.InputDevice getMotionRanges java.util.List 
+android.view.InputDevice getVibrator android.os.Vibrator 
+android.view.InputDevice getName java.lang.String 
+android.view.InputDevice getDescriptor java.lang.String 
+android.view.InputDevice getId int 
+android.view.FocusFinder findNearestTouchable android.view.View android.view.ViewGroup int int int int[] 
+android.view.FocusFinder findNextFocus android.view.View android.view.ViewGroup android.view.View int 
+android.view.FocusFinder findNextFocusFromRect android.view.View android.view.ViewGroup android.graphics.Rect int 
+android.view.FocusFinder getInstance android.view.FocusFinder 
+android.view.KeyCharacterMap getDeadChar int int int 
+android.view.KeyCharacterMap getDisplayLabel char int 
+android.view.KeyCharacterMap getKeyData boolean int android.view.KeyCharacterMap$KeyData 
+android.view.KeyCharacterMap getKeyboardType int 
+android.view.KeyCharacterMap getEvents android.view.KeyEvent[] char[] 
+android.view.KeyCharacterMap getModifierBehavior int 
+android.view.KeyCharacterMap getMatch char int char[] int 
+android.view.KeyCharacterMap getMatch char int char[] 
+android.view.KeyCharacterMap get int int int 
+android.view.KeyCharacterMap getNumber char int 
+android.view.View getAnimation android.view.animation.Animation 
+android.view.View getOnFocusChangeListener android.view.View$OnFocusChangeListener 
+android.view.View getContentDescription java.lang.CharSequence 
+android.view.View findFocus android.view.View 
+android.view.View getDrawingCacheQuality int 
+android.view.View getKeepScreenOn boolean 
+android.view.View getNextFocusLeftId int 
+android.view.View getNextFocusRightId int 
+android.view.View getNextFocusUpId int 
+android.view.View getNextFocusDownId int 
+android.view.View getNextFocusForwardId int 
+android.view.View getFitsSystemWindows boolean 
+android.view.View getVisibility int 
+android.view.View getFocusables java.util.ArrayList int 
+android.view.View getTouchables java.util.ArrayList 
+android.view.View getKeyDispatcherState android.view.KeyEvent$DispatcherState 
+android.view.View getWindowVisibility int 
+android.view.View getContextMenuInfo android.view.ContextMenu$ContextMenuInfo 
+android.view.View getTouchDelegate android.view.TouchDelegate 
+android.view.View getScrollX int 
+android.view.View getScrollY int 
+android.view.View getDrawingRect void android.graphics.Rect 
+android.view.View getMeasuredWidth int 
+android.view.View getMeasuredWidthAndState int 
+android.view.View getMeasuredHeight int 
+android.view.View getMeasuredState int 
+android.view.View getCameraDistance float 
+android.view.View getRotation float 
+android.view.View getRotationY float 
+android.view.View getRotationX float 
+android.view.View getScaleX float 
+android.view.View getScaleY float 
+android.view.View getPivotX float 
+android.view.View getPivotY float 
+android.view.View getBottom int 
+android.view.View getTranslationX float 
+android.view.View getTranslationY float 
+android.view.View getHitRect void android.graphics.Rect 
+android.view.View getGlobalVisibleRect boolean android.graphics.Rect android.graphics.Point 
+android.view.View getGlobalVisibleRect boolean android.graphics.Rect 
+android.view.View getLocalVisibleRect boolean android.graphics.Rect 
+android.view.View getLayoutParams android.view.ViewGroup$LayoutParams 
+android.view.View getTopFadingEdgeStrength float 
+android.view.View getScrollBarFadeDuration int 
+android.view.View getScrollBarSize int 
+android.view.View getScrollBarStyle int 
+android.view.View getWindowAttachCount int 
+android.view.View getWindowToken android.os.IBinder 
+android.view.View getDrawingTime long 
+android.view.View getLayerType int 
+android.view.View getDrawingCache android.graphics.Bitmap boolean 
+android.view.View getDrawingCache android.graphics.Bitmap 
+android.view.View getSolidColor int 
+android.view.View getDrawableState int[] 
+android.view.View getBackground android.graphics.drawable.Drawable 
+android.view.View getPaddingTop int 
+android.view.View getPaddingBottom int 
+android.view.View getPaddingLeft int 
+android.view.View getPaddingRight int 
+android.view.View getViewTreeObserver android.view.ViewTreeObserver 
+android.view.View getRootView android.view.View 
+android.view.View getLocationOnScreen void int[] 
+android.view.View getLocationInWindow void int[] 
+android.view.View findViewWithTag android.view.View java.lang.Object 
+android.view.View getDefaultSize int int int 
+android.view.View getSuggestedMinimumWidth int 
+android.view.View getMinimumHeight int 
+android.view.View getMinimumWidth int 
+android.view.View getSystemUiVisibility int 
+android.view.View getOverScrollMode int 
+android.view.View getMatrix android.graphics.Matrix 
+android.view.View getLeftPaddingOffset int 
+android.view.View getTopPaddingOffset int 
+android.view.View getBottomPaddingOffset int 
+android.view.View getRightPaddingOffset int 
+android.view.View getFocusedRect void android.graphics.Rect 
+android.view.View getBaseline int 
+android.view.View findViewsWithText void java.util.ArrayList java.lang.CharSequence int 
+android.view.View findViewById android.view.View int 
+android.view.View getHeight int 
+android.view.View getAlpha float 
+android.view.View getTop int 
+android.view.View getLeft int 
+android.view.View getRight int 
+android.view.View getWidth int 
+android.view.View getY float 
+android.view.View getX float 
+android.view.View getTag java.lang.Object int 
+android.view.View getTag java.lang.Object 
+android.view.View getVerticalFadingEdgeLength int 
+android.view.View getHorizontalFadingEdgeLength int 
+android.view.View getVerticalScrollbarWidth int 
+android.view.View getHorizontalScrollbarHeight int 
+android.view.View getVerticalScrollbarPosition int 
+android.view.View getAccessibilityNodeProvider android.view.accessibility.AccessibilityNodeProvider 
+android.view.View getFilterTouchesWhenObscured boolean 
+android.view.View getImportantForAccessibility int 
+android.view.View getParentForAccessibility android.view.ViewParent 
+android.view.View getWindowVisibleDisplayFrame void android.graphics.Rect 
+android.view.View getMeasuredHeightAndState int 
+android.view.View getBottomFadingEdgeStrength float 
+android.view.View getScrollBarDefaultDelayBeforeFade int 
+android.view.View getApplicationWindowToken android.os.IBinder 
+android.view.View getDrawingCacheBackgroundColor int 
+android.view.View getSuggestedMinimumHeight int 
+android.view.View getWindowSystemUiVisibility int 
+android.view.View getLeftFadingEdgeStrength float 
+android.view.View getRightFadingEdgeStrength float 
+android.view.View getResources android.content.res.Resources 
+android.view.View getParent android.view.ViewParent 
+android.view.View getContext android.content.Context 
+android.view.View getId int 
+android.view.View getHandler android.os.Handler 
+android.view.SurfaceView getHolder android.view.SurfaceHolder 
+android.view.Choreographer getInstance android.view.Choreographer 
+android.view.SoundEffectConstants getContantForFocusDirection int int 
+android.view.View$AccessibilityDelegate getAccessibilityNodeProvider android.view.accessibility.AccessibilityNodeProvider android.view.View 
+android.view.View$MeasureSpec getMode int int 
+android.view.View$MeasureSpec getSize int int 
+android.view.WindowManager$LayoutParams getTitle java.lang.CharSequence 
+android.view.MotionEvent$PointerCoords getAxisValue float int 
+android.view.ViewStub getLayoutInflater android.view.LayoutInflater 
+android.view.ViewStub getInflatedId int 
+android.view.ViewStub getLayoutResource int 
+android.view.accessibility.AccessibilityEvent getEventTime long 
+android.view.accessibility.AccessibilityEvent getRecordCount int 
+android.view.accessibility.AccessibilityEvent getRecord android.view.accessibility.AccessibilityRecord int 
+android.view.accessibility.AccessibilityEvent getEventType int 
+android.view.accessibility.AccessibilityEvent getMovementGranularity int 
+android.view.accessibility.AccessibilityEvent getAction int 
+android.view.accessibility.AccessibilityEvent getPackageName java.lang.CharSequence 
+android.view.accessibility.AccessibilityManager getAccessibilityServiceList java.util.List 
+android.view.accessibility.AccessibilityManager getInstalledAccessibilityServiceList java.util.List 
+android.view.accessibility.AccessibilityManager getEnabledAccessibilityServiceList java.util.List int 
+android.view.accessibility.AccessibilityNodeInfo getContentDescription java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo findFocus android.view.accessibility.AccessibilityNodeInfo int 
+android.view.accessibility.AccessibilityNodeInfo getChildCount int 
+android.view.accessibility.AccessibilityNodeInfo getWindowId int 
+android.view.accessibility.AccessibilityNodeInfo getMovementGranularities int 
+android.view.accessibility.AccessibilityNodeInfo getBoundsInParent void android.graphics.Rect 
+android.view.accessibility.AccessibilityNodeInfo getBoundsInScreen void android.graphics.Rect 
+android.view.accessibility.AccessibilityNodeInfo getText java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo getChild android.view.accessibility.AccessibilityNodeInfo int 
+android.view.accessibility.AccessibilityNodeInfo findAccessibilityNodeInfosByText java.util.List java.lang.String 
+android.view.accessibility.AccessibilityNodeInfo getParent android.view.accessibility.AccessibilityNodeInfo 
+android.view.accessibility.AccessibilityNodeInfo getActions int 
+android.view.accessibility.AccessibilityNodeInfo getClassName java.lang.CharSequence 
+android.view.accessibility.AccessibilityNodeInfo getPackageName java.lang.CharSequence 
+android.view.accessibility.AccessibilityRecord getSource android.view.accessibility.AccessibilityNodeInfo 
+android.view.accessibility.AccessibilityRecord getContentDescription java.lang.CharSequence 
+android.view.accessibility.AccessibilityRecord getScrollX int 
+android.view.accessibility.AccessibilityRecord getScrollY int 
+android.view.accessibility.AccessibilityRecord getWindowId int 
+android.view.accessibility.AccessibilityRecord getItemCount int 
+android.view.accessibility.AccessibilityRecord getCurrentItemIndex int 
+android.view.accessibility.AccessibilityRecord getFromIndex int 
+android.view.accessibility.AccessibilityRecord getToIndex int 
+android.view.accessibility.AccessibilityRecord getMaxScrollX int 
+android.view.accessibility.AccessibilityRecord getMaxScrollY int 
+android.view.accessibility.AccessibilityRecord getAddedCount int 
+android.view.accessibility.AccessibilityRecord getRemovedCount int 
+android.view.accessibility.AccessibilityRecord getBeforeText java.lang.CharSequence 
+android.view.accessibility.AccessibilityRecord getParcelableData android.os.Parcelable 
+android.view.accessibility.AccessibilityRecord getText java.util.List 
+android.view.accessibility.AccessibilityRecord getClassName java.lang.CharSequence 
+android.view.InputDevice$MotionRange getSource int 
+android.view.InputDevice$MotionRange getMax float 
+android.view.InputDevice$MotionRange getMin float 
+android.view.InputDevice$MotionRange getAxis int 
+android.view.InputDevice$MotionRange getRange float 
+android.view.InputDevice$MotionRange getFlat float 
+android.view.InputDevice$MotionRange getFuzz float 
+android.view.View$DragShadowBuilder getView android.view.View 
+android.view.VelocityTracker getXVelocity float 
+android.view.VelocityTracker getXVelocity float int 
+android.view.VelocityTracker getYVelocity float int 
+android.view.VelocityTracker getYVelocity float 
+android.view.ViewConfiguration getScrollBarFadeDuration int 
+android.view.ViewConfiguration getScrollBarSize int 
+android.view.ViewConfiguration getFadingEdgeLength int 
+android.view.ViewConfiguration getKeyRepeatDelay int 
+android.view.ViewConfiguration getPressedStateDuration int 
+android.view.ViewConfiguration getKeyRepeatTimeout int 
+android.view.ViewConfiguration getLongPressTimeout int 
+android.view.ViewConfiguration getScrollDefaultDelay int 
+android.view.ViewConfiguration getScaledScrollBarSize int 
+android.view.ViewConfiguration getTapTimeout int 
+android.view.ViewConfiguration getJumpTapTimeout int 
+android.view.ViewConfiguration getDoubleTapTimeout int 
+android.view.ViewConfiguration getEdgeSlop int 
+android.view.ViewConfiguration getScaledEdgeSlop int 
+android.view.ViewConfiguration getTouchSlop int 
+android.view.ViewConfiguration getScaledTouchSlop int 
+android.view.ViewConfiguration getScaledPagingTouchSlop int 
+android.view.ViewConfiguration getScaledDoubleTapSlop int 
+android.view.ViewConfiguration getWindowTouchSlop int 
+android.view.ViewConfiguration getScaledWindowTouchSlop int 
+android.view.ViewConfiguration getMinimumFlingVelocity int 
+android.view.ViewConfiguration getMaximumFlingVelocity int 
+android.view.ViewConfiguration getZoomControlsTimeout long 
+android.view.ViewConfiguration getScrollFriction float 
+android.view.ViewConfiguration getScaledFadingEdgeLength int 
+android.view.ViewConfiguration getScaledMinimumFlingVelocity int 
+android.view.ViewConfiguration getScaledMaximumFlingVelocity int 
+android.view.ViewConfiguration getMaximumDrawingCacheSize int 
+android.view.ViewConfiguration getScaledMaximumDrawingCacheSize int 
+android.view.ViewConfiguration getScaledOverscrollDistance int 
+android.view.ViewConfiguration getScaledOverflingDistance int 
+android.view.ViewConfiguration getGlobalActionKeyTimeout long 
+android.view.ViewConfiguration get android.view.ViewConfiguration android.content.Context 
+android.view.TextureView getLayerType int 
+android.view.TextureView getBitmap android.graphics.Bitmap 
+android.view.TextureView getBitmap android.graphics.Bitmap int int 
+android.view.TextureView getBitmap android.graphics.Bitmap android.graphics.Bitmap 
+android.view.TextureView getSurfaceTexture android.graphics.SurfaceTexture 
+android.view.TextureView getTransform android.graphics.Matrix android.graphics.Matrix 
+android.view.TextureView getSurfaceTextureListener android.view.TextureView$SurfaceTextureListener 
+android.view.ScaleGestureDetector getEventTime long 
+android.view.ScaleGestureDetector getFocusX float 
+android.view.ScaleGestureDetector getFocusY float 
+android.view.ScaleGestureDetector getCurrentSpan float 
+android.view.ScaleGestureDetector getCurrentSpanX float 
+android.view.ScaleGestureDetector getCurrentSpanY float 
+android.view.ScaleGestureDetector getPreviousSpan float 
+android.view.ScaleGestureDetector getPreviousSpanX float 
+android.view.ScaleGestureDetector getPreviousSpanY float 
+android.view.ScaleGestureDetector getTimeDelta long 
+android.view.ScaleGestureDetector getScaleFactor float 
+android.view.KeyEvent getMaxKeyCode int 
+android.view.KeyEvent getDeadChar int int int 
+android.view.KeyEvent getDeviceId int 
+android.view.KeyEvent getSource int 
+android.view.KeyEvent getMetaState int 
+android.view.KeyEvent getModifierMetaStateMask int 
+android.view.KeyEvent getKeyCode int 
+android.view.KeyEvent getCharacters java.lang.String 
+android.view.KeyEvent getScanCode int 
+android.view.KeyEvent getRepeatCount int 
+android.view.KeyEvent getDownTime long 
+android.view.KeyEvent getEventTime long 
+android.view.KeyEvent getKeyCharacterMap android.view.KeyCharacterMap 
+android.view.KeyEvent getDisplayLabel char 
+android.view.KeyEvent getUnicodeChar int 
+android.view.KeyEvent getUnicodeChar int int 
+android.view.KeyEvent getKeyData boolean android.view.KeyCharacterMap$KeyData 
+android.view.KeyEvent getAction int 
+android.view.KeyEvent getMatch char char[] 
+android.view.KeyEvent getMatch char char[] int 
+android.view.KeyEvent getFlags int 
+android.view.KeyEvent getModifiers int 
+android.view.KeyEvent getNumber char 
+android.view.DragEvent getClipData android.content.ClipData 
+android.view.DragEvent getAction int 
+android.view.DragEvent getClipDescription android.content.ClipDescription 
+android.view.DragEvent getLocalState java.lang.Object 
+android.view.DragEvent getY float 
+android.view.DragEvent getX float 
+android.view.DragEvent getResult boolean 
+android.view.Display getRotation int 
+android.view.Display getOrientation int 
+android.view.Display getHeight int 
+android.view.Display getPixelFormat int 
+android.view.Display getCurrentSizeRange void android.graphics.Point android.graphics.Point 
+android.view.Display getRectSize void android.graphics.Rect 
+android.view.Display getDisplayId int 
+android.view.Display getRefreshRate float 
+android.view.Display getMetrics void android.util.DisplayMetrics 
+android.view.Display getWidth int 
+android.view.Display getSize void android.graphics.Point 
+android.view.animation.AccelerateInterpolator getInterpolation float float 
+android.view.animation.Transformation getMatrix android.graphics.Matrix 
+android.view.animation.Transformation getTransformationType int 
+android.view.animation.Transformation getAlpha float 
+android.view.animation.AnticipateInterpolator getInterpolation float float 
+android.view.animation.AnticipateOvershootInterpolator getInterpolation float float 
+android.view.animation.DecelerateInterpolator getInterpolation float float 
+android.view.animation.AnimationSet getDuration long 
+android.view.animation.AnimationSet getTransformation boolean long android.view.animation.Transformation 
+android.view.animation.AnimationSet getStartTime long 
+android.view.animation.AnimationSet getAnimations java.util.List 
+android.view.animation.LayoutAnimationController getAnimation android.view.animation.Animation 
+android.view.animation.LayoutAnimationController getInterpolator android.view.animation.Interpolator 
+android.view.animation.LayoutAnimationController getTransformedIndex int android.view.animation.LayoutAnimationController$AnimationParameters 
+android.view.animation.LayoutAnimationController getDelayForView long android.view.View 
+android.view.animation.LayoutAnimationController getAnimationForView android.view.animation.Animation android.view.View 
+android.view.animation.LayoutAnimationController getDelay float 
+android.view.animation.LayoutAnimationController getOrder int 
+android.view.animation.CycleInterpolator getInterpolation float float 
+android.view.animation.GridLayoutAnimationController getDirection int 
+android.view.animation.GridLayoutAnimationController getColumnDelay float 
+android.view.animation.GridLayoutAnimationController getRowDelay float 
+android.view.animation.GridLayoutAnimationController getDirectionPriority int 
+android.view.animation.GridLayoutAnimationController getDelayForView long android.view.View 
+android.view.animation.BounceInterpolator getInterpolation float float 
+android.view.animation.LinearInterpolator getInterpolation float float 
+android.view.animation.OvershootInterpolator getInterpolation float float 
+android.view.animation.AccelerateDecelerateInterpolator getInterpolation float float 
+android.view.ViewPropertyAnimator getStartDelay long 
+android.view.ViewPropertyAnimator getDuration long 
+android.view.inputmethod.InputMethodManager getInputMethodList java.util.List 
+android.view.inputmethod.InputMethodManager getEnabledInputMethodSubtypeList java.util.List android.view.inputmethod.InputMethodInfo boolean 
+android.view.inputmethod.InputMethodManager getEnabledInputMethodList java.util.List 
+android.view.inputmethod.InputMethodManager getCurrentInputMethodSubtype android.view.inputmethod.InputMethodSubtype 
+android.view.inputmethod.InputMethodManager getShortcutInputMethodsAndSubtypes java.util.Map 
+android.view.inputmethod.InputMethodManager getLastInputMethodSubtype android.view.inputmethod.InputMethodSubtype 
+android.view.inputmethod.CorrectionInfo getNewText java.lang.CharSequence 
+android.view.inputmethod.CorrectionInfo getOldText java.lang.CharSequence 
+android.view.inputmethod.CorrectionInfo getOffset int 
+android.view.inputmethod.InputBinding getConnection android.view.inputmethod.InputConnection 
+android.view.inputmethod.InputBinding getConnectionToken android.os.IBinder 
+android.view.inputmethod.InputBinding getUid int 
+android.view.inputmethod.InputBinding getPid int 
+android.view.inputmethod.InputMethodSubtype getLocale java.lang.String 
+android.view.inputmethod.InputMethodSubtype getIconResId int 
+android.view.inputmethod.InputMethodSubtype getExtraValueOf java.lang.String java.lang.String 
+android.view.inputmethod.InputMethodSubtype getExtraValue java.lang.String 
+android.view.inputmethod.InputMethodSubtype getNameResId int 
+android.view.inputmethod.InputMethodSubtype getMode java.lang.String 
+android.view.inputmethod.InputMethodSubtype getDisplayName java.lang.CharSequence android.content.Context java.lang.String android.content.pm.ApplicationInfo 
+android.view.inputmethod.InputConnectionWrapper getExtractedText android.view.inputmethod.ExtractedText android.view.inputmethod.ExtractedTextRequest int 
+android.view.inputmethod.InputConnectionWrapper getCursorCapsMode int int 
+android.view.inputmethod.InputConnectionWrapper getSelectedText java.lang.CharSequence int 
+android.view.inputmethod.InputConnectionWrapper getTextAfterCursor java.lang.CharSequence int int 
+android.view.inputmethod.InputConnectionWrapper getTextBeforeCursor java.lang.CharSequence int int 
+android.view.inputmethod.BaseInputConnection getExtractedText android.view.inputmethod.ExtractedText android.view.inputmethod.ExtractedTextRequest int 
+android.view.inputmethod.BaseInputConnection getCursorCapsMode int int 
+android.view.inputmethod.BaseInputConnection getSelectedText java.lang.CharSequence int 
+android.view.inputmethod.BaseInputConnection getTextAfterCursor java.lang.CharSequence int int 
+android.view.inputmethod.BaseInputConnection getTextBeforeCursor java.lang.CharSequence int int 
+android.view.inputmethod.BaseInputConnection getEditable android.text.Editable 
+android.view.inputmethod.BaseInputConnection getComposingSpanEnd int android.text.Spannable 
+android.view.inputmethod.BaseInputConnection getComposingSpanStart int android.text.Spannable 
+android.view.inputmethod.InputMethodInfo getComponent android.content.ComponentName 
+android.view.inputmethod.InputMethodInfo getIsDefaultResourceId int 
+android.view.inputmethod.InputMethodInfo getSubtypeCount int 
+android.view.inputmethod.InputMethodInfo getSubtypeAt android.view.inputmethod.InputMethodSubtype int 
+android.view.inputmethod.InputMethodInfo getSettingsActivity java.lang.String 
+android.view.inputmethod.InputMethodInfo getServiceInfo android.content.pm.ServiceInfo 
+android.view.inputmethod.InputMethodInfo getServiceName java.lang.String 
+android.view.inputmethod.InputMethodInfo getId java.lang.String 
+android.view.inputmethod.InputMethodInfo getPackageName java.lang.String 
+android.view.inputmethod.CompletionInfo getPosition int 
+android.view.inputmethod.CompletionInfo getText java.lang.CharSequence 
+android.view.inputmethod.CompletionInfo getLabel java.lang.CharSequence 
+android.view.inputmethod.CompletionInfo getId long 
+android.opengl.GLSurfaceView getDebugFlags int 
+android.opengl.GLSurfaceView getRenderMode int 
+android.opengl.GLSurfaceView getPreserveEGLContextOnPause boolean 
+android.opengl.GLUtils getEGLErrorString java.lang.String int 
+android.opengl.GLUtils getInternalFormat int android.graphics.Bitmap 
+android.opengl.GLUtils getType int android.graphics.Bitmap 
+android.opengl.ETC1Util$ETC1Texture getHeight int 
+android.opengl.ETC1Util$ETC1Texture getData java.nio.ByteBuffer 
+android.opengl.ETC1Util$ETC1Texture getWidth int 
+android.opengl.ETC1 getHeight int java.nio.Buffer 
+android.opengl.ETC1 getEncodedDataSize int int int 
+android.opengl.ETC1 getWidth int java.nio.Buffer 
+android.widget.ListView getAdapter android.widget.ListAdapter 
+android.widget.ListView getAdapter android.widget.Adapter 
+android.widget.ListView getMaxScrollAmount int 
+android.widget.ListView getHeaderViewsCount int 
+android.widget.ListView getFooterViewsCount int 
+android.widget.ListView getItemsCanFocus boolean 
+android.widget.ListView getDivider android.graphics.drawable.Drawable 
+android.widget.ListView getDividerHeight int 
+android.widget.ListView getOverscrollHeader android.graphics.drawable.Drawable 
+android.widget.ListView getOverscrollFooter android.graphics.drawable.Drawable 
+android.widget.ListView findViewTraversal android.view.View int 
+android.widget.ListView findViewWithTagTraversal android.view.View java.lang.Object 
+android.widget.ListView getCheckItemIds long[] 
+android.widget.TableRow getVirtualChildCount int 
+android.widget.TableRow getVirtualChildAt android.view.View int 
+android.widget.TwoLineListItem getText2 android.widget.TextView 
+android.widget.TwoLineListItem getText1 android.widget.TextView 
+android.widget.VideoView getDuration int 
+android.widget.VideoView getBufferPercentage int 
+android.widget.VideoView getCurrentPosition int 
+android.widget.AutoCompleteTextView getAdapter android.widget.ListAdapter 
+android.widget.AutoCompleteTextView getOnItemClickListener android.widget.AdapterView$OnItemClickListener 
+android.widget.AutoCompleteTextView getFilter android.widget.Filter 
+android.widget.AutoCompleteTextView getDropDownBackground android.graphics.drawable.Drawable 
+android.widget.AutoCompleteTextView getThreshold int 
+android.widget.AutoCompleteTextView getItemClickListener android.widget.AdapterView$OnItemClickListener 
+android.widget.AutoCompleteTextView getItemSelectedListener android.widget.AdapterView$OnItemSelectedListener 
+android.widget.AutoCompleteTextView getDropDownAnchor int 
+android.widget.AutoCompleteTextView getDropDownHeight int 
+android.widget.AutoCompleteTextView getDropDownWidth int 
+android.widget.AutoCompleteTextView getCompletionHint java.lang.CharSequence 
+android.widget.AutoCompleteTextView getListSelection int 
+android.widget.AutoCompleteTextView getValidator android.widget.AutoCompleteTextView$Validator 
+android.widget.AutoCompleteTextView getOnItemSelectedListener android.widget.AdapterView$OnItemSelectedListener 
+android.widget.AutoCompleteTextView getDropDownHorizontalOffset int 
+android.widget.AutoCompleteTextView getDropDownVerticalOffset int 
+android.widget.OverScroller getStartX int 
+android.widget.OverScroller getStartY int 
+android.widget.OverScroller getFinalX int 
+android.widget.OverScroller getFinalY int 
+android.widget.OverScroller getCurrVelocity float 
+android.widget.OverScroller getCurrY int 
+android.widget.OverScroller getCurrX int 
+android.widget.Switch getCompoundPaddingRight int 
+android.widget.Switch getSwitchPadding int 
+android.widget.Switch getSwitchMinWidth int 
+android.widget.Switch getThumbTextPadding int 
+android.widget.Switch getTrackDrawable android.graphics.drawable.Drawable 
+android.widget.Switch getThumbDrawable android.graphics.drawable.Drawable 
+android.widget.Switch getTextOn java.lang.CharSequence 
+android.widget.Switch getTextOff java.lang.CharSequence 
+android.widget.ToggleButton getTextOn java.lang.CharSequence 
+android.widget.ToggleButton getTextOff java.lang.CharSequence 
+android.widget.SlidingDrawer getContent android.view.View 
+android.widget.SlidingDrawer getHandle android.view.View 
+android.widget.HorizontalScrollView getMaxScrollAmount int 
+android.widget.HorizontalScrollView getLeftFadingEdgeStrength float 
+android.widget.HorizontalScrollView getRightFadingEdgeStrength float 
+android.widget.Gallery getContextMenuInfo android.view.ContextMenu$ContextMenuInfo 
+android.widget.Gallery getChildDrawingOrder int int int 
+android.widget.Gallery getChildStaticTransformation boolean android.view.View android.view.animation.Transformation 
+android.widget.DatePicker getMinDate long 
+android.widget.DatePicker getMaxDate long 
+android.widget.DatePicker getSpinnersShown boolean 
+android.widget.DatePicker getCalendarView android.widget.CalendarView 
+android.widget.DatePicker getCalendarViewShown boolean 
+android.widget.DatePicker getYear int 
+android.widget.DatePicker getMonth int 
+android.widget.DatePicker getDayOfMonth int 
+android.widget.ViewSwitcher getNextView android.view.View 
+android.widget.Chronometer getBase long 
+android.widget.Chronometer getOnChronometerTickListener android.widget.Chronometer$OnChronometerTickListener 
+android.widget.Chronometer getFormat java.lang.String 
+android.widget.NumberPicker getTopFadingEdgeStrength float 
+android.widget.NumberPicker getSolidColor int 
+android.widget.NumberPicker getMaxValue int 
+android.widget.NumberPicker getMinValue int 
+android.widget.NumberPicker getDisplayedValues java.lang.String[] 
+android.widget.NumberPicker getWrapSelectorWheel boolean 
+android.widget.NumberPicker getAccessibilityNodeProvider android.view.accessibility.AccessibilityNodeProvider 
+android.widget.NumberPicker getBottomFadingEdgeStrength float 
+android.widget.NumberPicker getValue int 
+android.widget.HeaderViewListAdapter getHeadersCount int 
+android.widget.HeaderViewListAdapter getFootersCount int 
+android.widget.HeaderViewListAdapter getViewTypeCount int 
+android.widget.HeaderViewListAdapter getItemViewType int int 
+android.widget.HeaderViewListAdapter getFilter android.widget.Filter 
+android.widget.HeaderViewListAdapter getItemId long int 
+android.widget.HeaderViewListAdapter getWrappedAdapter android.widget.ListAdapter 
+android.widget.HeaderViewListAdapter getCount int 
+android.widget.HeaderViewListAdapter getView android.view.View int android.view.View android.view.ViewGroup 
+android.widget.HeaderViewListAdapter getItem java.lang.Object int 
+android.widget.ProgressBar getSecondaryProgress int 
+android.widget.ProgressBar getProgress int 
+android.widget.ProgressBar getInterpolator android.view.animation.Interpolator 
+android.widget.ProgressBar getProgressDrawable android.graphics.drawable.Drawable 
+android.widget.ProgressBar getIndeterminateDrawable android.graphics.drawable.Drawable 
+android.widget.ProgressBar getMax int 
+android.widget.TabHost getTabWidget android.widget.TabWidget 
+android.widget.TabHost getCurrentTab int 
+android.widget.TabHost getCurrentTabTag java.lang.String 
+android.widget.TabHost getCurrentTabView android.view.View 
+android.widget.TabHost getCurrentView android.view.View 
+android.widget.TabHost getTabContentView android.widget.FrameLayout 
+android.widget.LinearLayout getOrientation int 
+android.widget.LinearLayout getBaseline int 
+android.widget.LinearLayout getShowDividers int 
+android.widget.LinearLayout getDividerDrawable android.graphics.drawable.Drawable 
+android.widget.LinearLayout getDividerPadding int 
+android.widget.LinearLayout getWeightSum float 
+android.widget.LinearLayout getBaselineAlignedChildIndex int 
+android.widget.FrameLayout getForegroundGravity int 
+android.widget.FrameLayout getForeground android.graphics.drawable.Drawable 
+android.widget.FrameLayout getMeasureAllChildren boolean 
+android.widget.FrameLayout getConsiderGoneChildrenWhenMeasuring boolean 
+android.widget.RatingBar getStepSize float 
+android.widget.RatingBar getNumStars int 
+android.widget.RatingBar getRating float 
+android.widget.RatingBar getOnRatingBarChangeListener android.widget.RatingBar$OnRatingBarChangeListener 
+android.widget.TabHost$TabSpec getTag java.lang.String 
+android.widget.RelativeLayout getGravity int 
+android.widget.RelativeLayout getBaseline int 
+android.widget.Toast getDuration int 
+android.widget.Toast getGravity int 
+android.widget.Toast getVerticalMargin float 
+android.widget.Toast getHorizontalMargin float 
+android.widget.Toast getYOffset int 
+android.widget.Toast getXOffset int 
+android.widget.Toast getView android.view.View 
+android.widget.Spinner getGravity int 
+android.widget.Spinner getBaseline int 
+android.widget.Spinner getDropDownWidth int 
+android.widget.Spinner getPrompt java.lang.CharSequence 
+android.widget.Spinner getPopupBackground android.graphics.drawable.Drawable 
+android.widget.Spinner getDropDownHorizontalOffset int 
+android.widget.Spinner getDropDownVerticalOffset int 
+android.widget.RemoteViews getLayoutId int 
+android.widget.RemoteViews getPackage java.lang.String 
+android.widget.EditText getDefaultEditable boolean 
+android.widget.EditText getDefaultMovementMethod android.text.method.MovementMethod 
+android.widget.EditText getText java.lang.CharSequence 
+android.widget.EditText getText android.text.Editable 
+android.widget.ZoomButtonsController getContainer android.view.ViewGroup 
+android.widget.ZoomButtonsController getZoomControls android.view.View 
+android.widget.ImageView getAdjustViewBounds boolean 
+android.widget.ImageView getScaleType android.widget.ImageView$ScaleType 
+android.widget.ImageView getImageMatrix android.graphics.Matrix 
+android.widget.ImageView getCropToPadding boolean 
+android.widget.ImageView getBaselineAlignBottom boolean 
+android.widget.ImageView getImageAlpha int 
+android.widget.ImageView getDrawable android.graphics.drawable.Drawable 
+android.widget.ImageView getColorFilter android.graphics.ColorFilter 
+android.widget.ImageView getMaxHeight int 
+android.widget.ImageView getMaxWidth int 
+android.widget.ImageView getBaseline int 
+android.widget.ExpandableListView getAdapter android.widget.ListAdapter 
+android.widget.ExpandableListView getAdapter android.widget.Adapter 
+android.widget.ExpandableListView getExpandableListAdapter android.widget.ExpandableListAdapter 
+android.widget.ExpandableListView getSelectedId long 
+android.widget.ExpandableListView getSelectedPosition long 
+android.widget.ExpandableListView getFlatListPosition int long 
+android.widget.ExpandableListView getPackedPositionType int long 
+android.widget.ExpandableListView getPackedPositionGroup int long 
+android.widget.ExpandableListView getPackedPositionChild int long 
+android.widget.ExpandableListView getExpandableListPosition long int 
+android.widget.ExpandableListView getPackedPositionForChild long int int 
+android.widget.ExpandableListView getPackedPositionForGroup long int 
+android.widget.AdapterViewFlipper getFlipInterval int 
+android.widget.DialerFilter getFilterText java.lang.CharSequence 
+android.widget.DialerFilter getLetters java.lang.CharSequence 
+android.widget.DialerFilter getDigits java.lang.CharSequence 
+android.widget.DialerFilter getMode int 
+android.widget.AlphabetIndexer getSections java.lang.Object[] 
+android.widget.AlphabetIndexer getPositionForSection int int 
+android.widget.AlphabetIndexer getSectionForPosition int int 
+android.widget.TimePicker getBaseline int 
+android.widget.TimePicker getCurrentHour java.lang.Integer 
+android.widget.TimePicker getCurrentMinute java.lang.Integer 
+android.widget.GridView getAdapter android.widget.ListAdapter 
+android.widget.GridView getAdapter android.widget.Adapter 
+android.widget.GridView getGravity int 
+android.widget.GridView getVerticalSpacing int 
+android.widget.GridView getStretchMode int 
+android.widget.GridView getHorizontalSpacing int 
+android.widget.GridView getColumnWidth int 
+android.widget.GridView getRequestedColumnWidth int 
+android.widget.GridView getNumColumns int 
+android.widget.GridView getRequestedHorizontalSpacing int 
+android.widget.SimpleCursorAdapter getViewBinder android.widget.SimpleCursorAdapter$ViewBinder 
+android.widget.SimpleCursorAdapter getStringConversionColumn int 
+android.widget.SimpleCursorAdapter getCursorToStringConverter android.widget.SimpleCursorAdapter$CursorToStringConverter 
+android.widget.SearchView getMaxWidth int 
+android.widget.SearchView getInputType int 
+android.widget.SearchView getImeOptions int 
+android.widget.SearchView getQueryHint java.lang.CharSequence 
+android.widget.SearchView getSuggestionsAdapter android.widget.CursorAdapter 
+android.widget.SearchView getQuery java.lang.CharSequence 
+android.widget.ScrollView getTopFadingEdgeStrength float 
+android.widget.ScrollView getMaxScrollAmount int 
+android.widget.ScrollView getBottomFadingEdgeStrength float 
+android.widget.ArrayAdapter getFilter android.widget.Filter 
+android.widget.ArrayAdapter getItemId long int 
+android.widget.ArrayAdapter getPosition int java.lang.Object 
+android.widget.ArrayAdapter getDropDownView android.view.View int android.view.View android.view.ViewGroup 
+android.widget.ArrayAdapter getCount int 
+android.widget.ArrayAdapter getView android.view.View int android.view.View android.view.ViewGroup 
+android.widget.ArrayAdapter getItem java.lang.Object int 
+android.widget.ArrayAdapter getContext android.content.Context 
+android.widget.TextView getLayout android.text.Layout 
+android.widget.TextView getLineCount int 
+android.widget.TextView getLineBounds int int android.graphics.Rect 
+android.widget.TextView getTypeface android.graphics.Typeface 
+android.widget.TextView getTextSize float 
+android.widget.TextView getTextScaleX float 
+android.widget.TextView getDefaultEditable boolean 
+android.widget.TextView getDefaultMovementMethod android.text.method.MovementMethod 
+android.widget.TextView getEditableText android.text.Editable 
+android.widget.TextView getLineHeight int 
+android.widget.TextView getKeyListener android.text.method.KeyListener 
+android.widget.TextView getMovementMethod android.text.method.MovementMethod 
+android.widget.TextView getTransformationMethod android.text.method.TransformationMethod 
+android.widget.TextView getCompoundPaddingTop int 
+android.widget.TextView getCompoundPaddingBottom int 
+android.widget.TextView getCompoundPaddingLeft int 
+android.widget.TextView getCompoundPaddingRight int 
+android.widget.TextView getExtendedPaddingTop int 
+android.widget.TextView getExtendedPaddingBottom int 
+android.widget.TextView getTotalPaddingLeft int 
+android.widget.TextView getTotalPaddingRight int 
+android.widget.TextView getTotalPaddingTop int 
+android.widget.TextView getTotalPaddingBottom int 
+android.widget.TextView getCompoundDrawables android.graphics.drawable.Drawable[] 
+android.widget.TextView getAutoLinkMask int 
+android.widget.TextView getTextColors android.content.res.ColorStateList 
+android.widget.TextView getTextColors android.content.res.ColorStateList android.content.Context android.content.res.TypedArray 
+android.widget.TextView getCurrentTextColor int 
+android.widget.TextView getHighlightColor int 
+android.widget.TextView getShadowRadius float 
+android.widget.TextView getShadowDx float 
+android.widget.TextView getShadowDy float 
+android.widget.TextView getShadowColor int 
+android.widget.TextView getLinksClickable boolean 
+android.widget.TextView getHintTextColors android.content.res.ColorStateList 
+android.widget.TextView getCurrentHintTextColor int 
+android.widget.TextView getLinkTextColors android.content.res.ColorStateList 
+android.widget.TextView getGravity int 
+android.widget.TextView getPaintFlags int 
+android.widget.TextView getMinLines int 
+android.widget.TextView getMinHeight int 
+android.widget.TextView getMaxLines int 
+android.widget.TextView getMaxHeight int 
+android.widget.TextView getMinEms int 
+android.widget.TextView getMinWidth int 
+android.widget.TextView getMaxEms int 
+android.widget.TextView getMaxWidth int 
+android.widget.TextView getLineSpacingMultiplier float 
+android.widget.TextView getLineSpacingExtra float 
+android.widget.TextView getFreezesText boolean 
+android.widget.TextView getInputType int 
+android.widget.TextView getImeOptions int 
+android.widget.TextView getImeActionLabel java.lang.CharSequence 
+android.widget.TextView getImeActionId int 
+android.widget.TextView getPrivateImeOptions java.lang.String 
+android.widget.TextView getInputExtras android.os.Bundle boolean 
+android.widget.TextView getFilters android.text.InputFilter[] 
+android.widget.TextView getLeftPaddingOffset int 
+android.widget.TextView getTopPaddingOffset int 
+android.widget.TextView getBottomPaddingOffset int 
+android.widget.TextView getRightPaddingOffset int 
+android.widget.TextView getFocusedRect void android.graphics.Rect 
+android.widget.TextView getBaseline int 
+android.widget.TextView getIncludeFontPadding boolean 
+android.widget.TextView getSelectionStart int 
+android.widget.TextView getSelectionEnd int 
+android.widget.TextView getMarqueeRepeatLimit int 
+android.widget.TextView getEllipsize android.text.TextUtils$TruncateAt 
+android.widget.TextView findViewsWithText void java.util.ArrayList java.lang.CharSequence int 
+android.widget.TextView getTextColor int android.content.Context android.content.res.TypedArray int 
+android.widget.TextView getOffsetForPosition int float float 
+android.widget.TextView getPaint android.text.TextPaint 
+android.widget.TextView getText java.lang.CharSequence 
+android.widget.TextView getUrls android.text.style.URLSpan[] 
+android.widget.TextView getHint java.lang.CharSequence 
+android.widget.TextView getError java.lang.CharSequence 
+android.widget.TextView getCompoundDrawablePadding int 
+android.widget.TextView getLeftFadingEdgeStrength float 
+android.widget.TextView getRightFadingEdgeStrength float 
+android.widget.TextView getCustomSelectionActionModeCallback android.view.ActionMode$Callback 
+android.widget.Scroller getDuration int 
+android.widget.Scroller getStartX int 
+android.widget.Scroller getStartY int 
+android.widget.Scroller getFinalX int 
+android.widget.Scroller getFinalY int 
+android.widget.Scroller getCurrVelocity float 
+android.widget.Scroller getCurrY int 
+android.widget.Scroller getCurrX int 
+android.widget.TabWidget getChildDrawingOrder int int int 
+android.widget.TabWidget getTabCount int 
+android.widget.TabWidget getChildTabViewAt android.view.View int 
+android.widget.ListPopupWindow getBackground android.graphics.drawable.Drawable 
+android.widget.ListPopupWindow getSelectedItem java.lang.Object 
+android.widget.ListPopupWindow getSelectedView android.view.View 
+android.widget.ListPopupWindow getSelectedItemId long 
+android.widget.ListPopupWindow getSelectedItemPosition int 
+android.widget.ListPopupWindow getHeight int 
+android.widget.ListPopupWindow getPromptPosition int 
+android.widget.ListPopupWindow getVerticalOffset int 
+android.widget.ListPopupWindow getAnimationStyle int 
+android.widget.ListPopupWindow getHorizontalOffset int 
+android.widget.ListPopupWindow getInputMethodMode int 
+android.widget.ListPopupWindow getAnchorView android.view.View 
+android.widget.ListPopupWindow getSoftInputMode int 
+android.widget.ListPopupWindow getListView android.widget.ListView 
+android.widget.ListPopupWindow getWidth int 
+android.widget.CheckedTextView getCheckMarkDrawable android.graphics.drawable.Drawable 
+android.widget.SimpleExpandableListAdapter getGroupId long int 
+android.widget.SimpleExpandableListAdapter getGroupCount int 
+android.widget.SimpleExpandableListAdapter getChildrenCount int int 
+android.widget.SimpleExpandableListAdapter getChildId long int int 
+android.widget.SimpleExpandableListAdapter getGroupView android.view.View int boolean android.view.View android.view.ViewGroup 
+android.widget.SimpleExpandableListAdapter getChildView android.view.View int int boolean android.view.View android.view.ViewGroup 
+android.widget.SimpleExpandableListAdapter getChild java.lang.Object int int 
+android.widget.SimpleExpandableListAdapter getGroup java.lang.Object int 
+android.widget.GridLayout getOrientation int 
+android.widget.GridLayout getColumnCount int 
+android.widget.GridLayout getRowCount int 
+android.widget.GridLayout getUseDefaultMargins boolean 
+android.widget.GridLayout getAlignmentMode int 
+android.widget.ViewAnimator getInAnimation android.view.animation.Animation 
+android.widget.ViewAnimator getDisplayedChild int 
+android.widget.ViewAnimator getOutAnimation android.view.animation.Animation 
+android.widget.ViewAnimator getBaseline int 
+android.widget.ViewAnimator getCurrentView android.view.View 
+android.widget.RadioGroup getCheckedRadioButtonId int 
+android.widget.PopupMenu getMenuInflater android.view.MenuInflater 
+android.widget.PopupMenu getMenu android.view.Menu 
+android.widget.MultiAutoCompleteTextView$CommaTokenizer findTokenEnd int java.lang.CharSequence int 
+android.widget.MultiAutoCompleteTextView$CommaTokenizer findTokenStart int java.lang.CharSequence int 
+android.widget.CalendarView getDateTextAppearance int 
+android.widget.CalendarView getWeekDayTextAppearance int 
+android.widget.CalendarView getShowWeekNumber boolean 
+android.widget.CalendarView getWeekNumberColor int 
+android.widget.CalendarView getFocusedMonthDateColor int 
+android.widget.CalendarView getShownWeekCount int 
+android.widget.CalendarView getMinDate long 
+android.widget.CalendarView getMaxDate long 
+android.widget.CalendarView getSelectedWeekBackgroundColor int 
+android.widget.CalendarView getUnfocusedMonthDateColor int 
+android.widget.CalendarView getWeekSeparatorLineColor int 
+android.widget.CalendarView getSelectedDateVerticalBar android.graphics.drawable.Drawable 
+android.widget.CalendarView getDate long 
+android.widget.CalendarView getFirstDayOfWeek int 
+android.widget.RelativeLayout$LayoutParams getRules int[] 
+android.widget.SimpleAdapter getViewBinder android.widget.SimpleAdapter$ViewBinder 
+android.widget.SimpleAdapter getFilter android.widget.Filter 
+android.widget.SimpleAdapter getItemId long int 
+android.widget.SimpleAdapter getDropDownView android.view.View int android.view.View android.view.ViewGroup 
+android.widget.SimpleAdapter getCount int 
+android.widget.SimpleAdapter getView android.view.View int android.view.View android.view.ViewGroup 
+android.widget.SimpleAdapter getItem java.lang.Object int 
+android.widget.PopupWindow getBackground android.graphics.drawable.Drawable 
+android.widget.PopupWindow getHeight int 
+android.widget.PopupWindow getAnimationStyle int 
+android.widget.PopupWindow getInputMethodMode int 
+android.widget.PopupWindow getSoftInputMode int 
+android.widget.PopupWindow getContentView android.view.View 
+android.widget.PopupWindow getMaxAvailableHeight int android.view.View int 
+android.widget.PopupWindow getMaxAvailableHeight int android.view.View 
+android.widget.PopupWindow getWidth int 
+android.appwidget.AppWidgetManager getAppWidgetOptions android.os.Bundle int 
+android.appwidget.AppWidgetManager getInstalledProviders java.util.List 
+android.appwidget.AppWidgetManager getAppWidgetInfo android.appwidget.AppWidgetProviderInfo int 
+android.appwidget.AppWidgetManager getAppWidgetIds int[] android.content.ComponentName 
+android.appwidget.AppWidgetManager getInstance android.appwidget.AppWidgetManager android.content.Context 
+android.appwidget.AppWidgetHostView getAppWidgetInfo android.appwidget.AppWidgetProviderInfo 
+android.appwidget.AppWidgetHostView getAppWidgetId int 
+android.appwidget.AppWidgetHostView getErrorView android.view.View 
+android.appwidget.AppWidgetHostView getDefaultView android.view.View 
+android.appwidget.AppWidgetHostView getDefaultPaddingForWidget android.graphics.Rect android.content.Context android.content.ComponentName android.graphics.Rect 
+android.inputmethodservice.InputMethodService getTextForImeAction java.lang.CharSequence int 
+android.inputmethodservice.InputMethodService getMaxWidth int 
+android.inputmethodservice.InputMethodService getWindow android.app.Dialog 
+android.inputmethodservice.InputMethodService getLayoutInflater android.view.LayoutInflater 
+android.inputmethodservice.InputMethodService getBackDisposition int 
+android.inputmethodservice.InputMethodService getCurrentInputBinding android.view.inputmethod.InputBinding 
+android.inputmethodservice.InputMethodService getCurrentInputStarted boolean 
+android.inputmethodservice.InputMethodService getCurrentInputConnection android.view.inputmethod.InputConnection 
+android.inputmethodservice.InputMethodService getCurrentInputEditorInfo android.view.inputmethod.EditorInfo 
+android.inputmethodservice.InputMethodService getCandidatesHiddenVisibility int 
+android.inputmethodservice.KeyboardView getKeyboard android.inputmethodservice.Keyboard 
+android.inputmethodservice.KeyboardView getOnKeyboardActionListener android.inputmethodservice.KeyboardView$OnKeyboardActionListener 
+android.inputmethodservice.Keyboard getModifierKeys java.util.List 
+android.inputmethodservice.Keyboard getHorizontalGap int 
+android.inputmethodservice.Keyboard getVerticalGap int 
+android.inputmethodservice.Keyboard getKeyHeight int 
+android.inputmethodservice.Keyboard getKeyWidth int 
+android.inputmethodservice.Keyboard getShiftKeyIndex int 
+android.inputmethodservice.Keyboard getNearestKeys int[] int int 
+android.inputmethodservice.Keyboard getMinWidth int 
+android.inputmethodservice.Keyboard getHeight int 
+android.inputmethodservice.Keyboard getKeys java.util.List 
+android.inputmethodservice.Keyboard$Key getCurrentDrawableState int[] 
+android.sax.RootElement getContentHandler org.xml.sax.ContentHandler 
+android.sax.Element getChild android.sax.Element java.lang.String 
+android.sax.Element getChild android.sax.Element java.lang.String java.lang.String 
+android.animation.PropertyValuesHolder getPropertyName java.lang.String 
+android.animation.AnimatorSet getStartDelay long 
+android.animation.AnimatorSet getDuration long 
+android.animation.AnimatorSet getChildAnimations java.util.ArrayList 
+android.animation.LayoutTransition getStartDelay long int 
+android.animation.LayoutTransition getDuration long int 
+android.animation.LayoutTransition getInterpolator android.animation.TimeInterpolator int 
+android.animation.LayoutTransition getStagger long int 
+android.animation.LayoutTransition getAnimator android.animation.Animator int 
+android.animation.LayoutTransition getTransitionListeners java.util.List 
+android.animation.ObjectAnimator getPropertyName java.lang.String 
+android.animation.ObjectAnimator getTarget java.lang.Object 
+android.animation.ValueAnimator getRepeatCount int 
+android.animation.ValueAnimator getStartDelay long 
+android.animation.ValueAnimator getDuration long 
+android.animation.ValueAnimator getInterpolator android.animation.TimeInterpolator 
+android.animation.ValueAnimator getRepeatMode int 
+android.animation.ValueAnimator getFrameDelay long 
+android.animation.ValueAnimator getCurrentPlayTime long 
+android.animation.ValueAnimator getAnimatedValue java.lang.Object java.lang.String 
+android.animation.ValueAnimator getAnimatedValue java.lang.Object 
+android.animation.ValueAnimator getAnimatedFraction float 
+android.animation.ValueAnimator getValues android.animation.PropertyValuesHolder[] 
+android.mtp.MtpDevice getDeviceId int 
+android.mtp.MtpDevice getDeviceName java.lang.String 
+android.mtp.MtpDevice getStorageIds int[] 
+android.mtp.MtpDevice getStorageInfo android.mtp.MtpStorageInfo int 
+android.mtp.MtpDevice getObjectInfo android.mtp.MtpObjectInfo int 
+android.mtp.MtpDevice getStorageId long int 
+android.mtp.MtpDevice getObjectHandles int[] int int int 
+android.mtp.MtpDevice getDeviceInfo android.mtp.MtpDeviceInfo 
+android.mtp.MtpDevice getThumbnail byte[] int 
+android.mtp.MtpDevice getObject byte[] int int 
+android.mtp.MtpDevice getParent long int 
+android.mtp.MtpStorageInfo getDescription java.lang.String 
+android.mtp.MtpStorageInfo getMaxCapacity long 
+android.mtp.MtpStorageInfo getStorageId int 
+android.mtp.MtpStorageInfo getVolumeIdentifier java.lang.String 
+android.mtp.MtpStorageInfo getFreeSpace long 
+android.mtp.MtpObjectInfo getImagePixWidth int 
+android.mtp.MtpObjectInfo getStorageId int 
+android.mtp.MtpObjectInfo getThumbPixHeight int 
+android.mtp.MtpObjectInfo getThumbPixWidth int 
+android.mtp.MtpObjectInfo getThumbCompressedSize int 
+android.mtp.MtpObjectInfo getThumbFormat int 
+android.mtp.MtpObjectInfo getProtectionStatus int 
+android.mtp.MtpObjectInfo getImagePixHeight int 
+android.mtp.MtpObjectInfo getImagePixDepth int 
+android.mtp.MtpObjectInfo getAssociationType int 
+android.mtp.MtpObjectInfo getAssociationDesc int 
+android.mtp.MtpObjectInfo getSequenceNumber int 
+android.mtp.MtpObjectInfo getObjectHandle int 
+android.mtp.MtpObjectInfo getDateCreated long 
+android.mtp.MtpObjectInfo getDateModified long 
+android.mtp.MtpObjectInfo getKeywords java.lang.String 
+android.mtp.MtpObjectInfo getName java.lang.String 
+android.mtp.MtpObjectInfo getParent int 
+android.mtp.MtpObjectInfo getCompressedSize int 
+android.mtp.MtpObjectInfo getFormat int 
+android.mtp.MtpDeviceInfo getVersion java.lang.String 
+android.mtp.MtpDeviceInfo getManufacturer java.lang.String 
+android.mtp.MtpDeviceInfo getModel java.lang.String 
+android.mtp.MtpDeviceInfo getSerialNumber java.lang.String 

@@ -1,0 +1,60 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'io.github.allen.analyzer'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "io.github.allen.analyzer"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.github.Grigory-Rylov:adb-facade-core:0.1.8'
+    implementation 'com.github.Grigory-Rylov:andoid_method_trace_recorder:2.1.0'
+    implementation 'com.github.Grigory-Rylov:proguard-deobfuscator:0.4.0'
+    implementation 'com.github.Grishberg:mvtrace-dependencies:1.0.1'
+    implementation 'com.github.Grishberg:tree-table:0.1.1'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.3.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+
+}
