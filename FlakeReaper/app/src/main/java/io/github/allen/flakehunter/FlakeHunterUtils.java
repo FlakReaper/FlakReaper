@@ -34,14 +34,10 @@ public class FlakeHunterUtils {
 
     private static final int SEED = 131; // 31 131 1313 13131 131313 etc..
 
-    /**
-     * 所有的set、get方法信息
-     */
+
     public static Map<String, List<UIOperation>> uiOperationListMap;
 
-    /**
-     * 日志-线程池
-     */
+
     private static ExecutorService logExecutor = Executors.newSingleThreadExecutor();
     private static BufferedWriter bw;
 
@@ -50,9 +46,7 @@ public class FlakeHunterUtils {
     // 创建日期格式
     private static final SimpleDateFormat FORMAT = new SimpleDateFormat("yyyyMMddHHmmss");
 
-    /**
-     * 基础类型的class
-     */
+
     private static Map<String, Class<?>> baseTypes;
 
     private static Set<String> staticIdSet = new HashSet<>();
@@ -95,12 +89,7 @@ public class FlakeHunterUtils {
         uiOperationListMap.put("set", analyseFile("set.txt"));
     }
 
-    /**
-     * 字符串hash
-     *
-     * @param str
-     * @return
-     */
+
     public static int hash(String str) {
         int hash = 0;
         for (int i = 0; i < str.length(); i++) {
@@ -149,28 +138,18 @@ public class FlakeHunterUtils {
     }
 
 
-    /**
-     * 异步写日志
-     *
-     * @param info
-     */
+
     public static void log(String info) {
         logExecutor.submit(() -> {
             try {
                 bw.write(info);
-                bw.newLine(); // 这将添加一个新行
+                bw.newLine();
             } catch (IOException e) {
                 XposedBridge.log(e.toString());
             }
         });
     }
 
-    /**
-     * 解析set/get文件
-     *
-     * @param filePath
-     * @return
-     */
     private static List<UIOperation> analyseFile(String filePath) {
         List<UIOperation> content = new ArrayList<>();
         File file = new File(Environment.getExternalStorageDirectory(), filePath);
@@ -188,7 +167,6 @@ public class FlakeHunterUtils {
                 uiOperation.setReturnType(getClass(infos[2]));
                 if (uiOperation.getReturnType() == null)
                     continue;
-                // 下标3之后都是paramType
                 List<Class<?>> paramTypes = new ArrayList<>();
                 for (int i = 3; i < infos.length; i++) {
                     if ("".equals(infos[i])) {
@@ -260,17 +238,12 @@ public class FlakeHunterUtils {
         return String.valueOf(System.nanoTime());
     }
 
-    /**
-     * 判断obj对象是否有某属性propertyName
-     *
-     * @param obj
-     * @param propertyName
-     */
+
     public static Object getProperty(Object obj, String propertyName) {
         try {
             Class<?> clazz = obj.getClass();
             Field field = clazz.getDeclaredField(propertyName);
-            field.setAccessible(true); // 设置属性可访问
+            field.setAccessible(true);
             return field.get(obj);
         } catch (NoSuchFieldException | IllegalAccessException | NullPointerException e) {
             return null;

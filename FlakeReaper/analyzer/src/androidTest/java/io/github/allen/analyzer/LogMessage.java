@@ -7,16 +7,9 @@ public class LogMessage {
 
     private String method;
 
-    /**
-     * get、set时，param是mId
-     * 否则是msg的hashcode
-     */
     private int param;
 
-    /**
-     * enqueueMessage afterHookedMethod时，extraParam是sid
-     * 否则是对应的方法执行阶段名
-     */
+
     private String extraParam;
 
     public LogMessage(String threadName, long timestamp, String method, int param, String extraParam) {

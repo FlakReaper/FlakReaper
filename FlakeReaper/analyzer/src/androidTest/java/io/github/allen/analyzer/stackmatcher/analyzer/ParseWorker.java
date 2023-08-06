@@ -35,7 +35,7 @@ public class ParseWorker {
     }
 
     /**
-     * 解析ExceptionStackFile
+     * analy ExceptionStackFile
      * @param exceptionStackFile
      * @return
      */
@@ -53,7 +53,6 @@ public class ParseWorker {
                     stackList.add(stack);
                 }
                 if (line.trim().startsWith("at")) {
-                    // 去除at，以及尾部扩号中的异常行数内容
                     String modifiedLine = line.substring(4).replaceAll("\\([^\\(\\)]*\\)", "");
                     stackList.get(stackList.size() - 1).push(modifiedLine);
                 }

@@ -4,24 +4,12 @@ import java.util.List;
 
 public class UIOperation {
 
-    /**
-     * 操作类
-     */
     private Class<?> operationClass;
 
-    /**
-     * 操作类中的方法名
-     */
     private String methodName;
 
-    /**
-     * 方法名中的类型集合
-     */
     private List<Class<?>> paramTypes;
 
-    /**
-     * 返回值类型
-     */
     private Class<?> returnType;
 
     public Class<?> getOperationClass() {

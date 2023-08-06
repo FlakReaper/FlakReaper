@@ -349,39 +349,7 @@ public class HookAppFunction implements IXposedHookLoadPackage {
 //
             } catch (Throwable e) {
             }
-//                    // 获取非public类的Class对象
-//                    Class<?> fakeInteractionResultsHandler = Class.forName("androidx.test.espresso.InteractionResultsHandler");
-//
-//                    // 获取目标静态方法的名称和参数类型
-//                    String methodName = "gatherAnyResult";
-//
-//                    Class<?>[] paramTypes = {listClass};
-//
-//                    // 获取目标静态方法
-//                    Method method = fakeInteractionResultsHandler.getDeclaredMethod(methodName, paramTypes);
-//
-//                    // 设置方法可访问
-//                    method.setAccessible(true);
-//
-//                    List<Future<Void>> interactions = new ArrayList<>();
-//                    for (Object o : (ArrayList)methodHookParam.args[0]) {
-//                        XposedBridge.log("XXS:" + o.getClass().toString());
-//                        XposedBridge.log("instance of androidx.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFuture:" + (o instanceof androidx.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFuture));
-//                        for (Class<?> anInterface : o.getClass().getInterfaces()) {
-//                            XposedBridge.log("getInterfaces:" + anInterface.toString());
-//                        }
-//
-//                        interactions.add((Future)o);
-//                    }
-//
-//                    // 调用静态方法（如果是静态方法，第一个参数可以传null）
-//                    Object result = method.invoke(null, interactions);
-//
-//
-//
-//                    return null;
-//                }
-//            });
+
 
 
 //            Class<?> hookClass = loadPackageParam.classLoader.loadClass("androidx.test.internal.platform.os.ControlledLooper");

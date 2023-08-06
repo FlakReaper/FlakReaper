@@ -31,14 +31,9 @@ public class TimeLordUtils {
 
     private static final int SEED = 131; // 31 131 1313 13131 131313 etc..
 
-    /**
-     * 所有的set、get方法信息
-     */
+
     public static Map<String, List<UIOperation>> uiOperationListMap;
 
-    /**
-     * 日志-线程池
-     */
     private static ExecutorService logExecutor = Executors.newSingleThreadExecutor();
     private static BufferedWriter bw;
 
@@ -47,9 +42,6 @@ public class TimeLordUtils {
     // 创建日期格式
     private static final SimpleDateFormat FORMAT = new SimpleDateFormat("yyyyMMddHHmmss");
 
-    /**
-     * 基础类型的class
-     */
     private static Map<String, Class<?>> baseTypes;
 
     private static Set<String> staticIdSet = new HashSet<>();
@@ -92,12 +84,6 @@ public class TimeLordUtils {
         uiOperationListMap.put("set", analyseFile("set.txt"));
     }
 
-    /**
-     * 字符串hash
-     *
-     * @param str
-     * @return
-     */
     public static int hash(String str) {
         int hash = 0;
         for (int i = 0; i < str.length(); i++) {
@@ -145,12 +131,6 @@ public class TimeLordUtils {
         return object.hashCode();
     }
 
-
-    /**
-     * 异步写日志
-     *
-     * @param info
-     */
     public static void log(String info) {
         logExecutor.submit(() -> {
             try {
@@ -162,12 +142,6 @@ public class TimeLordUtils {
         });
     }
 
-    /**
-     * 解析set/get文件
-     *
-     * @param filePath
-     * @return
-     */
     private static List<UIOperation> analyseFile(String filePath) {
         List<UIOperation> content = new ArrayList<>();
         File file = new File(Environment.getExternalStorageDirectory(), filePath);
@@ -257,12 +231,7 @@ public class TimeLordUtils {
         return String.valueOf(System.nanoTime());
     }
 
-    /**
-     * 判断obj对象是否有某属性propertyName
-     *
-     * @param obj
-     * @param propertyName
-     */
+
     public static Object getProperty(Object obj, String propertyName) {
         try {
             Class<?> clazz = obj.getClass();

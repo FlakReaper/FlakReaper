@@ -52,13 +52,9 @@ public class Launcher {
     public void generateSidsByLog() {
         String path = Environment.getExternalStorageDirectory() + "/103178305860172.txt";
         LogAnalyzer analyzer = new LogAnalyzer(path);
-        // 解析日志生成LogMessage集合
         List<LogMessage> logMessages = analyzer.parseLog();
-        // 根据LogMessage集合生成EventLifecycle集合
         List<EventLifecycle> eventLifecycles = analyzer.buildEventLifecycle(logMessages);
-        // 进行EventLifecycle之间的冲突判定，返回冲突的set相关的eventLifecycle的sid
         List<String> sids = analyzer.judgeCollision(eventLifecycles);
-        // 输出sid
         analyzer.output(sids, path);
     }
 }

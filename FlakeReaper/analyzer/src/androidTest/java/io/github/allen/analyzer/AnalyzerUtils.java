@@ -7,9 +7,6 @@ import java.io.IOException;
 
 public class AnalyzerUtils {
 
-    /**
-     * 字符串是否是数字
-     */
     public static boolean isNumeric(String str) {
         try {
             Double.parseDouble(str);
@@ -19,11 +16,6 @@ public class AnalyzerUtils {
         }
     }
 
-    /**
-     * 输出平均值
-     * @param result
-     * @param path
-     */
     public static void output(Result result, String path) {
         try {
             File logFile = new File(path + "/event_data.txt");

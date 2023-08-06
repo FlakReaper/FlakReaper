@@ -2,19 +2,10 @@ package io.github.allen.analyzer;
 
 public class Result {
 
-    /**
-     * EventLifecycle数量
-     */
     private double eventNum;
 
-    /**
-     * static_id数量
-     */
     private double eventRaceNum;
 
-    /**
-     * Test耗时
-     */
     private String time;
 
     public double getEventNum() {
@@ -56,10 +47,6 @@ public class Result {
     }
 
     public void print(String path) {
-        System.out.println(path + ":");
-        System.out.println("event race pair数量（平均):" + this.eventRaceNum);
-        System.out.println("总event数量(平均):" + this.eventNum);
-        System.out.println("平均时间:" + this.time);
-        System.out.println("--------");
+
     }
 }

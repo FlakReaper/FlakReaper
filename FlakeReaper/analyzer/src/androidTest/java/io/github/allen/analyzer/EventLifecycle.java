@@ -6,9 +6,6 @@ import java.util.Objects;
 
 public class EventLifecycle {
 
-    /**
-     * 唯一标识，取自after EnqueueMessage的threadinfos.hash
-     */
     private long sid;
 
     private LogMessage beforeEnqueueMessage;
